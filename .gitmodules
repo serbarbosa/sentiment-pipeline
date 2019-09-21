@@ -1,0 +1,3 @@
+[submodule "review_crawler"]
+	path = review_crawler
+	url = git@github.com:serbarbosa/reviewCrawler.git
