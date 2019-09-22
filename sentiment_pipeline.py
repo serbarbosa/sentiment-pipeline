@@ -5,6 +5,7 @@ import shutil
 import time
 from utils import utils
 from classificador_aspectos import aspect_classifier
+from classificador_aspectos.aspect_plotter import Aspect_plotter
 import json
 from typing import List, Dict
 
@@ -35,18 +36,17 @@ class Sentiment_pipeline():
         self.data_filename = 'data.json'
         self.main_key = main_key
         self.script_dir = os.getcwd()
-        self.clean_up()
 
     def clean_up(self):
         '''Reinicia o diretorio padrao, deletando todos os arquivos presentes nele.'''
         shutil.rmtree(self.data_folder)
         os.makedirs(self.data_folder)
 
-    def set_data_folder(folder : str):
+    def set_data_folder(self, folder : str):
         '''Define a pasta destino para os dados.'''
         self.data_folder = folder
 
-    def set_data_filename(filename : str):
+    def set_data_filename(self, filename : str):
         '''Define o nome de arquivo que será escrito.'''
         self.data_filename = filename
     
@@ -114,6 +114,7 @@ class Sentiment_pipeline():
         
         # Verifica se será aplicado módulo para extrair revisoes de produtos
         if(self.crawl_reviews):
+            self.clean_up()
             print("Resgatando revisões para '" + self.search_product + "' ...")
             os.chdir('review_crawler')
             run_crawler(self.search_product)
@@ -155,15 +156,20 @@ class Sentiment_pipeline():
             
             if(save_partial_results):
                 self.write_results(self.data, self.data_folder + 'classified_data.json')
-        
+            
+
+            plotter = Aspect_plotter(self.data)
+            #plotter.plot_by_aspect(style='bars')
+            plotter.plot_by_aspect(style='pie')
+            plotter.plot_general()
         #escreve dados apos todos os processamentos solicitados 
         self.write_data()
 
 
 if __name__ == '__main__':
 
-    sent = Sentiment_pipeline(filter_subjectivity=True, classify_aspects=True)
-
+    sent = Sentiment_pipeline(crawl_reviews=False, filter_subjectivity=True, classify_aspects=True)
+    sent.load_data_from_file('review_crawler/reviews.json')
     sent.run(save_partial_results=True)
 
 

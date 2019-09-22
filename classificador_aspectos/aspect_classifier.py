@@ -1,7 +1,6 @@
 import pickle
 import sys
 import re
-from  aspect_plotter import Aspect_plotter
 from typing import List, Dict
 
 #TODO Armazenar lexicos usando trie permitindo assim encontrar aspectos e sentimentos quando o
@@ -103,7 +102,7 @@ class Aspect_classifier():
         for sentence in sentences:
             split_sentence = sentence.split(' ')
             keywords = self._extract_keywords(split_sentence) #[aspects, sent_words]
-            print(keywords) 
+            #print(keywords) 
             #caso onde nao foram encontradas palavras de sentimento
             if(len(keywords[1]) == 0):
                 for aspect in keywords[0]:
@@ -117,7 +116,7 @@ class Aspect_classifier():
                     sub_sentence = self._get_sub_sentence(split_sentence, aspect, sent_word)
                     orientation = self._get_sentiment_orientation(sent_word[0], sub_sentence)
                     opinions.append({'aspecto' : aspect[0], 'polaridade' : orientation, 'palavra_sent' : sent_word[0]})
-                    print(opinions[-1])        
+                    #print(opinions[-1])        
         return opinions
 
     def run(self, data : List[Dict], data_key : str) -> List[Dict]:
@@ -129,9 +128,6 @@ class Aspect_classifier():
             ascii_data = find_equivalent_char(data[i][data_key])
             identified_aspects += self._sent_analisys(ascii_data)
         
-        #testando geracao de grafico
-        plotter = Aspect_plotter()
-
         return identified_aspects        
 
 
