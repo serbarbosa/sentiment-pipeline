@@ -58,7 +58,18 @@ class Aspect_plotter() :
                                     + [None for k in range(max_length - i -1)])
                 
             bar_plotter.render_in_browser()
-                
+        elif(style is 'treemap'):
+            treemap_plotter = pygal.Treemap()
+            
+            max_length = 20
+            if len(sorted_data) < max_length: max_length = len(sorted_data)
+            i = 0
+            for aspect, v in self.plotter_data.items():
+                treemap_plotter.add(aspect, [{'value':v[0], 'label' : '+', 'label_color':'green'}, {'value':abs(v[1]), 'label' : '-', 'label_color':'red'}]) 
+                i += 1
+                if i is max_length: break
+            treemap_plotter.render_in_browser()
+            
 
     def plot_general(self):
         
@@ -73,7 +84,7 @@ class Aspect_plotter() :
             perc[0] = round(values[0]*100/(values[0]+values[1]),1)
         perc[1] = 100 - perc[0]
 
-        for aspect, v, in self.plotter_data.items():
+        for aspect, v in self.plotter_data.items():
             values[0] += v[0]
             values[1] += abs(v[1])
 

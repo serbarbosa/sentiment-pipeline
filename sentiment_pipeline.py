@@ -160,8 +160,10 @@ class Sentiment_pipeline():
 
             plotter = Aspect_plotter(self.data)
             #plotter.plot_by_aspect(style='bars')
-            plotter.plot_by_aspect(style='pie')
-            plotter.plot_general()
+            #plotter.plot_by_aspect(style='pie')
+            plotter.plot_by_aspect(style='treemap')
+            #plotter.plot_general()
+        
         #escreve dados apos todos os processamentos solicitados 
         self.write_data()
 
