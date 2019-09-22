@@ -1,6 +1,7 @@
 import pickle
 import sys
 import re
+from  aspect_plotter import Aspect_plotter
 from typing import List, Dict
 
 #TODO Armazenar lexicos usando trie permitindo assim encontrar aspectos e sentimentos quando o
@@ -127,7 +128,10 @@ class Aspect_classifier():
             
             ascii_data = find_equivalent_char(data[i][data_key])
             identified_aspects += self._sent_analisys(ascii_data)
-            
+        
+        #testando geracao de grafico
+        plotter = Aspect_plotter()
+
         return identified_aspects        
 
 
