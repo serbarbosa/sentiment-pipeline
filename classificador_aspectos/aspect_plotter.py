@@ -64,8 +64,9 @@ class Aspect_plotter() :
             max_length = 20
             if len(sorted_data) < max_length: max_length = len(sorted_data)
             i = 0
-            for aspect, v in self.plotter_data.items():
-                treemap_plotter.add(aspect, [{'value':v[0], 'label' : '+', 'label_color':'green'}, {'value':abs(v[1]), 'label' : '-', 'label_color':'red'}]) 
+
+            for item in sorted_data[:max_length]:
+                treemap_plotter.add(item[0], [{'value':item[1][0], 'label' : '+', 'label_color':'green'}, {'value':abs(item[1][1]),'label' : '-', 'label_color':'red'}]) 
                 i += 1
                 if i is max_length: break
             treemap_plotter.render_in_browser()

@@ -2,6 +2,9 @@ import pickle
 import sys
 import re
 from typing import List, Dict
+import os
+import trie
+from uteis import utils
 
 #TODO Armazenar lexicos usando trie permitindo assim encontrar aspectos e sentimentos quando o
 #radical das palavras for igual (sem perder muita performance)
@@ -10,9 +13,12 @@ class Aspect_classifier():
 
     def __init__(self, dir_path = '.'):
                 
-        self.explicit_aspects = self._load_lexicon(dir_path + '/Aspects_lexicon/explicit_aspects.p')
-        self.implicit_aspects = self._load_lexicon(dir_path + '/Aspects_lexicon/implicit_aspects.p') 
-        self.sent_words = self._load_lexicon(dir_path + '/Sentiment_words/sent_words_polarity.p')
+        self.explicit_aspects1 = self._load_lexicon(dir_path + '/Aspects_lexicon/explicit_aspects1.p')
+        self.explicit_aspects2 = self._load_lexicon(dir_path + '/Aspects_lexicon/explicit_aspects2.p')
+        self.implicit_aspects1 = self._load_lexicon(dir_path + '/Aspects_lexicon/implicit_aspects1.p') 
+        self.implicit_aspects2 = self._load_lexicon(dir_path + '/Aspects_lexicon/implicit_aspects2.p') 
+        sent_words_data = self._load_lexicon(dir_path + '/Sentiment_words/sent_words_polarity.p')
+        self.sent_words = self.create_trie(sent_words_data)
 
     def _load_lexicon(self, filepath : str) -> dict:
         '''Faz leitura de um dicionario salvo com pickle e retorna a estrutura.'''
@@ -21,7 +27,26 @@ class Aspect_classifier():
             structure = pickle.load(lex)
         
         return structure
-            
+
+    def create_trie(self, data : Dict):
+        trie_node = trie.TrieNode()
+
+        for key, value in data.items():
+            trie.insert(trie_node, [key, value])
+        
+        return trie_node
+    
+    def _extract_keywords_slowstage(self, text : str):
+        
+        aspects = []
+        for k, v in self.explicit_aspects2:
+            if k in text:
+                aspects.append[k]
+        for k, v in self.implicit_aspects2:
+            if k in text:
+                aspects.append[v]
+        print(aspects)
+
     def _extract_keywords(self, split_sentence : list):
         '''
             Percorre a frase extraindo os aspectos e as palavras de sentimento.
@@ -36,11 +61,11 @@ class Aspect_classifier():
         rev_sent_words = []
         for i in range(len(split_sentence)):
             word = split_sentence[i]
-            if word in self.explicit_aspects:
+            if word in self.explicit_aspects1:
                 aspects.append([word, i])
-            elif word in self.implicit_aspects:
-                aspects.append([self.implicit_aspects[word], i])
-            elif word in self.sent_words:
+            elif word in self.implicit_aspects1:
+                aspects.append([self.implicit_aspects1[word], i])
+            if trie.search(self.sent_words, word)[0]:
                 rev_sent_words.append([word, i])
         
         return [aspects, rev_sent_words]
@@ -85,8 +110,7 @@ class Aspect_classifier():
         modifiers = ['nao', 'nao e', 'jamais', 'nada', 'nem', 'nenhum', 'ninguem', 'nunca', 'tampouco']
 
         #recupera da hash o sentimento correspondente
-        orientantion = self.sent_words[sent_word]
-        
+        orientantion = trie.search(self.sent_words, sent_word)[1]
         #verifica se existe um modificador no trecho entre o aspecto e a palavra de sentimento
         for modifier in modifiers:
             if modifier in sub_sentence:
@@ -100,7 +124,7 @@ class Aspect_classifier():
     def _sent_analisys(self, review : str):
         
         #separa revisao em frases. vai processar uma por vez.
-        sentences = split_into_sentences(review)
+        sentences = utils.split_into_sentences(review)
         opinions = []
         
         for sentence in sentences:
@@ -129,87 +153,8 @@ class Aspect_classifier():
         
         for i in range(len(data)):
             
-            ascii_data = find_equivalent_char(data[i][data_key])
+            ascii_data = utils.find_equivalent_char(data[i][data_key])
             identified_aspects += self._sent_analisys(ascii_data)
         
         return identified_aspects        
 
-
-# -------   Funções uteis ----------
-
-def find_equivalent_char(utf8Text : str) -> str:
-
-    '''Mapeia caracteres do texto em utf-8 para caracteres validos em ascii.'''
-    
-    ascii_map = {
-            'á' : 'a',
-            'à' : 'a',
-            'é' : 'e',
-            'è' : 'e',
-            'í' : 'i',
-            'ì' : 'i',
-            'ó' : 'o',
-            'ò' : 'o',
-            'ú' : 'u',
-            'ù' : 'u',
-            'ê' : 'e',
-            'ô' : 'o',
-            'ã' : 'a',
-            'õ' : 'o',
-            'ẽ' : 'e',
-            'ũ' : 'u',
-            'ç' : 'c',
-            'ü' : 'u',
-            'Á' : 'a',
-            'À' : 'a',
-            'Í' : 'i',
-            'É' : 'e',
-            'Ó' : 'o',
-            'Ú' : 'u'
-    }
-    
-    ascii_text = ''
-    for i in range(len(utf8Text)):
-        #busca na hash e copia o equivalente
-        if(utf8Text[i] in ascii_map):
-            ascii_text+= ascii_map[utf8Text[i]]
-        else:
-            #apenas copia a letra
-            ascii_text += utf8Text[i]
-
-    return ascii_text
-
-def split_into_sentences(text):
-    alphabets= "([A-Za-z])"
-    prefixes = "(Sr|Sra|Srs|Sras|Srta)[.]"
-    suffixes = "(Corp|Ltda|Sr)"
-    starters = "(Sr|Srs|Sra|Dr)"
-    acronyms = "([A-Z][.][A-Z][.](?:[A-Z][.])?)"
-    websites = "[.](com|net|org|io|gov|br)"
-    digits = "([0-9])"
-    
-    text = " " + text + "  "
-    text = text.replace("\n"," ")
-    text = re.sub(prefixes,"\\1<prd>",text)
-    text = re.sub(websites,"<prd>\\1",text)
-    if "Ph.D" in text: text = text.replace("Ph.D.","Ph<prd>D<prd>")
-    text = re.sub("\s" + alphabets + "[.] "," \\1<prd> ",text)
-    text = re.sub(acronyms+" "+starters,"\\1<stop> \\2",text)
-    text = re.sub(alphabets + "[.]" + alphabets + "[.]" + alphabets + "[.]","\\1<prd>\\2<prd>\\3<prd>",text)
-    text = re.sub(alphabets + "[.]" + alphabets + "[.]","\\1<prd>\\2<prd>",text)
-    text = re.sub(" "+suffixes+"[.] "+starters," \\1<stop> \\2",text)
-    text = re.sub(" "+suffixes+"[.]"," \\1<prd>",text)
-    text = re.sub(" " + alphabets + "[.]"," \\1<prd>",text)
-    text = re.sub(digits + "[.]" + digits,"\\1<prd>\\2",text)
-    if "”" in text: text = text.replace(".”","”.")
-    if "\"" in text: text = text.replace(".\"","\".")
-    if "!" in text: text = text.replace("!\"","\"!")
-    if "?" in text: text = text.replace("?\"","\"?")
-    text = text.replace(".",".<stop>")
-    text = text.replace("?","?<stop>")
-    text = text.replace("!","!<stop>")
-    text = text.replace("<prd>",".")
-    sentences = text.split("<stop>")
-    sentences = sentences[:-1]
-    sentences = [s.strip() for s in sentences]
-    return sentences

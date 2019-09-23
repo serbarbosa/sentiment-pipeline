@@ -1,9 +1,16 @@
-from review_crawler.crawl_reviews import run_crawler
-from filtro_subjetividade.sbj_filter import Subjectivity_filter
 import os, os.path
+import sys
 import shutil
 import time
-from utils import utils
+
+#resolvendo imports para subdiretorios
+main_dir = os.getcwd()
+sys.path.insert(0,main_dir + '/classificador_aspectos')
+sys.path.insert(0,main_dir + '/uteis')
+#sys.path.insert(0,main_dir + '/filtro_subjetividade')
+
+from review_crawler.crawl_reviews import run_crawler
+from filtro_subjetividade.sbj_filter import Subjectivity_filter
 from classificador_aspectos import aspect_classifier
 from classificador_aspectos.aspect_plotter import Aspect_plotter
 import json
@@ -18,6 +25,7 @@ except ModuleNotFoundError:
     print("then run the command 'python3 enelvoApi/setupe.py install' to install enelvo")
     print("you may need administrators permission")
     exit()
+
 
 class Sentiment_pipeline():
 
@@ -159,10 +167,10 @@ class Sentiment_pipeline():
             
 
             plotter = Aspect_plotter(self.data)
-            #plotter.plot_by_aspect(style='bars')
-            #plotter.plot_by_aspect(style='pie')
+            plotter.plot_by_aspect(style='bars')
+            plotter.plot_by_aspect(style='pie')
             plotter.plot_by_aspect(style='treemap')
-            #plotter.plot_general()
+            plotter.plot_general()
         
         #escreve dados apos todos os processamentos solicitados 
         self.write_data()

@@ -34,7 +34,6 @@ def insert(root_node, word):
 def search(root_node, search_string):
     node = root_node
     for character in search_string:
-        print(node.children.keys())
         if node.is_special_end: return True, node.polarity
         
         c = node.children.get(character)
@@ -44,12 +43,6 @@ def search(root_node, search_string):
     
     return node.is_end, node.polarity
 
-def print_trie(root):
-
-    for k, v in root.children.items():
-        print(k)
-        print_trie(v)
-    
 import pickle
 if __name__ == '__main__':
 
@@ -62,5 +55,7 @@ if __name__ == '__main__':
     for k, v in data.items():
         #print('['+k+', '+v+']' )
         insert(root, [k, v])
-    insert(root, ['um texto grande esse nao eh mesmo', '+'])
-    print(search(root, 'um texto grande esse nao eh mesmo'))
+    
+    print_trie(root)
+
+    print(search(root, 'esgotado'))
