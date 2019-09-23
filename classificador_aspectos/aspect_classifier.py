@@ -61,7 +61,7 @@ class Aspect_classifier():
             
         return min_dist[0]
                                                  #list[str]     #list[str, int]   #list[str, int]
-    def _get_sub_sentence(self, split_sentence : list, aspect : list, sent_word : list) -> str: 
+    def _get_sub_sentence(self, split_sentence : List[str], aspect : List, sent_word : List) -> str: 
         '''Retorna um trecho da frase dado contido entre um aspecto e uma palavra de sentimento.'''
         
         #definindo um intervalo valido
@@ -69,6 +69,10 @@ class Aspect_classifier():
         if(start > end):
             start, end = end, start
 
+        if(start > 0) : start -= 1
+        if(end < len(split_sentence)-1):
+                end += 1
+        
         sub_sentence = ''
         for i in range(start, end+1):
             sub_sentence += split_sentence[i] + ' '

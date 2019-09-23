@@ -7,6 +7,7 @@ with open('sent_words_polarity.p', 'rb') as f:
 
 
 for entry in data.keys():
+
     print(entry)
 
 
