@@ -29,11 +29,11 @@ except ModuleNotFoundError:
 
 class Sentiment_pipeline():
 
-    def __init__(self, search_product = 'Samsung galaxy s7', normalize = True,classify_aspects = False,
+    def __init__(self, search = 'Samsung galaxy s7', normalize = True,classify_aspects = False,
                 filter_quality_fuzzy=False, filter_subjectivity=True, crawl_reviews=True, main_key='revisao'):
         
         self.crawl_reviews = crawl_reviews
-        self.search_product = search_product
+        self.search = search
         self.normalize = normalize
         self. classify_aspects = classify_aspects
         self.filter_quality_fuzzy = filter_quality_fuzzy
@@ -123,9 +123,9 @@ class Sentiment_pipeline():
         # Verifica se será aplicado módulo para extrair revisoes de produtos
         if(self.crawl_reviews):
             self.clean_up()
-            print("Resgatando revisões para '" + self.search_product + "' ...")
+            print("Resgatando revisões para '" + self.search + "' ...")
             os.chdir('review_crawler')
-            run_crawler(self.search_product)
+            run_crawler(self.search)
             os.chdir(self.script_dir)
             #copiando arquivo da saida do crawler para o diretorio padrao do script
             self.load_data_from_file('review_crawler/reviews.json')
@@ -178,8 +178,9 @@ class Sentiment_pipeline():
 
 if __name__ == '__main__':
 
-    sent = Sentiment_pipeline(crawl_reviews=False, filter_subjectivity=True, classify_aspects=True)
-    sent.load_data_from_file('review_crawler/reviews.json')
+    sent = Sentiment_pipeline(search='brastemp ative',crawl_reviews=True, filter_subjectivity=True, classify_aspects=True)
+    #sent = Sentiment_pipeline(crawl_reviews=True, filter_subjectivity=True, classify_aspects=True)
+    #sent.load_data_from_file('review_crawler/reviews.json')
     sent.run(save_partial_results=True)
 
 
