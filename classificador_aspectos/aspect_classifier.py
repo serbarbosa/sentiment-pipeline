@@ -136,7 +136,7 @@ class Aspect_classifier():
             keywords = self._extract_keywords(split_sentence) #[aspects, sent_words]
             extra_aspects = self._extract_keywords_slowstage(sentence)
             keywords[0] += extra_aspects
-            print(keywords) 
+#            print(keywords) 
             #caso onde nao foram encontradas palavras de sentimento
             if(len(keywords[1]) == 0):
                 for aspect in keywords[0]:
@@ -150,7 +150,7 @@ class Aspect_classifier():
                     sub_sentence = self._get_sub_sentence(split_sentence, aspect, sent_word)
                     orientation = self._get_sentiment_orientation(sent_word[0], sub_sentence)
                     opinions.append({'aspecto' : aspect[0], 'polaridade' : orientation, 'palavra_sent' : sent_word[0]})
-                    print(opinions[-1])        
+#                    print(opinions[-1])        
         return opinions
 
     def run(self, data : List[Dict], data_key : str) -> List[Dict]:

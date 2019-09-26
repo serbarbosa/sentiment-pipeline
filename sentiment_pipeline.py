@@ -128,11 +128,14 @@ class Sentiment_pipeline():
         
         print("Inicializando filtro de subjetividade ...")
         sbj_filter = Subjectivity_filter('filtro_subjetividade')
-
+        
         for i in range(self.data_size):
+            if i % 100 == 0:
+                print('filtrando: ' + str(i*100//self.data_size) + '%')
             self.data[i][self.main_key] = norm.normalise(self.data[i][self.main_key])
             self.data[i][self.main_key] = sbj_filter.run_filter(self.data[i][self.main_key])
         
+        print('filtrando: 100%')
     
     def run(self, save_partial_results = False):
         
@@ -187,19 +190,25 @@ class Sentiment_pipeline():
                 self.write_results(self.data, self.data_folder + 'classified_data.json')
             
 
-            #plotter = Aspect_plotter(self.data)
-            #plotter.plot_by_aspect(style='bars')
-            #plotter.plot_by_aspect(style='pie')
-            #plotter.plot_by_aspect(style='treemap')
-            #plotter.plot_general()
+            plotter = Aspect_plotter(self.data)
+            plotter.plot_by_aspect(style='bars')
+            plotter.plot_by_aspect(style='pie')
+            plotter.plot_by_aspect(style='treemap')
+            plotter.plot_general()
         
         #escreve dados apos todos os processamentos solicitados 
         self.write_data()
 
 
 if __name__ == '__main__':
+    
+    p3 = 'brastemp ative'                               #200 +
+    p4 = 'Brastemp BWK11AB Superior 11 Kg Branco'       #600 +
+    p1 = 'iphone 6 16GB'                                #400 +
+    p2 = 'iphone 5s 16GB'                               #1100 +
+    p6 = 'Smartphone Samsung Galaxy J5 SM-J500M 16GB'   #1400 +
 
-    sent = Sentiment_pipeline(search='brastemp ative',crawl_reviews=True, filter_subjectivity=True, classify_aspects=True)
+    sent = Sentiment_pipeline(search=p6,crawl_reviews=True, filter_subjectivity=True, classify_aspects=True)
     #sent.load_data_from_file('review_crawler/reviews.json')
     sent.run(save_partial_results=True)
 
