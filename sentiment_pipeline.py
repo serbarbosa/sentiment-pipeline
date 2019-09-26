@@ -58,17 +58,33 @@ class Sentiment_pipeline():
         '''Define o nome de arquivo que será escrito.'''
         self.data_filename = filename
     
-    def load_data(self):
-        '''Carrega os dados salvos da fonte padrão.'''
+    def load_data(self) -> bool:
+        '''Carrega os dados salvos da fonte padrão.
+
+            Return : True ou False indicando se conseguiu ler os dados
+        '''
+
+        filename = self.data_folder + self.data_filename
+        if(os.path.getsize(filename) == 0): return False
+        
         with open(self.data_folder + self.data_filename, 'r', encoding='utf-8') as f:
             self.data = json.load(f)
         self.data_size = len(self.data)
+        
+        return True
 
-    def load_data_from_file(self, filepath : str):
-        '''Carrega dados a partir do caminho informado.'''
+    def load_data_from_file(self, filepath : str) -> bool:
+        '''Carrega dados a partir do caminho informado.
+
+            Return : True ou False indicando se conseguiu ler os dados
+        '''
+        if(os.path.getsize(filepath) == 0): return False
+       
         with open(filepath, 'r', encoding='utf-8') as f:
             self.data = json.load(f)
         self.data_size = len(self.data)
+        
+        return True
 
     def write_data(self, free_data=False):
         '''Escreve dados para o destino padrão.'''
@@ -128,12 +144,17 @@ class Sentiment_pipeline():
             run_crawler(self.search)
             os.chdir(self.script_dir)
             #copiando arquivo da saida do crawler para o diretorio padrao do script
-            self.load_data_from_file('review_crawler/reviews.json')
-            if(save_partial_results):
-                self.write_results(self.data, self.data_folder + 'crawled_data.json')
-        
+            if(self.load_data_from_file('review_crawler/reviews.json')):
+                if(save_partial_results):
+                    self.write_results(self.data, self.data_folder + 'crawled_data.json')
+            else:
+                print('Nao foi possivel extrair revisoes')
+                return
+
         #nesse ponto, não pode continuar se os dados não foram carregados ainda
-        elif self.data == None: return
+        elif self.data == None:
+            print('Nenhum dado disponivel ...')
+            return
             
         if(self.filter_quality_fuzzy):
             print("Inicializando Topx e filtrando por qualidade")
@@ -166,11 +187,11 @@ class Sentiment_pipeline():
                 self.write_results(self.data, self.data_folder + 'classified_data.json')
             
 
-            plotter = Aspect_plotter(self.data)
-            plotter.plot_by_aspect(style='bars')
-            plotter.plot_by_aspect(style='pie')
-            plotter.plot_by_aspect(style='treemap')
-            plotter.plot_general()
+            #plotter = Aspect_plotter(self.data)
+            #plotter.plot_by_aspect(style='bars')
+            #plotter.plot_by_aspect(style='pie')
+            #plotter.plot_by_aspect(style='treemap')
+            #plotter.plot_general()
         
         #escreve dados apos todos os processamentos solicitados 
         self.write_data()
@@ -179,7 +200,6 @@ class Sentiment_pipeline():
 if __name__ == '__main__':
 
     sent = Sentiment_pipeline(search='brastemp ative',crawl_reviews=True, filter_subjectivity=True, classify_aspects=True)
-    #sent = Sentiment_pipeline(crawl_reviews=True, filter_subjectivity=True, classify_aspects=True)
     #sent.load_data_from_file('review_crawler/reviews.json')
     sent.run(save_partial_results=True)
 
