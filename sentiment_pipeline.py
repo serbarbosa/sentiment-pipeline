@@ -202,13 +202,13 @@ class Sentiment_pipeline():
 
 if __name__ == '__main__':
     
-    p3 = 'brastemp ative'                               #200 +
-    p4 = 'Brastemp BWK11AB Superior 11 Kg Branco'       #600 +
-    p1 = 'iphone 6 16GB'                                #400 +
-    p2 = 'iphone 5s 16GB'                               #1100 +
-    p6 = 'Smartphone Samsung Galaxy J5 SM-J500M 16GB'   #1400 +
+    p1 = 'brastemp ative'                               #200 +
+    p2 = 'Brastemp BWK11AB Superior 11 Kg Branco'       #600 +
+    p3 = 'iphone 6 16GB'                                #400 +
+    p4 = 'iphone 5s 16GB'                               #1100 +
+    p5 = 'Smartphone Samsung Galaxy J5 SM-J500M 16GB'   #1400 +
 
-    sent = Sentiment_pipeline(search=p6,crawl_reviews=True, filter_subjectivity=True, classify_aspects=True)
+    sent = Sentiment_pipeline(search=p1,crawl_reviews=True, filter_subjectivity=True, classify_aspects=True)
     #sent.load_data_from_file('review_crawler/reviews.json')
     sent.run(save_partial_results=True)
 
