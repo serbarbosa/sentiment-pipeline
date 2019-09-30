@@ -2,13 +2,10 @@ import os
 from typing import List, Dict
 import json
 
-def run_fuzzy(json_file : str) -> List[Dict]:
+def run_fuzzy(data : List[Dict]) -> List[Dict]:
+    '''Recebe um arquivo json carregado e faz chamada do metodo fuzzy devolvendo
+    o json filtrado.'''
     
-    data = None
-    #recuperando dados do arquivo json
-    with open(json_file, 'r', encoding='utf-8') as f:
-        
-        data = json.load(f)
     #deixando compativel com entrada do topXfuzzy
     compatible_data = ''
     for review in data:
@@ -26,12 +23,11 @@ def run_fuzzy(json_file : str) -> List[Dict]:
     fuzzy_output = None
     with open('in.txt.res', 'r') as f:
         fuzzy_output = f.read().split('\n')[1:-1]
-    output_json = []
-    for i in range(len(fuzzy_output)):
-        if fuzzy_output[i].split(',')[-1] != 'IF':
-            output_json.append(data[i])    
     
-    print(output_json)
-    return output_json
+    for i in range(len(fuzzy_output)):
+        if fuzzy_output[i].split(',')[-1] == 'IF':
+            data[i]['revisao'] = ''
+    
+    return data
 
 

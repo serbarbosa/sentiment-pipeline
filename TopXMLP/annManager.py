@@ -24,10 +24,10 @@ def AnnTraining(inputs, outputs, topology):
 
 	if topology == 1:
 		predictions = mlp_top1.predict(input_test)
-		print(classification_report(output_test, predictions))
+		return classification_report(output_test, predictions, output_dict=True)
 	if topology == 2:
 		predictions = mlp_top2.predict(input_test)
-		print(classification_report(output_test, predictions))
+		return classification_report(output_test, predictions, output_dict=True)
 
 	
 
