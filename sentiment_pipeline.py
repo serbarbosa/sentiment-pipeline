@@ -154,7 +154,7 @@ class Sentiment_pipeline():
                 print('Nao foi possivel extrair revisoes')
                 return
 
-        #nesse ponto, não pode continuar se os dados não foram carregados ainda
+        # nesse ponto, não pode continuar se os dados não foram carregados ainda
         elif self.data == None:
             print('Nenhum dado disponivel ...')
             return
@@ -163,7 +163,7 @@ class Sentiment_pipeline():
         if(self.filter_quality_mlp):
             os.chdir('TopXMLP')
             print("Inicializando TopX-MLP e filtrando por qualidade")
-            self.data = run_mlp_filter(self.data, grade='excellent', metric=1) 
+            self.data = run_mlp_filter((self.data, self.main_key), self.data_size, grade='good', metric=1) 
             os.chdir(self.script_dir)
             if(save_partial_results):
                 self.write_results(self.data, self.data_folder + 'mlp_filtered_data.json')
@@ -223,11 +223,12 @@ if __name__ == '__main__':
     p5 = 'Smartphone Samsung Galaxy J5 SM-J500M 16GB'   #1400 +
 
     sent = Sentiment_pipeline(
-            search=p3,
+            search=p4,
             crawl_reviews=True,
             filter_subjectivity=True,
             classify_aspects=True,
-            filter_quality_fuzzy=False
+            filter_quality_fuzzy=False,
+            filter_quality_mlp=True
             )
     #sent.load_data_from_file('review_crawler/reviews.json')
     sent.run(save_partial_results=True)
