@@ -134,6 +134,7 @@ class Aspect_classifier():
         for sentence in sentences:
             split_sentence = sentence.split(' ')
             keywords = self._extract_keywords(split_sentence) #[aspects, sent_words]
+            print(keywords)
             extra_aspects = self._extract_keywords_slowstage(sentence)
             keywords[0] += extra_aspects
 #            print(keywords) 

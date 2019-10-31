@@ -29,7 +29,6 @@ except ModuleNotFoundError:
     print("you may need administrators permission")
     exit()
 
-
 class Sentiment_pipeline():
 
     def __init__(self, search = 'Samsung galaxy s7', normalize = True,classify_aspects = False,
@@ -204,11 +203,11 @@ class Sentiment_pipeline():
                 self.write_results(self.data, self.data_folder + 'classified_data.json')
             
             # --- Plotagem dos Aspectos ---
-            plotter = Aspect_plotter(self.data)
-            plotter.plot_by_aspect(style='bars')
-            plotter.plot_by_aspect(style='pie')
-            plotter.plot_by_aspect(style='treemap')
-            plotter.plot_general()
+            #plotter = Aspect_plotter(self.data)
+            #plotter.plot_by_aspect(style='bars')
+            #plotter.plot_by_aspect(style='pie')
+            #plotter.plot_by_aspect(style='treemap')
+            #plotter.plot_general()
         
         #escreve dados apos todos os processamentos solicitados 
         self.write_data()
@@ -223,12 +222,12 @@ if __name__ == '__main__':
     p5 = 'Smartphone Samsung Galaxy J5 SM-J500M 16GB'   #1400 +
 
     sent = Sentiment_pipeline(
-            search=p4,
+            search=p1,
             crawl_reviews=True,
             filter_subjectivity=True,
             classify_aspects=True,
             filter_quality_fuzzy=False,
-            filter_quality_mlp=True
+            filter_quality_mlp=False
             )
     #sent.load_data_from_file('review_crawler/reviews.json')
     sent.run(save_partial_results=True)

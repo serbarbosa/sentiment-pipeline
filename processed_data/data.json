@@ -1,668 +1,8 @@
 [
     {
-        "aspecto": "tela",
-        "polaridade": "+",
-        "palavra_sent": "incrivel"
-    },
-    {
-        "aspecto": "display",
-        "polaridade": "+",
-        "palavra_sent": "resolucao"
-    },
-    {
-        "aspecto": "resolucao",
-        "polaridade": "+",
-        "palavra_sent": "resolucao"
-    },
-    {
-        "aspecto": "resolucao",
-        "polaridade": "+",
-        "palavra_sent": "resolucao"
-    },
-    {
-        "aspecto": "slow motion",
-        "polaridade": "+",
-        "palavra_sent": "interessantes"
-    },
-    {
-        "aspecto": "touch",
-        "polaridade": "+",
-        "palavra_sent": "principais"
-    },
-    {
-        "aspecto": "recurso",
-        "polaridade": "+",
-        "palavra_sent": "realizacao"
-    },
-    {
-        "aspecto": "tela",
-        "polaridade": "+",
-        "palavra_sent": "realizacao"
-    },
-    {
-        "aspecto": "botao",
-        "polaridade": "+",
-        "palavra_sent": "reconhecimento"
-    },
-    {
-        "aspecto": "design",
-        "polaridade": "+",
-        "palavra_sent": "apreciam"
-    },
-    {
-        "aspecto": "tela",
-        "polaridade": "+",
-        "palavra_sent": "finos"
-    },
-    {
-        "aspecto": "produto",
-        "polaridade": "+",
-        "palavra_sent": "fantastico"
-    },
-    {
-        "aspecto": "camera",
-        "polaridade": "+",
-        "palavra_sent": "perfeita"
-    },
-    {
-        "aspecto": "tela",
-        "polaridade": "+",
-        "palavra_sent": "maior"
-    },
-    {
-        "aspecto": "bateria",
+        "aspecto": "maquina",
         "polaridade": "+",
         "palavra_sent": "muito"
-    },
-    {
-        "aspecto": "bateria",
-        "polaridade": "+",
-        "palavra_sent": "muito"
-    },
-    {
-        "aspecto": "produto",
-        "polaridade": "+",
-        "palavra_sent": "muito"
-    },
-    {
-        "aspecto": "celular",
-        "polaridade": "+",
-        "palavra_sent": "melhor"
-    },
-    {
-        "aspecto": "aparelho",
-        "polaridade": "+",
-        "palavra_sent": "muito"
-    },
-    {
-        "aspecto": "bateria",
-        "polaridade": "-",
-        "palavra_sent": "desnecessarias"
-    },
-    {
-        "aspecto": "produto",
-        "polaridade": "+",
-        "palavra_sent": "gostaria"
-    },
-    {
-        "aspecto": "preco",
-        "polaridade": "+",
-        "palavra_sent": "preco"
-    },
-    {
-        "aspecto": "custo",
-        "polaridade": "+",
-        "palavra_sent": "muito"
-    },
-    {
-        "aspecto": "bateria",
-        "polaridade": "-",
-        "palavra_sent": "dura"
-    },
-    {
-        "aspecto": "duracao da bateria",
-        "polaridade": "-",
-        "palavra_sent": "dura"
-    },
-    {
-        "aspecto": "tamanho",
-        "polaridade": "-",
-        "palavra_sent": "pequeno"
-    },
-    {
-        "aspecto": "empresa",
-        "polaridade": "+",
-        "palavra_sent": "atencao"
-    },
-    {
-        "aspecto": "aparelho",
-        "polaridade": "+",
-        "palavra_sent": "melhores"
-    },
-    {
-        "aspecto": "design",
-        "polaridade": "+",
-        "palavra_sent": "bem"
-    },
-    {
-        "aspecto": "tamanho",
-        "polaridade": "+",
-        "palavra_sent": "confortavel"
-    },
-    {
-        "aspecto": "tela",
-        "polaridade": "+",
-        "palavra_sent": "incrivel"
-    },
-    {
-        "aspecto": "nitidez",
-        "polaridade": "+",
-        "palavra_sent": "nitidez"
-    },
-    {
-        "aspecto": "tamanho",
-        "polaridade": "+",
-        "palavra_sent": "perfeita"
-    },
-    {
-        "aspecto": "aparelho",
-        "polaridade": "+",
-        "palavra_sent": "desejar"
-    },
-    {
-        "aspecto": "custo-beneficio",
-        "polaridade": "-",
-        "palavra_sent": "melhores"
-    },
-    {
-        "aspecto": "bateria",
-        "polaridade": "+",
-        "palavra_sent": "desejar"
-    },
-    {
-        "aspecto": "aparelho",
-        "polaridade": "+",
-        "palavra_sent": "preco"
-    },
-    {
-        "aspecto": "preco",
-        "polaridade": "+",
-        "palavra_sent": "preco"
-    },
-    {
-        "aspecto": "valor",
-        "polaridade": "+",
-        "palavra_sent": "acessivel"
-    },
-    {
-        "aspecto": "peso",
-        "polaridade": "+",
-        "palavra_sent": "leve"
-    },
-    {
-        "aspecto": "praticidade",
-        "polaridade": "+",
-        "palavra_sent": "muito"
-    },
-    {
-        "aspecto": "aparelho",
-        "polaridade": "-",
-        "palavra_sent": "sobre"
-    },
-    {
-        "aspecto": "bateria",
-        "polaridade": "+",
-        "palavra_sent": "rendimento"
-    },
-    {
-        "aspecto": "bateria",
-        "polaridade": "+",
-        "palavra_sent": "rendimento"
-    },
-    {
-        "aspecto": "recurso",
-        "polaridade": "-",
-        "palavra_sent": "sociais"
-    },
-    {
-        "aspecto": "telefone",
-        "polaridade": "-",
-        "palavra_sent": "sociais"
-    },
-    {
-        "aspecto": "celular",
-        "polaridade": "+",
-        "palavra_sent": "muito"
-    },
-    {
-        "aspecto": "imagem",
-        "polaridade": "+",
-        "palavra_sent": "boa"
-    },
-    {
-        "aspecto": "resolucao",
-        "polaridade": "+",
-        "palavra_sent": "resolucao"
-    },
-    {
-        "aspecto": "produto",
-        "polaridade": "+",
-        "palavra_sent": "espero"
-    },
-    {
-        "aspecto": "investimento",
-        "polaridade": "+",
-        "palavra_sent": "guardada"
-    },
-    {
-        "aspecto": "celular",
-        "polaridade": "+",
-        "palavra_sent": "otimo"
-    },
-    {
-        "aspecto": "bluetooth",
-        "polaridade": "+",
-        "palavra_sent": "mas"
-    },
-    {
-        "aspecto": "aparelho",
-        "polaridade": "+",
-        "palavra_sent": "rapido"
-    },
-    {
-        "aspecto": "velocidade",
-        "polaridade": "+",
-        "palavra_sent": "rapido"
-    },
-    {
-        "aspecto": "design",
-        "polaridade": "+",
-        "palavra_sent": "elegante"
-    },
-    {
-        "aspecto": "preco",
-        "polaridade": "+",
-        "palavra_sent": "preco"
-    },
-    {
-        "aspecto": "aparelho",
-        "polaridade": "-",
-        "palavra_sent": "so"
-    },
-    {
-        "aspecto": "touch",
-        "polaridade": "-",
-        "palavra_sent": "so"
-    },
-    {
-        "aspecto": "memoria",
-        "polaridade": "+",
-        "palavra_sent": "seguranca"
-    },
-    {
-        "aspecto": "aparelho",
-        "polaridade": "+",
-        "palavra_sent": "seguranca"
-    },
-    {
-        "aspecto": "tamanho",
-        "polaridade": "-",
-        "palavra_sent": "pequeno"
-    },
-    {
-        "aspecto": "aparelho",
-        "polaridade": "+",
-        "palavra_sent": "pena"
-    },
-    {
-        "aspecto": "tela",
-        "polaridade": "+",
-        "palavra_sent": "melhor"
-    },
-    {
-        "aspecto": "processador",
-        "polaridade": "+",
-        "palavra_sent": "melhor"
-    },
-    {
-        "aspecto": "preco",
-        "polaridade": "+",
-        "palavra_sent": "preco"
-    },
-    {
-        "aspecto": "tamanho",
-        "polaridade": "-",
-        "palavra_sent": "valor"
-    },
-    {
-        "aspecto": "valor",
-        "polaridade": "-",
-        "palavra_sent": "valor"
-    },
-    {
-        "aspecto": "bateria",
-        "polaridade": "+",
-        "palavra_sent": "intenso"
-    },
-    {
-        "aspecto": "aparelho",
-        "polaridade": "+",
-        "palavra_sent": "intenso"
-    },
-    {
-        "aspecto": "duracao da bateria",
-        "polaridade": "+",
-        "palavra_sent": "intenso"
-    },
-    {
-        "aspecto": "preco",
-        "polaridade": "+",
-        "palavra_sent": "preco"
-    },
-    {
-        "aspecto": "produto",
-        "polaridade": "+",
-        "palavra_sent": "facil"
-    },
-    {
-        "aspecto": "velocidade",
-        "polaridade": "+",
-        "palavra_sent": "realize"
-    },
-    {
-        "aspecto": "aparelho",
-        "polaridade": "+",
-        "palavra_sent": "perfeito"
-    },
-    {
-        "aspecto": "facil de usar",
-        "polaridade": "+",
-        "palavra_sent": "facil"
-    },
-    {
-        "aspecto": "celular",
-        "polaridade": "+",
-        "palavra_sent": "amigo"
-    },
-    {
-        "aspecto": "aparelho",
-        "polaridade": "+",
-        "palavra_sent": "adorei"
-    },
-    {
-        "aspecto": "produto",
-        "polaridade": "+",
-        "palavra_sent": "excelente"
-    },
-    {
-        "aspecto": "aparelho",
-        "polaridade": "+",
-        "palavra_sent": "segurar"
-    },
-    {
-        "aspecto": "velocidade",
-        "polaridade": "+",
-        "palavra_sent": "rapido"
-    },
-    {
-        "aspecto": "celular",
-        "polaridade": "+",
-        "palavra_sent": "amigo"
-    },
-    {
-        "aspecto": "celular",
-        "polaridade": "-",
-        "palavra_sent": "ai"
-    },
-    {
-        "aspecto": "celular",
-        "polaridade": "+",
-        "palavra_sent": "bem"
-    },
-    {
-        "aspecto": "celular",
-        "polaridade": "-",
-        "palavra_sent": "chorar"
-    },
-    {
-        "aspecto": "produto",
-        "polaridade": "+",
-        "palavra_sent": "maravilhoso"
-    },
-    {
-        "aspecto": "design",
-        "polaridade": "+",
-        "palavra_sent": "lindo"
-    },
-    {
-        "aspecto": "design",
-        "polaridade": "+",
-        "palavra_sent": "lindo"
-    },
-    {
-        "aspecto": "camera",
-        "polaridade": "+",
-        "palavra_sent": "lindo"
-    },
-    {
-        "aspecto": "celular",
-        "polaridade": "+",
-        "palavra_sent": "melhor"
-    },
-    {
-        "aspecto": "design",
-        "polaridade": "+",
-        "palavra_sent": "lindo"
-    },
-    {
-        "aspecto": "produto",
-        "polaridade": "+",
-        "palavra_sent": "excelente"
-    },
-    {
-        "aspecto": "design",
-        "polaridade": "+",
-        "palavra_sent": "otimo"
-    },
-    {
-        "aspecto": "touch",
-        "polaridade": "+",
-        "palavra_sent": "impecavel"
-    },
-    {
-        "aspecto": "processador",
-        "polaridade": "+",
-        "palavra_sent": "impecavel"
-    },
-    {
-        "aspecto": "velocidade",
-        "polaridade": "-",
-        "palavra_sent": "amor"
-    },
-    {
-        "aspecto": "peca",
-        "polaridade": "-",
-        "palavra_sent": "peca"
-    },
-    {
-        "aspecto": "bateria",
-        "polaridade": "-",
-        "palavra_sent": "dura"
-    },
-    {
-        "aspecto": "produto",
-        "polaridade": "+",
-        "palavra_sent": "muito"
-    },
-    {
-        "aspecto": "designe",
-        "polaridade": "+",
-        "palavra_sent": "desempenho"
-    },
-    {
-        "aspecto": "design",
-        "polaridade": "+",
-        "palavra_sent": "super"
-    },
-    {
-        "aspecto": "facil de usar",
-        "polaridade": "+",
-        "palavra_sent": "facil"
-    },
-    {
-        "aspecto": "produto",
-        "polaridade": "+",
-        "palavra_sent": "bom"
-    },
-    {
-        "aspecto": "produto",
-        "polaridade": "+",
-        "palavra_sent": "otimo"
-    },
-    {
-        "aspecto": "resolucao",
-        "polaridade": "+",
-        "palavra_sent": "resolucao"
-    },
-    {
-        "aspecto": "tela",
-        "polaridade": "+",
-        "palavra_sent": "resolucao"
-    },
-    {
-        "aspecto": "bateria",
-        "polaridade": "+",
-        "palavra_sent": "muito"
-    },
-    {
-        "aspecto": "designer",
-        "polaridade": "+",
-        "palavra_sent": "muito"
-    },
-    {
-        "aspecto": "design",
-        "polaridade": "+",
-        "palavra_sent": "muito"
-    },
-    {
-        "aspecto": "produto",
-        "polaridade": "+",
-        "palavra_sent": "otimo"
-    },
-    {
-        "aspecto": "celular",
-        "polaridade": "+",
-        "palavra_sent": "melhores"
-    },
-    {
-        "aspecto": "design",
-        "polaridade": "+",
-        "palavra_sent": "desempenho"
-    },
-    {
-        "aspecto": "design",
-        "polaridade": "+",
-        "palavra_sent": "atencao"
-    },
-    {
-        "aspecto": "design",
-        "polaridade": "+",
-        "palavra_sent": "so"
-    },
-    {
-        "aspecto": "tela",
-        "polaridade": "+",
-        "palavra_sent": "perfeito"
-    },
-    {
-        "aspecto": "video",
-        "polaridade": "+",
-        "palavra_sent": "assistir"
-    },
-    {
-        "aspecto": "auto falante",
-        "polaridade": "+",
-        "palavra_sent": "perfeitos"
-    },
-    {
-        "aspecto": "usabilidade",
-        "polaridade": "+",
-        "palavra_sent": "excelente"
-    },
-    {
-        "aspecto": "preco",
-        "polaridade": "+",
-        "palavra_sent": "preco"
-    },
-    {
-        "aspecto": "produto",
-        "polaridade": "+",
-        "palavra_sent": "excelente"
-    },
-    {
-        "aspecto": "smartphone",
-        "polaridade": "+",
-        "palavra_sent": "otimo"
-    },
-    {
-        "aspecto": "aparelho",
-        "polaridade": "+",
-        "palavra_sent": "muito"
-    },
-    {
-        "aspecto": "bateria",
-        "polaridade": "+",
-        "palavra_sent": "percebera"
-    },
-    {
-        "aspecto": "software",
-        "polaridade": "-",
-        "palavra_sent": "software"
-    },
-    {
-        "aspecto": "empresa",
-        "polaridade": "-",
-        "palavra_sent": "sob"
-    },
-    {
-        "aspecto": "smartphone",
-        "polaridade": "-",
-        "palavra_sent": "desempenho"
-    },
-    {
-        "aspecto": "resolucao",
-        "polaridade": "+",
-        "palavra_sent": "resolucao"
-    },
-    {
-        "aspecto": "lente",
-        "polaridade": "+",
-        "palavra_sent": "resolucao"
-    },
-    {
-        "aspecto": "usabilidade",
-        "polaridade": "+",
-        "palavra_sent": "otima"
-    },
-    {
-        "aspecto": "flash",
-        "polaridade": "+",
-        "palavra_sent": "consegue"
-    },
-    {
-        "aspecto": "produto",
-        "polaridade": "+",
-        "palavra_sent": "excelente"
-    },
-    {
-        "aspecto": "produto",
-        "polaridade": "+",
-        "palavra_sent": "super"
-    },
-    {
-        "aspecto": "celular",
-        "polaridade": "+",
-        "palavra_sent": "leve"
     },
     {
         "aspecto": "peso",
@@ -672,77 +12,27 @@
     {
         "aspecto": "design",
         "polaridade": "+",
-        "palavra_sent": "leve"
+        "palavra_sent": "fina"
+    },
+    {
+        "aspecto": "maquina",
+        "polaridade": "+",
+        "palavra_sent": "movimento"
+    },
+    {
+        "aspecto": "maquina",
+        "polaridade": "+",
+        "palavra_sent": "verdadeiro"
+    },
+    {
+        "aspecto": "maquina",
+        "polaridade": "+",
+        "palavra_sent": "verdadeiro"
     },
     {
         "aspecto": "design",
-        "polaridade": "+",
-        "palavra_sent": "leve"
-    },
-    {
-        "aspecto": "bateria",
-        "polaridade": "+",
-        "palavra_sent": "melhor"
-    },
-    {
-        "aspecto": "celular",
-        "polaridade": "+",
-        "palavra_sent": "completo"
-    },
-    {
-        "aspecto": "praticidade",
-        "polaridade": "+",
-        "palavra_sent": "quer"
-    },
-    {
-        "aspecto": "email",
-        "polaridade": "+",
-        "palavra_sent": "quer"
-    },
-    {
-        "aspecto": "mp3",
-        "polaridade": "+",
-        "palavra_sent": "quer"
-    },
-    {
-        "aspecto": "internet",
-        "polaridade": "+",
-        "palavra_sent": "quer"
-    },
-    {
-        "aspecto": "tamanho",
-        "polaridade": "+",
-        "palavra_sent": "grande"
-    },
-    {
-        "aspecto": "celular",
-        "polaridade": "+",
-        "palavra_sent": "famosos"
-    },
-    {
-        "aspecto": "memoria",
-        "polaridade": "+",
-        "palavra_sent": "famosos"
-    },
-    {
-        "aspecto": "tamanho",
-        "polaridade": "+",
-        "palavra_sent": "deseja"
-    },
-    {
-        "aspecto": "preco",
-        "polaridade": "+",
-        "palavra_sent": "preco"
-    },
-    {
-        "aspecto": "processador",
-        "polaridade": "+",
-        "palavra_sent": "muito"
-    },
-    {
-        "aspecto": "produto",
-        "polaridade": "+",
-        "palavra_sent": "melhor"
+        "polaridade": "-",
+        "palavra_sent": "inferior"
     },
     {
         "aspecto": "produto",
@@ -750,699 +40,144 @@
         "palavra_sent": "muito"
     },
     {
-        "aspecto": "velocidade",
+        "aspecto": "maquina",
         "polaridade": "+",
-        "palavra_sent": "muito"
-    },
-    {
-        "aspecto": "usabilidade",
-        "polaridade": "+",
-        "palavra_sent": "muito"
-    },
-    {
-        "aspecto": "aparelho",
-        "polaridade": "+",
-        "palavra_sent": "muito"
-    },
-    {
-        "aspecto": "bateria",
-        "polaridade": "-",
-        "palavra_sent": "desnecessarias"
+        "palavra_sent": "excelente"
     },
     {
         "aspecto": "produto",
-        "polaridade": "+",
-        "palavra_sent": "gostaria"
-    },
-    {
-        "aspecto": "preco",
-        "polaridade": "+",
-        "palavra_sent": "preco"
-    },
-    {
-        "aspecto": "custo",
-        "polaridade": "+",
-        "palavra_sent": "muito"
-    },
-    {
-        "aspecto": "bateria",
         "polaridade": "-",
-        "palavra_sent": "dura"
+        "palavra_sent": "sony"
     },
     {
-        "aspecto": "duracao da bateria",
+        "aspecto": "sony",
         "polaridade": "-",
-        "palavra_sent": "dura"
-    },
-    {
-        "aspecto": "tamanho",
-        "polaridade": "-",
-        "palavra_sent": "pequeno"
-    },
-    {
-        "aspecto": "empresa",
-        "polaridade": "+",
-        "palavra_sent": "atencao"
-    },
-    {
-        "aspecto": "aparelho",
-        "polaridade": "+",
-        "palavra_sent": "melhores"
-    },
-    {
-        "aspecto": "design",
-        "polaridade": "+",
-        "palavra_sent": "bem"
-    },
-    {
-        "aspecto": "tamanho",
-        "polaridade": "+",
-        "palavra_sent": "confortavel"
-    },
-    {
-        "aspecto": "tela",
-        "polaridade": "+",
-        "palavra_sent": "incrivel"
-    },
-    {
-        "aspecto": "nitidez",
-        "polaridade": "+",
-        "palavra_sent": "nitidez"
-    },
-    {
-        "aspecto": "tamanho",
-        "polaridade": "+",
-        "palavra_sent": "perfeita"
-    },
-    {
-        "aspecto": "aparelho",
-        "polaridade": "+",
-        "palavra_sent": "desejar"
-    },
-    {
-        "aspecto": "custo-beneficio",
-        "polaridade": "-",
-        "palavra_sent": "melhores"
-    },
-    {
-        "aspecto": "bateria",
-        "polaridade": "+",
-        "palavra_sent": "desejar"
-    },
-    {
-        "aspecto": "durabilidade",
-        "polaridade": "+",
-        "palavra_sent": "boa"
-    },
-    {
-        "aspecto": "custo",
-        "polaridade": "+",
-        "palavra_sent": "beneficio"
-    },
-    {
-        "aspecto": "facil de usar",
-        "polaridade": "+",
-        "palavra_sent": "facil"
-    },
-    {
-        "aspecto": "aparelho",
-        "polaridade": "+",
-        "palavra_sent": "muito"
-    },
-    {
-        "aspecto": "design",
-        "polaridade": "+",
-        "palavra_sent": "lindo"
-    },
-    {
-        "aspecto": "peso",
-        "polaridade": "+",
-        "palavra_sent": "leve"
-    },
-    {
-        "aspecto": "design",
-        "polaridade": "+",
-        "palavra_sent": "leve"
-    },
-    {
-        "aspecto": "facilidade",
-        "polaridade": "+",
-        "palavra_sent": "facilidade"
-    },
-    {
-        "aspecto": "produto",
-        "polaridade": "+",
-        "palavra_sent": "otimo"
-    },
-    {
-        "aspecto": "celular",
-        "polaridade": "+",
-        "palavra_sent": "melhor"
-    },
-    {
-        "aspecto": "investimento",
-        "polaridade": "+",
-        "palavra_sent": "guardada"
-    },
-    {
-        "aspecto": "produto",
-        "polaridade": "+",
-        "palavra_sent": "bem"
-    },
-    {
-        "aspecto": "design",
-        "polaridade": "+",
-        "palavra_sent": "lindo"
-    },
-    {
-        "aspecto": "bateria",
-        "polaridade": "+",
-        "palavra_sent": "lindo"
-    },
-    {
-        "aspecto": "preco",
-        "polaridade": "+",
-        "palavra_sent": "preco"
-    },
-    {
-        "aspecto": "smartphone",
-        "polaridade": "+",
-        "palavra_sent": "precisa"
-    },
-    {
-        "aspecto": "resolucao",
-        "polaridade": "+",
-        "palavra_sent": "resolucao"
-    },
-    {
-        "aspecto": "foto",
-        "polaridade": "+",
-        "palavra_sent": "vai"
-    },
-    {
-        "aspecto": "foto",
-        "polaridade": "+",
-        "palavra_sent": "vai"
-    },
-    {
-        "aspecto": "qualidade da foto",
-        "polaridade": "+",
-        "palavra_sent": "vai"
-    },
-    {
-        "aspecto": "resolucao",
-        "polaridade": "+",
-        "palavra_sent": "resolucao"
-    },
-    {
-        "aspecto": "tela",
-        "polaridade": "+",
-        "palavra_sent": "resolucao"
-    },
-    {
-        "aspecto": "design",
-        "polaridade": "+",
-        "palavra_sent": "impressionante"
-    },
-    {
-        "aspecto": "preco",
-        "polaridade": "+",
-        "palavra_sent": "preco"
-    },
-    {
-        "aspecto": "preco",
-        "polaridade": "+",
-        "palavra_sent": "preco"
-    },
-    {
-        "aspecto": "smartphone",
-        "polaridade": "+",
-        "palavra_sent": "precisa"
-    },
-    {
-        "aspecto": "resolucao",
-        "polaridade": "+",
-        "palavra_sent": "resolucao"
-    },
-    {
-        "aspecto": "foto",
-        "polaridade": "+",
-        "palavra_sent": "vai"
-    },
-    {
-        "aspecto": "foto",
-        "polaridade": "+",
-        "palavra_sent": "vai"
-    },
-    {
-        "aspecto": "qualidade da foto",
-        "polaridade": "+",
-        "palavra_sent": "vai"
-    },
-    {
-        "aspecto": "resolucao",
-        "polaridade": "+",
-        "palavra_sent": "resolucao"
-    },
-    {
-        "aspecto": "tela",
-        "polaridade": "+",
-        "palavra_sent": "resolucao"
-    },
-    {
-        "aspecto": "design",
-        "polaridade": "+",
-        "palavra_sent": "impressionante"
-    },
-    {
-        "aspecto": "preco",
-        "polaridade": "+",
-        "palavra_sent": "preco"
-    },
-    {
-        "aspecto": "tamanho",
-        "polaridade": "+",
-        "palavra_sent": "legal"
-    },
-    {
-        "aspecto": "celular",
-        "polaridade": "+",
-        "palavra_sent": "legal"
-    },
-    {
-        "aspecto": "memoria",
-        "polaridade": "+",
-        "palavra_sent": "boa"
+        "palavra_sent": "sony"
     },
     {
         "aspecto": "marca",
-        "polaridade": "+",
-        "palavra_sent": "excelente"
-    },
-    {
-        "aspecto": "durabilidade",
-        "polaridade": "+",
-        "palavra_sent": "excelente"
-    },
-    {
-        "aspecto": "peso",
-        "polaridade": "+",
-        "palavra_sent": "leve"
-    },
-    {
-        "aspecto": "design",
-        "polaridade": "-",
-        "palavra_sent": "fala"
-    },
-    {
-        "aspecto": "velocidade",
-        "polaridade": "+",
-        "palavra_sent": "fala"
-    },
-    {
-        "aspecto": "tela",
-        "polaridade": "-",
-        "palavra_sent": "destruiu"
-    },
-    {
-        "aspecto": "aparelho",
-        "polaridade": "+",
-        "palavra_sent": "apresentando"
-    },
-    {
-        "aspecto": "bateria",
-        "polaridade": "-",
-        "palavra_sent": "problemas"
-    },
-    {
-        "aspecto": "bateria",
-        "polaridade": "+",
-        "palavra_sent": "estimativa"
-    },
-    {
-        "aspecto": "aparelho",
-        "polaridade": "+",
-        "palavra_sent": "estimativa"
-    },
-    {
-        "aspecto": "aparelho",
-        "polaridade": "+",
-        "palavra_sent": "fino"
-    },
-    {
-        "aspecto": "produto",
-        "polaridade": "+",
-        "palavra_sent": "muito"
-    },
-    {
-        "aspecto": "designe",
-        "polaridade": "+",
-        "palavra_sent": "excelente"
-    },
-    {
-        "aspecto": "aparelho",
-        "polaridade": "+",
-        "palavra_sent": "acredito"
-    },
-    {
-        "aspecto": "camera",
-        "polaridade": "+",
-        "palavra_sent": "realmente"
-    },
-    {
-        "aspecto": "bateria",
-        "polaridade": "-",
-        "palavra_sent": "pessima"
-    },
-    {
-        "aspecto": "sim",
-        "polaridade": "+",
-        "palavra_sent": "sim"
-    },
-    {
-        "aspecto": "sim",
-        "polaridade": "+",
-        "palavra_sent": "sim"
-    },
-    {
-        "aspecto": "bloco de notas",
-        "polaridade": "+",
-        "palavra_sent": "muito"
-    },
-    {
-        "aspecto": "aparelho",
-        "polaridade": "+",
-        "palavra_sent": "otimo"
-    },
-    {
-        "aspecto": "design",
-        "polaridade": "+",
-        "palavra_sent": "otimo"
-    },
-    {
-        "aspecto": "usabilidade",
-        "polaridade": "+",
-        "palavra_sent": "muito"
-    },
-    {
-        "aspecto": "bateria",
-        "polaridade": "-",
-        "palavra_sent": "tristeza"
-    },
-    {
-        "aspecto": "preco",
-        "polaridade": "-",
-        "palavra_sent": "preco"
-    },
-    {
-        "aspecto": "valor",
-        "polaridade": "+",
-        "palavra_sent": "acessivel"
-    },
-    {
-        "aspecto": "smartphone",
-        "polaridade": "+",
-        "palavra_sent": "otimo"
-    },
-    {
-        "aspecto": "sistema operacional",
-        "polaridade": "+",
-        "palavra_sent": "excelente"
-    },
-    {
-        "aspecto": "lente",
-        "polaridade": "+",
-        "palavra_sent": "excelentes"
-    },
-    {
-        "aspecto": "acabamento",
-        "polaridade": "+",
-        "palavra_sent": "intensa"
-    },
-    {
-        "aspecto": "display",
-        "polaridade": "+",
-        "palavra_sent": "intensa"
-    },
-    {
-        "aspecto": "tela",
-        "polaridade": "+",
-        "palavra_sent": "realmente"
-    },
-    {
-        "aspecto": "aparelho",
-        "polaridade": "+",
-        "palavra_sent": "excelente"
-    },
-    {
-        "aspecto": "peca",
-        "polaridade": "-",
-        "palavra_sent": "peca"
-    },
-    {
-        "aspecto": "preco",
-        "polaridade": "+",
-        "palavra_sent": "preco"
-    },
-    {
-        "aspecto": "valor",
-        "polaridade": "-",
-        "palavra_sent": "valor"
-    },
-    {
-        "aspecto": "design",
-        "polaridade": "+",
-        "palavra_sent": "importa"
-    },
-    {
-        "aspecto": "acabamento",
-        "polaridade": "+",
-        "palavra_sent": "importa"
-    },
-    {
-        "aspecto": "bluetooth",
-        "polaridade": "-",
-        "palavra_sent": "impossibilidade"
-    },
-    {
-        "aspecto": "marca",
-        "polaridade": "-",
-        "palavra_sent": "falta"
-    },
-    {
-        "aspecto": "cartao",
-        "polaridade": "-",
-        "palavra_sent": "falta"
-    },
-    {
-        "aspecto": "memoria",
-        "polaridade": "-",
-        "palavra_sent": "falta"
-    },
-    {
-        "aspecto": "armazenamento",
-        "polaridade": "+",
-        "palavra_sent": "capacidade"
-    },
-    {
-        "aspecto": "cartao de memoria",
-        "polaridade": "-",
-        "palavra_sent": "falta"
-    },
-    {
-        "aspecto": "produto",
-        "polaridade": "+",
-        "palavra_sent": "sao"
-    },
-    {
-        "aspecto": "aparelho",
-        "polaridade": "+",
-        "palavra_sent": "incomoda"
-    },
-    {
-        "aspecto": "produto",
-        "polaridade": "+",
-        "palavra_sent": "otimo"
-    },
-    {
-        "aspecto": "bateria",
-        "polaridade": "-",
-        "palavra_sent": "so"
-    },
-    {
-        "aspecto": "resolucao",
-        "polaridade": "+",
-        "palavra_sent": "resolucao"
-    },
-    {
-        "aspecto": "facilidade",
-        "polaridade": "+",
-        "palavra_sent": "facilidade"
-    },
-    {
-        "aspecto": "praticidade",
-        "polaridade": "+",
-        "palavra_sent": "comodidade"
-    },
-    {
-        "aspecto": "custo",
-        "polaridade": "+",
-        "palavra_sent": "beneficio"
-    },
-    {
-        "aspecto": "produto",
-        "polaridade": "+",
-        "palavra_sent": "leve"
-    },
-    {
-        "aspecto": "peso",
-        "polaridade": "+",
-        "palavra_sent": "leve"
-    },
-    {
-        "aspecto": "produto",
-        "polaridade": "+",
-        "palavra_sent": "muito"
-    },
-    {
-        "aspecto": "produto",
-        "polaridade": "-",
-        "palavra_sent": "ganhar"
-    },
-    {
-        "aspecto": "marca",
-        "polaridade": "-",
-        "palavra_sent": "ganhar"
-    },
-    {
-        "aspecto": "produto",
-        "polaridade": "+",
-        "palavra_sent": "incrivel"
-    },
-    {
-        "aspecto": "valor",
-        "polaridade": "-",
-        "palavra_sent": "valor"
-    },
-    {
-        "aspecto": "produto",
-        "polaridade": "+",
-        "palavra_sent": "incrivel"
-    },
-    {
-        "aspecto": "valor",
-        "polaridade": "-",
-        "palavra_sent": "valor"
-    },
-    {
-        "aspecto": "aparelho",
-        "polaridade": "+",
-        "palavra_sent": "muito"
-    },
-    {
-        "aspecto": "manuseio",
-        "polaridade": "+",
-        "palavra_sent": "excelente"
-    },
-    {
-        "aspecto": "celular",
-        "polaridade": "+",
-        "palavra_sent": "perfeito"
-    },
-    {
-        "aspecto": "design",
-        "polaridade": "+",
-        "palavra_sent": "deslumbrante"
-    },
-    {
-        "aspecto": "designe",
         "polaridade": "+",
         "palavra_sent": "saber"
     },
     {
         "aspecto": "produto",
         "polaridade": "+",
-        "palavra_sent": "gostaria"
+        "palavra_sent": "saber"
     },
     {
-        "aspecto": "aparelho",
+        "aspecto": "imagem",
         "polaridade": "+",
-        "palavra_sent": "saiu"
+        "palavra_sent": "maravilhosa"
     },
     {
-        "aspecto": "tamanho",
+        "aspecto": "sony",
         "polaridade": "-",
-        "palavra_sent": "mas"
+        "palavra_sent": "sony"
     },
     {
-        "aspecto": "tamanho",
-        "polaridade": "+",
-        "palavra_sent": "grande"
+        "aspecto": "produto",
+        "polaridade": "-",
+        "palavra_sent": "sony"
     },
     {
-        "aspecto": "camera",
-        "polaridade": "+",
-        "palavra_sent": "adorei"
+        "aspecto": "produto",
+        "polaridade": "-",
+        "palavra_sent": "sony"
     },
     {
-        "aspecto": "modelo",
-        "polaridade": "+",
-        "palavra_sent": "muito"
+        "aspecto": "sony",
+        "polaridade": "-",
+        "palavra_sent": "sony"
     },
     {
-        "aspecto": "aparelho",
+        "aspecto": "marca",
         "polaridade": "+",
-        "palavra_sent": "facilidade"
+        "palavra_sent": "saber"
     },
     {
-        "aspecto": "facilidade",
+        "aspecto": "produto",
         "polaridade": "+",
-        "palavra_sent": "facilidade"
+        "palavra_sent": "saber"
     },
     {
-        "aspecto": "modelo",
+        "aspecto": "imagem",
         "polaridade": "+",
-        "palavra_sent": "muito"
+        "palavra_sent": "maravilhosa"
     },
     {
-        "aspecto": "bateria",
-        "polaridade": "+",
-        "palavra_sent": "melhorado"
+        "aspecto": "sony",
+        "polaridade": "-",
+        "palavra_sent": "sony"
     },
     {
-        "aspecto": "duracao da bateria",
-        "polaridade": "+",
-        "palavra_sent": "melhorado"
+        "aspecto": "produto",
+        "polaridade": "-",
+        "palavra_sent": "sony"
     },
     {
-        "aspecto": "facilidade",
+        "aspecto": "custo",
         "polaridade": "+",
-        "palavra_sent": "facilidade"
-    },
-    {
-        "aspecto": "resolucao",
-        "polaridade": "+",
-        "palavra_sent": "resolucao"
+        "palavra_sent": "beneficios"
     },
     {
         "aspecto": "design",
         "polaridade": "+",
-        "palavra_sent": "muito"
+        "palavra_sent": "beneficios"
     },
     {
-        "aspecto": "peso",
-        "polaridade": "+",
-        "palavra_sent": "leve"
+        "aspecto": "produto",
+        "polaridade": "-",
+        "palavra_sent": "desde"
     },
     {
-        "aspecto": "investimento",
+        "aspecto": "acabamento",
         "polaridade": "+",
-        "palavra_sent": "belo"
+        "palavra_sent": "melhor"
     },
     {
-        "aspecto": "facilidade de uso",
+        "aspecto": "usabilidade",
         "polaridade": "+",
-        "palavra_sent": "facilidade"
+        "palavra_sent": "facil"
+    },
+    {
+        "aspecto": "maquina",
+        "polaridade": "+",
+        "palavra_sent": "capacidade"
+    },
+    {
+        "aspecto": "durabilidade",
+        "polaridade": "+",
+        "palavra_sent": "so"
+    },
+    {
+        "aspecto": "design",
+        "polaridade": "+",
+        "palavra_sent": "so"
+    },
+    {
+        "aspecto": "produto",
+        "polaridade": "+",
+        "palavra_sent": "excelente"
+    },
+    {
+        "aspecto": "preco",
+        "polaridade": "+",
+        "palavra_sent": "preco"
+    },
+    {
+        "aspecto": "maquina",
+        "polaridade": "+",
+        "palavra_sent": "gostava"
+    },
+    {
+        "aspecto": "design",
+        "polaridade": "+",
+        "palavra_sent": "bonita"
+    },
+    {
+        "aspecto": "design",
+        "polaridade": "+",
+        "palavra_sent": "eficiencia"
     },
     {
         "aspecto": "maquina",
@@ -1450,49 +185,204 @@
         "palavra_sent": "otima"
     },
     {
+        "aspecto": "funcao",
+        "polaridade": "+",
+        "palavra_sent": "realmente"
+    },
+    {
+        "aspecto": "maquina",
+        "polaridade": "+",
+        "palavra_sent": "muito"
+    },
+    {
+        "aspecto": "durabilidade",
+        "polaridade": "-",
+        "palavra_sent": "duvida"
+    },
+    {
+        "aspecto": "maquina",
+        "polaridade": "+",
+        "palavra_sent": "bem"
+    },
+    {
         "aspecto": "facil de usar",
         "polaridade": "+",
         "palavra_sent": "facil"
     },
     {
-        "aspecto": "resolucao",
-        "polaridade": "+",
-        "palavra_sent": "resolucao"
-    },
-    {
-        "aspecto": "tela",
-        "polaridade": "+",
-        "palavra_sent": "resolucao"
-    },
-    {
-        "aspecto": "bateria",
-        "polaridade": "+",
-        "palavra_sent": "muito"
-    },
-    {
-        "aspecto": "design",
-        "polaridade": "+",
-        "palavra_sent": "muito"
-    },
-    {
-        "aspecto": "tela",
-        "polaridade": "+",
-        "palavra_sent": "maior"
-    },
-    {
-        "aspecto": "design",
-        "polaridade": "+",
-        "palavra_sent": "maior"
-    },
-    {
-        "aspecto": "modelo",
-        "polaridade": "+",
-        "palavra_sent": "melhores"
-    },
-    {
-        "aspecto": "touch",
+        "aspecto": "maquina",
         "polaridade": "-",
-        "palavra_sent": "sofreu"
+        "palavra_sent": "defeito"
+    },
+    {
+        "aspecto": "tamanho",
+        "polaridade": "+",
+        "palavra_sent": "grande"
+    },
+    {
+        "aspecto": "tamanho",
+        "polaridade": "+",
+        "palavra_sent": "grande"
+    },
+    {
+        "aspecto": "produto",
+        "polaridade": "+",
+        "palavra_sent": "gostei"
+    },
+    {
+        "aspecto": "velocidade",
+        "polaridade": "+",
+        "palavra_sent": "rapida"
+    },
+    {
+        "aspecto": "fabricante",
+        "polaridade": "-",
+        "palavra_sent": "promete"
+    },
+    {
+        "aspecto": "manual",
+        "polaridade": "-",
+        "palavra_sent": "barras"
+    },
+    {
+        "aspecto": "maquina",
+        "polaridade": "-",
+        "palavra_sent": "absurdo"
+    },
+    {
+        "aspecto": "maquina",
+        "polaridade": "+",
+        "palavra_sent": "decidi"
+    },
+    {
+        "aspecto": "preco",
+        "polaridade": "+",
+        "palavra_sent": "preco"
+    },
+    {
+        "aspecto": "produto",
+        "polaridade": "-",
+        "palavra_sent": "defeito"
+    },
+    {
+        "aspecto": "garantia",
+        "polaridade": "+",
+        "palavra_sent": "garantia"
+    },
+    {
+        "aspecto": "manual",
+        "polaridade": "+",
+        "palavra_sent": "facilmente"
+    },
+    {
+        "aspecto": "usabilidade",
+        "polaridade": "+",
+        "palavra_sent": "eficiente"
+    },
+    {
+        "aspecto": "facil de usar",
+        "polaridade": "+",
+        "palavra_sent": "facil"
+    },
+    {
+        "aspecto": "tamanho",
+        "polaridade": "-",
+        "palavra_sent": "pequeno"
+    },
+    {
+        "aspecto": "tamanho",
+        "polaridade": "+",
+        "palavra_sent": "grande"
+    },
+    {
+        "aspecto": "tamanho",
+        "polaridade": "-",
+        "palavra_sent": "pequena"
+    },
+    {
+        "aspecto": "opcao",
+        "polaridade": "+",
+        "palavra_sent": "melhor"
+    },
+    {
+        "aspecto": "preco",
+        "polaridade": "+",
+        "palavra_sent": "preco"
+    },
+    {
+        "aspecto": "produto",
+        "polaridade": "-",
+        "palavra_sent": "avariado"
+    },
+    {
+        "aspecto": "smartphone",
+        "polaridade": "-",
+        "palavra_sent": "porcaria"
+    },
+    {
+        "aspecto": "preco",
+        "polaridade": "+",
+        "palavra_sent": "preco"
+    },
+    {
+        "aspecto": "preco",
+        "polaridade": "+",
+        "palavra_sent": "preco"
+    },
+    {
+        "aspecto": "preco",
+        "polaridade": "+",
+        "palavra_sent": "preco"
+    },
+    {
+        "aspecto": "produto",
+        "polaridade": "+",
+        "palavra_sent": "satisfacao"
+    },
+    {
+        "aspecto": "maquina",
+        "polaridade": "+",
+        "palavra_sent": "muito"
+    },
+    {
+        "aspecto": "tamanho",
+        "polaridade": "+",
+        "palavra_sent": "grande"
+    },
+    {
+        "aspecto": "facilidade",
+        "polaridade": "+",
+        "palavra_sent": "facilidade"
+    },
+    {
+        "aspecto": "facilidade de uso",
+        "polaridade": "+",
+        "palavra_sent": "facilidade"
+    },
+    {
+        "aspecto": "produto",
+        "polaridade": "-",
+        "palavra_sent": "gostei"
+    },
+    {
+        "aspecto": "produto",
+        "polaridade": "-",
+        "palavra_sent": "desde"
+    },
+    {
+        "aspecto": "preco",
+        "polaridade": "+",
+        "palavra_sent": "preco"
+    },
+    {
+        "aspecto": "design",
+        "polaridade": "-",
+        "palavra_sent": "gostei"
+    },
+    {
+        "aspecto": "usabilidade",
+        "polaridade": "+",
+        "palavra_sent": "rapido"
     },
     {
         "aspecto": "velocidade",
@@ -1500,274 +390,164 @@
         "palavra_sent": "rapido"
     },
     {
-        "aspecto": "produto",
-        "polaridade": "+",
-        "palavra_sent": "otimo"
-    },
-    {
-        "aspecto": "preco",
-        "polaridade": "+",
-        "palavra_sent": "preco"
-    },
-    {
-        "aspecto": "produto",
-        "polaridade": "-",
-        "palavra_sent": "mas"
-    },
-    {
-        "aspecto": "aparelho",
-        "polaridade": "+",
-        "palavra_sent": "otimo"
-    },
-    {
-        "aspecto": "produto",
-        "polaridade": "+",
-        "palavra_sent": "excelente"
-    },
-    {
-        "aspecto": "design",
-        "polaridade": "+",
-        "palavra_sent": "resistencia"
-    },
-    {
-        "aspecto": "preco",
-        "polaridade": "+",
-        "palavra_sent": "preco"
-    },
-    {
-        "aspecto": "aparelho",
-        "polaridade": "+",
-        "palavra_sent": "excelente"
-    },
-    {
-        "aspecto": "design",
-        "polaridade": "+",
-        "palavra_sent": "robusto"
-    },
-    {
-        "aspecto": "preco",
-        "polaridade": "+",
-        "palavra_sent": "preco"
-    },
-    {
-        "aspecto": "aparelho",
-        "polaridade": "+",
-        "palavra_sent": "excelente"
-    },
-    {
-        "aspecto": "design",
-        "polaridade": "+",
-        "palavra_sent": "robusto"
-    },
-    {
-        "aspecto": "celular",
-        "polaridade": "+",
-        "palavra_sent": "melhor"
-    },
-    {
-        "aspecto": "aparelho",
-        "polaridade": "-",
-        "palavra_sent": "mas"
-    },
-    {
-        "aspecto": "valor",
-        "polaridade": "-",
-        "palavra_sent": "mas"
-    },
-    {
-        "aspecto": "valor",
-        "polaridade": "+",
-        "palavra_sent": "valor"
-    },
-    {
-        "aspecto": "bateria",
-        "polaridade": "-",
-        "palavra_sent": "reclamam"
-    },
-    {
-        "aspecto": "design",
+        "aspecto": "marca",
         "polaridade": "+",
         "palavra_sent": "boa"
     },
     {
-        "aspecto": "aparelho",
+        "aspecto": "velocidade",
+        "polaridade": "+",
+        "palavra_sent": "rapido"
+    },
+    {
+        "aspecto": "maquina",
+        "polaridade": "-",
+        "palavra_sent": "pecas"
+    },
+    {
+        "aspecto": "acabamento",
+        "polaridade": "+",
+        "palavra_sent": "melhorado"
+    },
+    {
+        "aspecto": "design",
+        "polaridade": "-",
+        "palavra_sent": "fraco"
+    },
+    {
+        "aspecto": "design",
+        "polaridade": "-",
+        "palavra_sent": "fraco"
+    },
+    {
+        "aspecto": "velocidade",
+        "polaridade": "-",
+        "palavra_sent": "ha"
+    },
+    {
+        "aspecto": "velocidade",
+        "polaridade": "-",
+        "palavra_sent": "inferior"
+    },
+    {
+        "aspecto": "usabilidade",
+        "polaridade": "+",
+        "palavra_sent": "muito"
+    },
+    {
+        "aspecto": "produto",
+        "polaridade": "-",
+        "palavra_sent": "defeito"
+    },
+    {
+        "aspecto": "fabrica",
+        "polaridade": "+",
+        "palavra_sent": "defeito"
+    },
+    {
+        "aspecto": "manual",
+        "polaridade": "+",
+        "palavra_sent": "so"
+    },
+    {
+        "aspecto": "usabilidade",
         "polaridade": "+",
         "palavra_sent": "bem"
     },
     {
-        "aspecto": "aparelho",
+        "aspecto": "tamanho",
+        "polaridade": "-",
+        "palavra_sent": "pequena"
+    },
+    {
+        "aspecto": "facil de usar",
         "polaridade": "+",
-        "palavra_sent": "otimo"
+        "palavra_sent": "facil"
+    },
+    {
+        "aspecto": "tamanho",
+        "polaridade": "+",
+        "palavra_sent": "grande"
+    },
+    {
+        "aspecto": "aparelho",
+        "polaridade": "-",
+        "palavra_sent": "vasilhas"
+    },
+    {
+        "aspecto": "manual",
+        "polaridade": "+",
+        "palavra_sent": "conforme"
+    },
+    {
+        "aspecto": "valor",
+        "polaridade": "-",
+        "palavra_sent": "valor"
+    },
+    {
+        "aspecto": "maquina",
+        "polaridade": "+",
+        "palavra_sent": "proprio"
+    },
+    {
+        "aspecto": "praticidade",
+        "polaridade": "+",
+        "palavra_sent": "combinar"
+    },
+    {
+        "aspecto": "custo",
+        "polaridade": "+",
+        "palavra_sent": "combinar"
+    },
+    {
+        "aspecto": "consumo de energia",
+        "polaridade": "+",
+        "palavra_sent": "energia"
+    },
+    {
+        "aspecto": "marca",
+        "polaridade": "+",
+        "palavra_sent": "reclamar"
+    },
+    {
+        "aspecto": "manuseio",
+        "polaridade": "+",
+        "palavra_sent": "simples"
+    },
+    {
+        "aspecto": "consumo de energia",
+        "polaridade": "+",
+        "palavra_sent": "energia"
     },
     {
         "aspecto": "produto",
         "polaridade": "+",
-        "palavra_sent": "excelente"
+        "palavra_sent": "bom"
     },
     {
-        "aspecto": "preco",
+        "aspecto": "custo",
         "polaridade": "+",
-        "palavra_sent": "preco"
+        "palavra_sent": "bom"
     },
     {
-        "aspecto": "aparelho",
-        "polaridade": "-",
-        "palavra_sent": "inveja"
-    },
-    {
-        "aspecto": "bateria",
-        "polaridade": "-",
-        "palavra_sent": "dura"
-    },
-    {
-        "aspecto": "aparelho",
-        "polaridade": "-",
-        "palavra_sent": "so"
-    },
-    {
-        "aspecto": "carregador",
-        "polaridade": "-",
-        "palavra_sent": "vai"
-    },
-    {
-        "aspecto": "auto falante",
+        "aspecto": "facil de usar",
         "polaridade": "+",
-        "palavra_sent": "potentes"
+        "palavra_sent": "facil"
     },
     {
-        "aspecto": "smartphone",
+        "aspecto": "praticidade",
         "polaridade": "+",
-        "palavra_sent": "melhor"
+        "palavra_sent": "eficiencia"
     },
     {
-        "aspecto": "design",
+        "aspecto": "maquina",
         "polaridade": "+",
-        "palavra_sent": "robusto"
+        "palavra_sent": "otima"
     },
     {
-        "aspecto": "design",
+        "aspecto": "opcao",
         "polaridade": "+",
-        "palavra_sent": "robusto"
-    },
-    {
-        "aspecto": "design",
-        "polaridade": "+",
-        "palavra_sent": "elegante"
-    },
-    {
-        "aspecto": "peso",
-        "polaridade": "+",
-        "palavra_sent": "leve"
-    },
-    {
-        "aspecto": "aparelho",
-        "polaridade": "+",
-        "palavra_sent": "cara"
-    },
-    {
-        "aspecto": "tela",
-        "polaridade": "+",
-        "palavra_sent": "esperada"
-    },
-    {
-        "aspecto": "custo-beneficio",
-        "polaridade": "+",
-        "palavra_sent": "claro"
-    },
-    {
-        "aspecto": "aparelho",
-        "polaridade": "+",
-        "palavra_sent": "realmente"
-    },
-    {
-        "aspecto": "aparelho",
-        "polaridade": "+",
-        "palavra_sent": "otimo"
-    },
-    {
-        "aspecto": "aparelho",
-        "polaridade": "-",
-        "palavra_sent": "inveja"
-    },
-    {
-        "aspecto": "bateria",
-        "polaridade": "-",
-        "palavra_sent": "dura"
-    },
-    {
-        "aspecto": "aparelho",
-        "polaridade": "-",
-        "palavra_sent": "so"
-    },
-    {
-        "aspecto": "carregador",
-        "polaridade": "-",
-        "palavra_sent": "vai"
-    },
-    {
-        "aspecto": "auto falante",
-        "polaridade": "+",
-        "palavra_sent": "potentes"
-    },
-    {
-        "aspecto": "smartphone",
-        "polaridade": "+",
-        "palavra_sent": "melhor"
-    },
-    {
-        "aspecto": "design",
-        "polaridade": "+",
-        "palavra_sent": "robusto"
-    },
-    {
-        "aspecto": "design",
-        "polaridade": "+",
-        "palavra_sent": "robusto"
-    },
-    {
-        "aspecto": "design",
-        "polaridade": "+",
-        "palavra_sent": "elegante"
-    },
-    {
-        "aspecto": "peso",
-        "polaridade": "+",
-        "palavra_sent": "leve"
-    },
-    {
-        "aspecto": "aparelho",
-        "polaridade": "+",
-        "palavra_sent": "cara"
-    },
-    {
-        "aspecto": "tela",
-        "polaridade": "+",
-        "palavra_sent": "esperada"
-    },
-    {
-        "aspecto": "custo-beneficio",
-        "polaridade": "+",
-        "palavra_sent": "claro"
-    },
-    {
-        "aspecto": "aparelho",
-        "polaridade": "+",
-        "palavra_sent": "realmente"
-    },
-    {
-        "aspecto": "aparelho",
-        "polaridade": "+",
-        "palavra_sent": "otimo"
-    },
-    {
-        "aspecto": "aparelho",
-        "polaridade": "+",
-        "palavra_sent": "otimo"
-    },
-    {
-        "aspecto": "produto",
-        "polaridade": "+",
-        "palavra_sent": "muito"
+        "palavra_sent": "louca"
     },
     {
         "aspecto": "velocidade",
@@ -1775,9 +555,194 @@
         "palavra_sent": "rapido"
     },
     {
-        "aspecto": "acabamento",
+        "aspecto": "maquina",
+        "polaridade": "-",
+        "palavra_sent": "louca"
+    },
+    {
+        "aspecto": "toque",
+        "polaridade": "+",
+        "palavra_sent": "sensiveis"
+    },
+    {
+        "aspecto": "custo",
+        "polaridade": "+",
+        "palavra_sent": "beneficio"
+    },
+    {
+        "aspecto": "maquina",
+        "polaridade": "+",
+        "palavra_sent": "consegue"
+    },
+    {
+        "aspecto": "maquina",
+        "polaridade": "+",
+        "palavra_sent": "disposicao"
+    },
+    {
+        "aspecto": "custo-beneficio",
+        "polaridade": "-",
+        "palavra_sent": "mas"
+    },
+    {
+        "aspecto": "produto",
+        "polaridade": "+",
+        "palavra_sent": "satisfacao"
+    },
+    {
+        "aspecto": "maquina",
+        "polaridade": "+",
+        "palavra_sent": "otima"
+    },
+    {
+        "aspecto": "tamanho",
+        "polaridade": "+",
+        "palavra_sent": "ideal"
+    },
+    {
+        "aspecto": "tamanho",
+        "polaridade": "+",
+        "palavra_sent": "melhor"
+    },
+    {
+        "aspecto": "funcao",
+        "polaridade": "+",
+        "palavra_sent": "sabao"
+    },
+    {
+        "aspecto": "maquina",
+        "polaridade": "+",
+        "palavra_sent": "capacidade"
+    },
+    {
+        "aspecto": "produto",
         "polaridade": "+",
         "palavra_sent": "excelente"
+    },
+    {
+        "aspecto": "produto",
+        "polaridade": "-",
+        "palavra_sent": "avariado"
+    },
+    {
+        "aspecto": "garantia",
+        "polaridade": "+",
+        "palavra_sent": "garantia"
+    },
+    {
+        "aspecto": "maquina",
+        "polaridade": "-",
+        "palavra_sent": "acusou"
+    },
+    {
+        "aspecto": "maquina",
+        "polaridade": "-",
+        "palavra_sent": "problema"
+    },
+    {
+        "aspecto": "preco",
+        "polaridade": "+",
+        "palavra_sent": "preco"
+    },
+    {
+        "aspecto": "peca",
+        "polaridade": "-",
+        "palavra_sent": "peca"
+    },
+    {
+        "aspecto": "preco",
+        "polaridade": "+",
+        "palavra_sent": "preco"
+    },
+    {
+        "aspecto": "marca",
+        "polaridade": "+",
+        "palavra_sent": "joguei"
+    },
+    {
+        "aspecto": "custo",
+        "polaridade": "+",
+        "palavra_sent": "bom"
+    },
+    {
+        "aspecto": "design",
+        "polaridade": "+",
+        "palavra_sent": "gostei"
+    },
+    {
+        "aspecto": "marca",
+        "polaridade": "+",
+        "palavra_sent": "espero"
+    },
+    {
+        "aspecto": "produto",
+        "polaridade": "-",
+        "palavra_sent": "necessidade"
+    },
+    {
+        "aspecto": "fabricante",
+        "polaridade": "+",
+        "palavra_sent": "necessidade"
+    },
+    {
+        "aspecto": "design",
+        "polaridade": "+",
+        "palavra_sent": "gostei"
+    },
+    {
+        "aspecto": "produto",
+        "polaridade": "+",
+        "palavra_sent": "bom"
+    },
+    {
+        "aspecto": "produto",
+        "polaridade": "+",
+        "palavra_sent": "bom"
+    },
+    {
+        "aspecto": "usabilidade",
+        "polaridade": "+",
+        "palavra_sent": "muito"
+    },
+    {
+        "aspecto": "produto",
+        "polaridade": "+",
+        "palavra_sent": "bom"
+    },
+    {
+        "aspecto": "facil de manusear",
+        "polaridade": "+",
+        "palavra_sent": "facil"
+    },
+    {
+        "aspecto": "peso",
+        "polaridade": "+",
+        "palavra_sent": "leve"
+    },
+    {
+        "aspecto": "maquina",
+        "polaridade": "+",
+        "palavra_sent": "muito"
+    },
+    {
+        "aspecto": "consumo de energia",
+        "polaridade": "+",
+        "palavra_sent": "energia"
+    },
+    {
+        "aspecto": "tamanho",
+        "polaridade": "-",
+        "palavra_sent": "pequena"
+    },
+    {
+        "aspecto": "facil de manusear",
+        "polaridade": "+",
+        "palavra_sent": "facil"
+    },
+    {
+        "aspecto": "design",
+        "polaridade": "+",
+        "palavra_sent": "bonita"
     },
     {
         "aspecto": "facilidade",
@@ -1787,7 +752,132 @@
     {
         "aspecto": "produto",
         "polaridade": "+",
-        "palavra_sent": "caro"
+        "palavra_sent": "satisfeitissima"
+    },
+    {
+        "aspecto": "manual",
+        "polaridade": "+",
+        "palavra_sent": "bem"
+    },
+    {
+        "aspecto": "produto",
+        "polaridade": "-",
+        "palavra_sent": "mas"
+    },
+    {
+        "aspecto": "funcao",
+        "polaridade": "+",
+        "palavra_sent": "ajuda"
+    },
+    {
+        "aspecto": "velocidade",
+        "polaridade": "+",
+        "palavra_sent": "rapido"
+    },
+    {
+        "aspecto": "botao",
+        "polaridade": "-",
+        "palavra_sent": "pressionar"
+    },
+    {
+        "aspecto": "funcao",
+        "polaridade": "+",
+        "palavra_sent": "ajuda"
+    },
+    {
+        "aspecto": "maquina",
+        "polaridade": "-",
+        "palavra_sent": "ajuda"
+    },
+    {
+        "aspecto": "maquina",
+        "polaridade": "+",
+        "palavra_sent": "avantajado"
+    },
+    {
+        "aspecto": "tamanho",
+        "polaridade": "+",
+        "palavra_sent": "avantajado"
+    },
+    {
+        "aspecto": "usabilidade",
+        "polaridade": "+",
+        "palavra_sent": "muito"
+    },
+    {
+        "aspecto": "design",
+        "polaridade": "+",
+        "palavra_sent": "bonita"
+    },
+    {
+        "aspecto": "maquina",
+        "polaridade": "+",
+        "palavra_sent": "boa"
+    },
+    {
+        "aspecto": "design",
+        "polaridade": "+",
+        "palavra_sent": "bonita"
+    },
+    {
+        "aspecto": "peca",
+        "polaridade": "-",
+        "palavra_sent": "peca"
+    },
+    {
+        "aspecto": "maquina",
+        "polaridade": "+",
+        "palavra_sent": "boa"
+    },
+    {
+        "aspecto": "maquina",
+        "polaridade": "+",
+        "palavra_sent": "bem"
+    },
+    {
+        "aspecto": "maquina",
+        "polaridade": "+",
+        "palavra_sent": "muito"
+    },
+    {
+        "aspecto": "acabamento",
+        "polaridade": "+",
+        "palavra_sent": "final"
+    },
+    {
+        "aspecto": "produto",
+        "polaridade": "-",
+        "palavra_sent": "defeito"
+    },
+    {
+        "aspecto": "peca",
+        "polaridade": "-",
+        "palavra_sent": "peca"
+    },
+    {
+        "aspecto": "facil de usar",
+        "polaridade": "+",
+        "palavra_sent": "facil"
+    },
+    {
+        "aspecto": "tamanho",
+        "polaridade": "+",
+        "palavra_sent": "ocupa"
+    },
+    {
+        "aspecto": "design",
+        "polaridade": "+",
+        "palavra_sent": "ocupa"
+    },
+    {
+        "aspecto": "produto",
+        "polaridade": "+",
+        "palavra_sent": "otimo"
+    },
+    {
+        "aspecto": "opcao",
+        "polaridade": "+",
+        "palavra_sent": "ajuda"
     },
     {
         "aspecto": "preco",
@@ -1795,74 +885,14 @@
         "palavra_sent": "preco"
     },
     {
-        "aspecto": "aparelho",
+        "aspecto": "preco",
         "polaridade": "+",
-        "palavra_sent": "otimo"
+        "palavra_sent": "preco"
     },
     {
-        "aspecto": "celular",
+        "aspecto": "maquina",
         "polaridade": "+",
-        "palavra_sent": "rapido"
-    },
-    {
-        "aspecto": "velocidade",
-        "polaridade": "+",
-        "palavra_sent": "rapido"
-    },
-    {
-        "aspecto": "fabricante",
-        "polaridade": "+",
-        "palavra_sent": "melhor"
-    },
-    {
-        "aspecto": "modelo",
-        "polaridade": "+",
-        "palavra_sent": "melhora"
-    },
-    {
-        "aspecto": "produto",
-        "polaridade": "+",
-        "palavra_sent": "muito"
-    },
-    {
-        "aspecto": "produto",
-        "polaridade": "+",
-        "palavra_sent": "muito"
-    },
-    {
-        "aspecto": "velocidade",
-        "polaridade": "+",
-        "palavra_sent": "rapido"
-    },
-    {
-        "aspecto": "peso",
-        "polaridade": "+",
-        "palavra_sent": "leve"
-    },
-    {
-        "aspecto": "valor",
-        "polaridade": "-",
-        "palavra_sent": "valor"
-    },
-    {
-        "aspecto": "produto",
-        "polaridade": "-",
-        "palavra_sent": "valor"
-    },
-    {
-        "aspecto": "velocidade",
-        "polaridade": "+",
-        "palavra_sent": "rapido"
-    },
-    {
-        "aspecto": "custo",
-        "polaridade": "-",
-        "palavra_sent": "baixo"
-    },
-    {
-        "aspecto": "marca",
-        "polaridade": "-",
-        "palavra_sent": "baixo"
+        "palavra_sent": "preco"
     },
     {
         "aspecto": "produto",
@@ -1870,9 +900,34 @@
         "palavra_sent": "bom"
     },
     {
-        "aspecto": "menu",
+        "aspecto": "custo",
         "polaridade": "+",
-        "palavra_sent": "bem"
+        "palavra_sent": "bom"
+    },
+    {
+        "aspecto": "maquina",
+        "polaridade": "-",
+        "palavra_sent": "loucas"
+    },
+    {
+        "aspecto": "tamanho",
+        "polaridade": "+",
+        "palavra_sent": "grande"
+    },
+    {
+        "aspecto": "maquina",
+        "polaridade": "+",
+        "palavra_sent": "aproveitar"
+    },
+    {
+        "aspecto": "facil de operar",
+        "polaridade": "+",
+        "palavra_sent": "facil"
+    },
+    {
+        "aspecto": "maquina",
+        "polaridade": "+",
+        "palavra_sent": "perfeita"
     },
     {
         "aspecto": "velocidade",
@@ -1880,28 +935,408 @@
         "palavra_sent": "rapido"
     },
     {
-        "aspecto": "bateria",
-        "polaridade": "-",
-        "palavra_sent": "problemas"
+        "aspecto": "sim",
+        "polaridade": "+",
+        "palavra_sent": "sim"
+    },
+    {
+        "aspecto": "tamanho",
+        "polaridade": "+",
+        "palavra_sent": "grande"
+    },
+    {
+        "aspecto": "design",
+        "polaridade": "+",
+        "palavra_sent": "linda"
     },
     {
         "aspecto": "produto",
         "polaridade": "+",
-        "palavra_sent": "maior"
+        "palavra_sent": "bom"
     },
     {
-        "aspecto": "bateria",
-        "polaridade": "+",
-        "palavra_sent": "maior"
+        "aspecto": "maquina",
+        "polaridade": "-",
+        "palavra_sent": "loucas"
     },
     {
-        "aspecto": "durabilidade",
+        "aspecto": "maquina",
         "polaridade": "+",
-        "palavra_sent": "maior"
+        "palavra_sent": "muito"
     },
     {
-        "aspecto": "sim",
+        "aspecto": "produto",
         "polaridade": "+",
-        "palavra_sent": "sim"
+        "palavra_sent": "excelente"
+    },
+    {
+        "aspecto": "design",
+        "polaridade": "+",
+        "palavra_sent": "linda"
+    },
+    {
+        "aspecto": "usabilidade",
+        "polaridade": "+",
+        "palavra_sent": "linda"
+    },
+    {
+        "aspecto": "facil de usar",
+        "polaridade": "+",
+        "palavra_sent": "facil"
+    },
+    {
+        "aspecto": "maquina",
+        "polaridade": "-",
+        "palavra_sent": "loucas"
+    },
+    {
+        "aspecto": "valor",
+        "polaridade": "-",
+        "palavra_sent": "valor"
+    },
+    {
+        "aspecto": "maquina",
+        "polaridade": "+",
+        "palavra_sent": "afazeres"
+    },
+    {
+        "aspecto": "usabilidade",
+        "polaridade": "+",
+        "palavra_sent": "facil"
+    },
+    {
+        "aspecto": "maquina",
+        "polaridade": "+",
+        "palavra_sent": "capacidade"
+    },
+    {
+        "aspecto": "tamanho",
+        "polaridade": "+",
+        "palavra_sent": "grande"
+    },
+    {
+        "aspecto": "facilidade",
+        "polaridade": "+",
+        "palavra_sent": "facilidade"
+    },
+    {
+        "aspecto": "maquina",
+        "polaridade": "+",
+        "palavra_sent": "loucas"
+    },
+    {
+        "aspecto": "usabilidade",
+        "polaridade": "+",
+        "palavra_sent": "facil"
+    },
+    {
+        "aspecto": "facil de usar",
+        "polaridade": "+",
+        "palavra_sent": "facil"
+    },
+    {
+        "aspecto": "produto",
+        "polaridade": "+",
+        "palavra_sent": "satisfeito"
+    },
+    {
+        "aspecto": "produto",
+        "polaridade": "+",
+        "palavra_sent": "perfeito"
+    },
+    {
+        "aspecto": "usabilidade",
+        "polaridade": "+",
+        "palavra_sent": "perfeito"
+    },
+    {
+        "aspecto": "designer",
+        "polaridade": "+",
+        "palavra_sent": "arrojado"
+    },
+    {
+        "aspecto": "design",
+        "polaridade": "+",
+        "palavra_sent": "arrojado"
+    },
+    {
+        "aspecto": "design",
+        "polaridade": "+",
+        "palavra_sent": "muito"
+    },
+    {
+        "aspecto": "facil de usar",
+        "polaridade": "+",
+        "palavra_sent": "facil"
+    },
+    {
+        "aspecto": "usabilidade",
+        "polaridade": "+",
+        "palavra_sent": "muito"
+    },
+    {
+        "aspecto": "modelo",
+        "polaridade": "+",
+        "palavra_sent": "grande"
+    },
+    {
+        "aspecto": "tamanho",
+        "polaridade": "+",
+        "palavra_sent": "grande"
+    },
+    {
+        "aspecto": "velocidade",
+        "polaridade": "+",
+        "palavra_sent": "rapida"
+    },
+    {
+        "aspecto": "produto",
+        "polaridade": "+",
+        "palavra_sent": "excelente"
+    },
+    {
+        "aspecto": "facil de usar",
+        "polaridade": "+",
+        "palavra_sent": "facil"
+    },
+    {
+        "aspecto": "maquina",
+        "polaridade": "+",
+        "palavra_sent": "gostei"
+    },
+    {
+        "aspecto": "produto",
+        "polaridade": "+",
+        "palavra_sent": "excelente"
+    },
+    {
+        "aspecto": "custo",
+        "polaridade": "+",
+        "palavra_sent": "muito"
+    },
+    {
+        "aspecto": "valor",
+        "polaridade": "+",
+        "palavra_sent": "muito"
+    },
+    {
+        "aspecto": "manual",
+        "polaridade": "-",
+        "palavra_sent": "loucas"
+    },
+    {
+        "aspecto": "funcao",
+        "polaridade": "+",
+        "palavra_sent": "pronto"
+    },
+    {
+        "aspecto": "design",
+        "polaridade": "+",
+        "palavra_sent": "muito"
+    },
+    {
+        "aspecto": "design",
+        "polaridade": "+",
+        "palavra_sent": "bonito"
+    },
+    {
+        "aspecto": "usabilidade",
+        "polaridade": "+",
+        "palavra_sent": "muito"
+    },
+    {
+        "aspecto": "velocidade",
+        "polaridade": "+",
+        "palavra_sent": "rapida"
+    },
+    {
+        "aspecto": "produto",
+        "polaridade": "+",
+        "palavra_sent": "rapida"
+    },
+    {
+        "aspecto": "maquina",
+        "polaridade": "-",
+        "palavra_sent": "sofrido"
+    },
+    {
+        "aspecto": "produto",
+        "polaridade": "-",
+        "palavra_sent": "falta"
+    },
+    {
+        "aspecto": "facil de operar",
+        "polaridade": "+",
+        "palavra_sent": "facil"
+    },
+    {
+        "aspecto": "produto",
+        "polaridade": "+",
+        "palavra_sent": "excelente"
+    },
+    {
+        "aspecto": "custo-beneficio",
+        "polaridade": "+",
+        "palavra_sent": "excelente"
+    },
+    {
+        "aspecto": "opcao",
+        "polaridade": "+",
+        "palavra_sent": "abrir"
+    },
+    {
+        "aspecto": "funcao",
+        "polaridade": "+",
+        "palavra_sent": "muito"
+    },
+    {
+        "aspecto": "design",
+        "polaridade": "+",
+        "palavra_sent": "linda"
+    },
+    {
+        "aspecto": "tamanho",
+        "polaridade": "-",
+        "palavra_sent": "pequena"
+    },
+    {
+        "aspecto": "aparencia",
+        "polaridade": "-",
+        "palavra_sent": "gostei"
+    },
+    {
+        "aspecto": "consumo de energia",
+        "polaridade": "+",
+        "palavra_sent": "energia"
+    },
+    {
+        "aspecto": "usabilidade",
+        "polaridade": "+",
+        "palavra_sent": "facil"
+    },
+    {
+        "aspecto": "facil de usar",
+        "polaridade": "+",
+        "palavra_sent": "facil"
+    },
+    {
+        "aspecto": "preco",
+        "polaridade": "+",
+        "palavra_sent": "preco"
+    },
+    {
+        "aspecto": "facilidade",
+        "polaridade": "+",
+        "palavra_sent": "facilidade"
+    },
+    {
+        "aspecto": "produto",
+        "polaridade": "-",
+        "palavra_sent": "esperava"
+    },
+    {
+        "aspecto": "maquina",
+        "polaridade": "-",
+        "palavra_sent": "estragando"
+    },
+    {
+        "aspecto": "produto",
+        "polaridade": "+",
+        "palavra_sent": "correspondido"
+    },
+    {
+        "aspecto": "produto",
+        "polaridade": "+",
+        "palavra_sent": "gostando"
+    },
+    {
+        "aspecto": "manual",
+        "polaridade": "+",
+        "palavra_sent": "facilitou"
+    },
+    {
+        "aspecto": "maquina",
+        "polaridade": "-",
+        "palavra_sent": "so"
+    },
+    {
+        "aspecto": "maquina",
+        "polaridade": "-",
+        "palavra_sent": "so"
+    },
+    {
+        "aspecto": "produto",
+        "polaridade": "+",
+        "palavra_sent": "receber"
+    },
+    {
+        "aspecto": "usabilidade",
+        "polaridade": "+",
+        "palavra_sent": "muito"
+    },
+    {
+        "aspecto": "maquina",
+        "polaridade": "-",
+        "palavra_sent": "louca"
+    },
+    {
+        "aspecto": "usabilidade",
+        "polaridade": "-",
+        "palavra_sent": "excessivo"
+    },
+    {
+        "aspecto": "maquina",
+        "polaridade": "+",
+        "palavra_sent": "pia"
+    },
+    {
+        "aspecto": "maquina",
+        "polaridade": "+",
+        "palavra_sent": "conquistou"
+    },
+    {
+        "aspecto": "velocidade",
+        "polaridade": "+",
+        "palavra_sent": "rapida"
+    },
+    {
+        "aspecto": "produto",
+        "polaridade": "+",
+        "palavra_sent": "excelente"
+    },
+    {
+        "aspecto": "custo",
+        "polaridade": "+",
+        "palavra_sent": "otimo"
+    },
+    {
+        "aspecto": "peca",
+        "polaridade": "-",
+        "palavra_sent": "peca"
+    },
+    {
+        "aspecto": "design",
+        "polaridade": "+",
+        "palavra_sent": "linda"
+    },
+    {
+        "aspecto": "tamanho",
+        "polaridade": "-",
+        "palavra_sent": "pequena"
+    },
+    {
+        "aspecto": "maquina",
+        "polaridade": "-",
+        "palavra_sent": "constantemente"
+    },
+    {
+        "aspecto": "peso",
+        "polaridade": "-",
+        "palavra_sent": "pesado"
+    },
+    {
+        "aspecto": "maquina",
+        "polaridade": "-",
+        "palavra_sent": "silenciosa"
     }
 ]
