@@ -69,6 +69,7 @@ class BuscapeCorpusReader(object):
         aspects = []
 
         for t in re.findall("\[([^\]_\[]+)\]_\[(AI{0,1}\d+),(\+|-)\]", fline):
+            print(t)
             aspects.append((t[1], t[2], t[0]))
 
         new_text = re.sub("\[([^\]_\[]+)\]_\[(AI{0,1}\d+),(\+|-)\]", r"\1", fline)

@@ -1,1342 +1,623 @@
 [
     {
-        "aspecto": "maquina",
-        "polaridade": "+",
-        "palavra_sent": "muito"
-    },
-    {
-        "aspecto": "peso",
-        "polaridade": "+",
-        "palavra_sent": "leve"
-    },
-    {
-        "aspecto": "design",
-        "polaridade": "+",
-        "palavra_sent": "fina"
-    },
-    {
-        "aspecto": "maquina",
-        "polaridade": "+",
-        "palavra_sent": "movimento"
-    },
-    {
-        "aspecto": "maquina",
-        "polaridade": "+",
-        "palavra_sent": "verdadeiro"
-    },
-    {
-        "aspecto": "maquina",
-        "polaridade": "+",
-        "palavra_sent": "verdadeiro"
-    },
-    {
-        "aspecto": "design",
-        "polaridade": "-",
-        "palavra_sent": "inferior"
-    },
-    {
-        "aspecto": "produto",
-        "polaridade": "+",
-        "palavra_sent": "muito"
-    },
-    {
-        "aspecto": "maquina",
-        "polaridade": "+",
-        "palavra_sent": "excelente"
-    },
-    {
-        "aspecto": "produto",
-        "polaridade": "-",
-        "palavra_sent": "sony"
-    },
-    {
-        "aspecto": "sony",
-        "polaridade": "-",
-        "palavra_sent": "sony"
-    },
-    {
-        "aspecto": "marca",
-        "polaridade": "+",
-        "palavra_sent": "saber"
-    },
-    {
-        "aspecto": "produto",
-        "polaridade": "+",
-        "palavra_sent": "saber"
-    },
-    {
-        "aspecto": "imagem",
-        "polaridade": "+",
-        "palavra_sent": "maravilhosa"
-    },
-    {
-        "aspecto": "sony",
-        "polaridade": "-",
-        "palavra_sent": "sony"
-    },
-    {
-        "aspecto": "produto",
-        "polaridade": "-",
-        "palavra_sent": "sony"
-    },
-    {
-        "aspecto": "produto",
-        "polaridade": "-",
-        "palavra_sent": "sony"
-    },
-    {
-        "aspecto": "sony",
-        "polaridade": "-",
-        "palavra_sent": "sony"
-    },
-    {
-        "aspecto": "marca",
-        "polaridade": "+",
-        "palavra_sent": "saber"
-    },
-    {
-        "aspecto": "produto",
-        "polaridade": "+",
-        "palavra_sent": "saber"
-    },
-    {
-        "aspecto": "imagem",
-        "polaridade": "+",
-        "palavra_sent": "maravilhosa"
-    },
-    {
-        "aspecto": "sony",
-        "polaridade": "-",
-        "palavra_sent": "sony"
-    },
-    {
-        "aspecto": "produto",
-        "polaridade": "-",
-        "palavra_sent": "sony"
-    },
-    {
-        "aspecto": "custo",
-        "polaridade": "+",
-        "palavra_sent": "beneficios"
-    },
-    {
-        "aspecto": "design",
-        "polaridade": "+",
-        "palavra_sent": "beneficios"
-    },
-    {
-        "aspecto": "produto",
-        "polaridade": "-",
-        "palavra_sent": "desde"
-    },
-    {
-        "aspecto": "acabamento",
-        "polaridade": "+",
-        "palavra_sent": "melhor"
-    },
-    {
-        "aspecto": "usabilidade",
-        "polaridade": "+",
-        "palavra_sent": "facil"
-    },
-    {
-        "aspecto": "maquina",
-        "polaridade": "+",
-        "palavra_sent": "capacidade"
-    },
-    {
-        "aspecto": "durabilidade",
-        "polaridade": "+",
-        "palavra_sent": "so"
-    },
-    {
-        "aspecto": "design",
-        "polaridade": "+",
-        "palavra_sent": "so"
-    },
-    {
-        "aspecto": "produto",
-        "polaridade": "+",
-        "palavra_sent": "excelente"
-    },
-    {
-        "aspecto": "preco",
-        "polaridade": "+",
-        "palavra_sent": "preco"
-    },
-    {
-        "aspecto": "maquina",
-        "polaridade": "+",
-        "palavra_sent": "gostava"
-    },
-    {
-        "aspecto": "design",
-        "polaridade": "+",
-        "palavra_sent": "bonita"
-    },
-    {
-        "aspecto": "design",
-        "polaridade": "+",
-        "palavra_sent": "eficiencia"
-    },
-    {
-        "aspecto": "maquina",
-        "polaridade": "+",
-        "palavra_sent": "otima"
-    },
-    {
-        "aspecto": "funcao",
-        "polaridade": "+",
-        "palavra_sent": "realmente"
-    },
-    {
-        "aspecto": "maquina",
-        "polaridade": "+",
-        "palavra_sent": "muito"
-    },
-    {
-        "aspecto": "durabilidade",
-        "polaridade": "-",
-        "palavra_sent": "duvida"
-    },
-    {
-        "aspecto": "maquina",
-        "polaridade": "+",
-        "palavra_sent": "bem"
-    },
-    {
-        "aspecto": "facil de usar",
-        "polaridade": "+",
-        "palavra_sent": "facil"
-    },
-    {
-        "aspecto": "maquina",
-        "polaridade": "-",
-        "palavra_sent": "defeito"
-    },
-    {
-        "aspecto": "tamanho",
-        "polaridade": "+",
-        "palavra_sent": "grande"
-    },
-    {
-        "aspecto": "tamanho",
-        "polaridade": "+",
-        "palavra_sent": "grande"
-    },
-    {
-        "aspecto": "produto",
-        "polaridade": "+",
-        "palavra_sent": "gostei"
-    },
-    {
-        "aspecto": "velocidade",
-        "polaridade": "+",
-        "palavra_sent": "rapida"
-    },
-    {
-        "aspecto": "fabricante",
-        "polaridade": "-",
-        "palavra_sent": "promete"
-    },
-    {
-        "aspecto": "manual",
-        "polaridade": "-",
-        "palavra_sent": "barras"
-    },
-    {
-        "aspecto": "maquina",
-        "polaridade": "-",
-        "palavra_sent": "absurdo"
-    },
-    {
-        "aspecto": "maquina",
-        "polaridade": "+",
-        "palavra_sent": "decidi"
-    },
-    {
-        "aspecto": "preco",
-        "polaridade": "+",
-        "palavra_sent": "preco"
-    },
-    {
-        "aspecto": "produto",
-        "polaridade": "-",
-        "palavra_sent": "defeito"
-    },
-    {
-        "aspecto": "garantia",
-        "polaridade": "+",
-        "palavra_sent": "garantia"
-    },
-    {
-        "aspecto": "manual",
-        "polaridade": "+",
-        "palavra_sent": "facilmente"
-    },
-    {
-        "aspecto": "usabilidade",
-        "polaridade": "+",
-        "palavra_sent": "eficiente"
-    },
-    {
-        "aspecto": "facil de usar",
-        "polaridade": "+",
-        "palavra_sent": "facil"
-    },
-    {
-        "aspecto": "tamanho",
-        "polaridade": "-",
-        "palavra_sent": "pequeno"
-    },
-    {
-        "aspecto": "tamanho",
-        "polaridade": "+",
-        "palavra_sent": "grande"
-    },
-    {
-        "aspecto": "tamanho",
-        "polaridade": "-",
-        "palavra_sent": "pequena"
-    },
-    {
-        "aspecto": "opcao",
-        "polaridade": "+",
-        "palavra_sent": "melhor"
-    },
-    {
-        "aspecto": "preco",
-        "polaridade": "+",
-        "palavra_sent": "preco"
-    },
-    {
-        "aspecto": "produto",
-        "polaridade": "-",
-        "palavra_sent": "avariado"
-    },
-    {
-        "aspecto": "smartphone",
-        "polaridade": "-",
-        "palavra_sent": "porcaria"
-    },
-    {
-        "aspecto": "preco",
-        "polaridade": "+",
-        "palavra_sent": "preco"
-    },
-    {
-        "aspecto": "preco",
-        "polaridade": "+",
-        "palavra_sent": "preco"
-    },
-    {
-        "aspecto": "preco",
-        "polaridade": "+",
-        "palavra_sent": "preco"
-    },
-    {
-        "aspecto": "produto",
-        "polaridade": "+",
-        "palavra_sent": "satisfacao"
-    },
-    {
-        "aspecto": "maquina",
-        "polaridade": "+",
-        "palavra_sent": "muito"
-    },
-    {
-        "aspecto": "tamanho",
-        "polaridade": "+",
-        "palavra_sent": "grande"
-    },
-    {
-        "aspecto": "facilidade",
-        "polaridade": "+",
-        "palavra_sent": "facilidade"
-    },
-    {
-        "aspecto": "facilidade de uso",
-        "polaridade": "+",
-        "palavra_sent": "facilidade"
-    },
-    {
-        "aspecto": "produto",
-        "polaridade": "-",
-        "palavra_sent": "gostei"
-    },
-    {
-        "aspecto": "produto",
-        "polaridade": "-",
-        "palavra_sent": "desde"
-    },
-    {
-        "aspecto": "preco",
-        "polaridade": "+",
-        "palavra_sent": "preco"
-    },
-    {
-        "aspecto": "design",
-        "polaridade": "-",
-        "palavra_sent": "gostei"
-    },
-    {
-        "aspecto": "usabilidade",
-        "polaridade": "+",
-        "palavra_sent": "rapido"
-    },
-    {
-        "aspecto": "velocidade",
-        "polaridade": "+",
-        "palavra_sent": "rapido"
-    },
-    {
-        "aspecto": "marca",
-        "polaridade": "+",
-        "palavra_sent": "boa"
-    },
-    {
-        "aspecto": "velocidade",
-        "polaridade": "+",
-        "palavra_sent": "rapido"
-    },
-    {
-        "aspecto": "maquina",
-        "polaridade": "-",
-        "palavra_sent": "pecas"
-    },
-    {
-        "aspecto": "acabamento",
-        "polaridade": "+",
-        "palavra_sent": "melhorado"
-    },
-    {
-        "aspecto": "design",
-        "polaridade": "-",
-        "palavra_sent": "fraco"
-    },
-    {
-        "aspecto": "design",
-        "polaridade": "-",
-        "palavra_sent": "fraco"
-    },
-    {
-        "aspecto": "velocidade",
-        "polaridade": "-",
-        "palavra_sent": "ha"
-    },
-    {
-        "aspecto": "velocidade",
-        "polaridade": "-",
-        "palavra_sent": "inferior"
-    },
-    {
-        "aspecto": "usabilidade",
-        "polaridade": "+",
-        "palavra_sent": "muito"
-    },
-    {
-        "aspecto": "produto",
-        "polaridade": "-",
-        "palavra_sent": "defeito"
-    },
-    {
-        "aspecto": "fabrica",
-        "polaridade": "+",
-        "palavra_sent": "defeito"
-    },
-    {
-        "aspecto": "manual",
-        "polaridade": "+",
-        "palavra_sent": "so"
-    },
-    {
-        "aspecto": "usabilidade",
-        "polaridade": "+",
-        "palavra_sent": "bem"
-    },
-    {
-        "aspecto": "tamanho",
-        "polaridade": "-",
-        "palavra_sent": "pequena"
-    },
-    {
-        "aspecto": "facil de usar",
-        "polaridade": "+",
-        "palavra_sent": "facil"
-    },
-    {
-        "aspecto": "tamanho",
-        "polaridade": "+",
-        "palavra_sent": "grande"
-    },
-    {
-        "aspecto": "aparelho",
-        "polaridade": "-",
-        "palavra_sent": "vasilhas"
-    },
-    {
-        "aspecto": "manual",
-        "polaridade": "+",
-        "palavra_sent": "conforme"
-    },
-    {
-        "aspecto": "valor",
-        "polaridade": "-",
-        "palavra_sent": "valor"
-    },
-    {
-        "aspecto": "maquina",
-        "polaridade": "+",
-        "palavra_sent": "proprio"
-    },
-    {
-        "aspecto": "praticidade",
-        "polaridade": "+",
-        "palavra_sent": "combinar"
-    },
-    {
-        "aspecto": "custo",
-        "polaridade": "+",
-        "palavra_sent": "combinar"
-    },
-    {
-        "aspecto": "consumo de energia",
-        "polaridade": "+",
-        "palavra_sent": "energia"
-    },
-    {
-        "aspecto": "marca",
-        "polaridade": "+",
-        "palavra_sent": "reclamar"
-    },
-    {
-        "aspecto": "manuseio",
-        "polaridade": "+",
-        "palavra_sent": "simples"
-    },
-    {
-        "aspecto": "consumo de energia",
-        "polaridade": "+",
-        "palavra_sent": "energia"
-    },
-    {
-        "aspecto": "produto",
-        "polaridade": "+",
-        "palavra_sent": "bom"
-    },
-    {
-        "aspecto": "custo",
-        "polaridade": "+",
-        "palavra_sent": "bom"
-    },
-    {
-        "aspecto": "facil de usar",
-        "polaridade": "+",
-        "palavra_sent": "facil"
-    },
-    {
-        "aspecto": "praticidade",
-        "polaridade": "+",
-        "palavra_sent": "eficiencia"
-    },
-    {
-        "aspecto": "maquina",
-        "polaridade": "+",
-        "palavra_sent": "otima"
-    },
-    {
-        "aspecto": "opcao",
-        "polaridade": "+",
-        "palavra_sent": "louca"
-    },
-    {
-        "aspecto": "velocidade",
-        "polaridade": "+",
-        "palavra_sent": "rapido"
-    },
-    {
-        "aspecto": "maquina",
-        "polaridade": "-",
-        "palavra_sent": "louca"
-    },
-    {
-        "aspecto": "toque",
-        "polaridade": "+",
-        "palavra_sent": "sensiveis"
-    },
-    {
-        "aspecto": "custo",
-        "polaridade": "+",
-        "palavra_sent": "beneficio"
-    },
-    {
-        "aspecto": "maquina",
-        "polaridade": "+",
-        "palavra_sent": "consegue"
-    },
-    {
-        "aspecto": "maquina",
-        "polaridade": "+",
-        "palavra_sent": "disposicao"
-    },
-    {
-        "aspecto": "custo-beneficio",
-        "polaridade": "-",
-        "palavra_sent": "mas"
-    },
-    {
-        "aspecto": "produto",
-        "polaridade": "+",
-        "palavra_sent": "satisfacao"
-    },
-    {
-        "aspecto": "maquina",
-        "polaridade": "+",
-        "palavra_sent": "otima"
-    },
-    {
-        "aspecto": "tamanho",
-        "polaridade": "+",
-        "palavra_sent": "ideal"
-    },
-    {
-        "aspecto": "tamanho",
-        "polaridade": "+",
-        "palavra_sent": "melhor"
-    },
-    {
-        "aspecto": "funcao",
-        "polaridade": "+",
-        "palavra_sent": "sabao"
-    },
-    {
-        "aspecto": "maquina",
-        "polaridade": "+",
-        "palavra_sent": "capacidade"
-    },
-    {
-        "aspecto": "produto",
-        "polaridade": "+",
-        "palavra_sent": "excelente"
-    },
-    {
-        "aspecto": "produto",
-        "polaridade": "-",
-        "palavra_sent": "avariado"
-    },
-    {
-        "aspecto": "garantia",
-        "polaridade": "+",
-        "palavra_sent": "garantia"
-    },
-    {
-        "aspecto": "maquina",
-        "polaridade": "-",
-        "palavra_sent": "acusou"
-    },
-    {
-        "aspecto": "maquina",
-        "polaridade": "-",
-        "palavra_sent": "problema"
-    },
-    {
-        "aspecto": "preco",
-        "polaridade": "+",
-        "palavra_sent": "preco"
-    },
-    {
-        "aspecto": "peca",
-        "polaridade": "-",
-        "palavra_sent": "peca"
-    },
-    {
-        "aspecto": "preco",
-        "polaridade": "+",
-        "palavra_sent": "preco"
-    },
-    {
-        "aspecto": "marca",
-        "polaridade": "+",
-        "palavra_sent": "joguei"
-    },
-    {
-        "aspecto": "custo",
-        "polaridade": "+",
-        "palavra_sent": "bom"
-    },
-    {
-        "aspecto": "design",
-        "polaridade": "+",
-        "palavra_sent": "gostei"
-    },
-    {
-        "aspecto": "marca",
-        "polaridade": "+",
-        "palavra_sent": "espero"
-    },
-    {
-        "aspecto": "produto",
-        "polaridade": "-",
-        "palavra_sent": "necessidade"
-    },
-    {
-        "aspecto": "fabricante",
-        "polaridade": "+",
-        "palavra_sent": "necessidade"
-    },
-    {
-        "aspecto": "design",
-        "polaridade": "+",
-        "palavra_sent": "gostei"
-    },
-    {
-        "aspecto": "produto",
-        "polaridade": "+",
-        "palavra_sent": "bom"
-    },
-    {
-        "aspecto": "produto",
-        "polaridade": "+",
-        "palavra_sent": "bom"
-    },
-    {
-        "aspecto": "usabilidade",
-        "polaridade": "+",
-        "palavra_sent": "muito"
-    },
-    {
-        "aspecto": "produto",
-        "polaridade": "+",
-        "palavra_sent": "bom"
-    },
-    {
-        "aspecto": "facil de manusear",
-        "polaridade": "+",
-        "palavra_sent": "facil"
-    },
-    {
-        "aspecto": "peso",
-        "polaridade": "+",
-        "palavra_sent": "leve"
-    },
-    {
-        "aspecto": "maquina",
-        "polaridade": "+",
-        "palavra_sent": "muito"
-    },
-    {
-        "aspecto": "consumo de energia",
-        "polaridade": "+",
-        "palavra_sent": "energia"
-    },
-    {
-        "aspecto": "tamanho",
-        "polaridade": "-",
-        "palavra_sent": "pequena"
-    },
-    {
-        "aspecto": "facil de manusear",
-        "polaridade": "+",
-        "palavra_sent": "facil"
-    },
-    {
-        "aspecto": "design",
-        "polaridade": "+",
-        "palavra_sent": "bonita"
-    },
-    {
-        "aspecto": "facilidade",
-        "polaridade": "+",
-        "palavra_sent": "facilidade"
-    },
-    {
-        "aspecto": "produto",
-        "polaridade": "+",
-        "palavra_sent": "satisfeitissima"
-    },
-    {
-        "aspecto": "manual",
-        "polaridade": "+",
-        "palavra_sent": "bem"
-    },
-    {
-        "aspecto": "produto",
-        "polaridade": "-",
-        "palavra_sent": "mas"
-    },
-    {
-        "aspecto": "funcao",
-        "polaridade": "+",
-        "palavra_sent": "ajuda"
-    },
-    {
-        "aspecto": "velocidade",
-        "polaridade": "+",
-        "palavra_sent": "rapido"
-    },
-    {
-        "aspecto": "botao",
-        "polaridade": "-",
-        "palavra_sent": "pressionar"
-    },
-    {
-        "aspecto": "funcao",
-        "polaridade": "+",
-        "palavra_sent": "ajuda"
-    },
-    {
-        "aspecto": "maquina",
-        "polaridade": "-",
-        "palavra_sent": "ajuda"
-    },
-    {
-        "aspecto": "maquina",
-        "polaridade": "+",
-        "palavra_sent": "avantajado"
-    },
-    {
-        "aspecto": "tamanho",
-        "polaridade": "+",
-        "palavra_sent": "avantajado"
-    },
-    {
-        "aspecto": "usabilidade",
-        "polaridade": "+",
-        "palavra_sent": "muito"
-    },
-    {
-        "aspecto": "design",
-        "polaridade": "+",
-        "palavra_sent": "bonita"
-    },
-    {
-        "aspecto": "maquina",
-        "polaridade": "+",
-        "palavra_sent": "boa"
-    },
-    {
-        "aspecto": "design",
-        "polaridade": "+",
-        "palavra_sent": "bonita"
-    },
-    {
-        "aspecto": "peca",
-        "polaridade": "-",
-        "palavra_sent": "peca"
-    },
-    {
-        "aspecto": "maquina",
-        "polaridade": "+",
-        "palavra_sent": "boa"
-    },
-    {
-        "aspecto": "maquina",
-        "polaridade": "+",
-        "palavra_sent": "bem"
-    },
-    {
-        "aspecto": "maquina",
-        "polaridade": "+",
-        "palavra_sent": "muito"
-    },
-    {
-        "aspecto": "acabamento",
-        "polaridade": "+",
-        "palavra_sent": "final"
-    },
-    {
-        "aspecto": "produto",
-        "polaridade": "-",
-        "palavra_sent": "defeito"
-    },
-    {
-        "aspecto": "peca",
-        "polaridade": "-",
-        "palavra_sent": "peca"
-    },
-    {
-        "aspecto": "facil de usar",
-        "polaridade": "+",
-        "palavra_sent": "facil"
-    },
-    {
-        "aspecto": "tamanho",
-        "polaridade": "+",
-        "palavra_sent": "ocupa"
-    },
-    {
-        "aspecto": "design",
-        "polaridade": "+",
-        "palavra_sent": "ocupa"
-    },
-    {
-        "aspecto": "produto",
-        "polaridade": "+",
-        "palavra_sent": "otimo"
-    },
-    {
-        "aspecto": "opcao",
-        "polaridade": "+",
-        "palavra_sent": "ajuda"
-    },
-    {
-        "aspecto": "preco",
-        "polaridade": "+",
-        "palavra_sent": "preco"
-    },
-    {
-        "aspecto": "preco",
-        "polaridade": "+",
-        "palavra_sent": "preco"
-    },
-    {
-        "aspecto": "maquina",
-        "polaridade": "+",
-        "palavra_sent": "preco"
-    },
-    {
-        "aspecto": "produto",
-        "polaridade": "+",
-        "palavra_sent": "bom"
-    },
-    {
-        "aspecto": "custo",
-        "polaridade": "+",
-        "palavra_sent": "bom"
-    },
-    {
-        "aspecto": "maquina",
-        "polaridade": "-",
-        "palavra_sent": "loucas"
-    },
-    {
-        "aspecto": "tamanho",
-        "polaridade": "+",
-        "palavra_sent": "grande"
-    },
-    {
-        "aspecto": "maquina",
-        "polaridade": "+",
-        "palavra_sent": "aproveitar"
-    },
-    {
-        "aspecto": "facil de operar",
-        "polaridade": "+",
-        "palavra_sent": "facil"
-    },
-    {
-        "aspecto": "maquina",
-        "polaridade": "+",
-        "palavra_sent": "perfeita"
-    },
-    {
-        "aspecto": "velocidade",
-        "polaridade": "+",
-        "palavra_sent": "rapido"
-    },
-    {
-        "aspecto": "sim",
-        "polaridade": "+",
-        "palavra_sent": "sim"
-    },
-    {
-        "aspecto": "tamanho",
-        "polaridade": "+",
-        "palavra_sent": "grande"
-    },
-    {
-        "aspecto": "design",
-        "polaridade": "+",
-        "palavra_sent": "linda"
-    },
-    {
-        "aspecto": "produto",
-        "polaridade": "+",
-        "palavra_sent": "bom"
-    },
-    {
-        "aspecto": "maquina",
-        "polaridade": "-",
-        "palavra_sent": "loucas"
-    },
-    {
-        "aspecto": "maquina",
-        "polaridade": "+",
-        "palavra_sent": "muito"
-    },
-    {
-        "aspecto": "produto",
-        "polaridade": "+",
-        "palavra_sent": "excelente"
-    },
-    {
-        "aspecto": "design",
-        "polaridade": "+",
-        "palavra_sent": "linda"
-    },
-    {
-        "aspecto": "usabilidade",
-        "polaridade": "+",
-        "palavra_sent": "linda"
-    },
-    {
-        "aspecto": "facil de usar",
-        "polaridade": "+",
-        "palavra_sent": "facil"
-    },
-    {
-        "aspecto": "maquina",
-        "polaridade": "-",
-        "palavra_sent": "loucas"
-    },
-    {
-        "aspecto": "valor",
-        "polaridade": "-",
-        "palavra_sent": "valor"
-    },
-    {
-        "aspecto": "maquina",
-        "polaridade": "+",
-        "palavra_sent": "afazeres"
-    },
-    {
-        "aspecto": "usabilidade",
-        "polaridade": "+",
-        "palavra_sent": "facil"
-    },
-    {
-        "aspecto": "maquina",
-        "polaridade": "+",
-        "palavra_sent": "capacidade"
-    },
-    {
-        "aspecto": "tamanho",
-        "polaridade": "+",
-        "palavra_sent": "grande"
-    },
-    {
-        "aspecto": "facilidade",
-        "polaridade": "+",
-        "palavra_sent": "facilidade"
-    },
-    {
-        "aspecto": "maquina",
-        "polaridade": "+",
-        "palavra_sent": "loucas"
-    },
-    {
-        "aspecto": "usabilidade",
-        "polaridade": "+",
-        "palavra_sent": "facil"
-    },
-    {
-        "aspecto": "facil de usar",
-        "polaridade": "+",
-        "palavra_sent": "facil"
-    },
-    {
-        "aspecto": "produto",
-        "polaridade": "+",
-        "palavra_sent": "satisfeito"
-    },
-    {
-        "aspecto": "produto",
-        "polaridade": "+",
-        "palavra_sent": "perfeito"
-    },
-    {
-        "aspecto": "usabilidade",
-        "polaridade": "+",
-        "palavra_sent": "perfeito"
-    },
-    {
-        "aspecto": "designer",
-        "polaridade": "+",
-        "palavra_sent": "arrojado"
-    },
-    {
-        "aspecto": "design",
-        "polaridade": "+",
-        "palavra_sent": "arrojado"
-    },
-    {
-        "aspecto": "design",
-        "polaridade": "+",
-        "palavra_sent": "muito"
-    },
-    {
-        "aspecto": "facil de usar",
-        "polaridade": "+",
-        "palavra_sent": "facil"
-    },
-    {
-        "aspecto": "usabilidade",
-        "polaridade": "+",
-        "palavra_sent": "muito"
-    },
-    {
-        "aspecto": "modelo",
-        "polaridade": "+",
-        "palavra_sent": "grande"
-    },
-    {
-        "aspecto": "tamanho",
-        "polaridade": "+",
-        "palavra_sent": "grande"
-    },
-    {
-        "aspecto": "velocidade",
-        "polaridade": "+",
-        "palavra_sent": "rapida"
-    },
-    {
-        "aspecto": "produto",
-        "polaridade": "+",
-        "palavra_sent": "excelente"
-    },
-    {
-        "aspecto": "facil de usar",
-        "polaridade": "+",
-        "palavra_sent": "facil"
-    },
-    {
-        "aspecto": "maquina",
-        "polaridade": "+",
-        "palavra_sent": "gostei"
-    },
-    {
-        "aspecto": "produto",
-        "polaridade": "+",
-        "palavra_sent": "excelente"
-    },
-    {
-        "aspecto": "custo",
-        "polaridade": "+",
-        "palavra_sent": "muito"
-    },
-    {
-        "aspecto": "valor",
-        "polaridade": "+",
-        "palavra_sent": "muito"
-    },
-    {
-        "aspecto": "manual",
-        "polaridade": "-",
-        "palavra_sent": "loucas"
-    },
-    {
-        "aspecto": "funcao",
-        "polaridade": "+",
-        "palavra_sent": "pronto"
-    },
-    {
-        "aspecto": "design",
-        "polaridade": "+",
-        "palavra_sent": "muito"
-    },
-    {
-        "aspecto": "design",
-        "polaridade": "+",
-        "palavra_sent": "bonito"
-    },
-    {
-        "aspecto": "usabilidade",
-        "polaridade": "+",
-        "palavra_sent": "muito"
-    },
-    {
-        "aspecto": "velocidade",
-        "polaridade": "+",
-        "palavra_sent": "rapida"
-    },
-    {
-        "aspecto": "produto",
-        "polaridade": "+",
-        "palavra_sent": "rapida"
-    },
-    {
-        "aspecto": "maquina",
-        "polaridade": "-",
-        "palavra_sent": "sofrido"
-    },
-    {
-        "aspecto": "produto",
-        "polaridade": "-",
-        "palavra_sent": "falta"
-    },
-    {
-        "aspecto": "facil de operar",
-        "polaridade": "+",
-        "palavra_sent": "facil"
-    },
-    {
-        "aspecto": "produto",
-        "polaridade": "+",
-        "palavra_sent": "excelente"
-    },
-    {
-        "aspecto": "custo-beneficio",
-        "polaridade": "+",
-        "palavra_sent": "excelente"
-    },
-    {
-        "aspecto": "opcao",
-        "polaridade": "+",
-        "palavra_sent": "abrir"
-    },
-    {
-        "aspecto": "funcao",
-        "polaridade": "+",
-        "palavra_sent": "muito"
-    },
-    {
-        "aspecto": "design",
-        "polaridade": "+",
-        "palavra_sent": "linda"
-    },
-    {
-        "aspecto": "tamanho",
-        "polaridade": "-",
-        "palavra_sent": "pequena"
-    },
-    {
-        "aspecto": "aparencia",
-        "polaridade": "-",
-        "palavra_sent": "gostei"
-    },
-    {
-        "aspecto": "consumo de energia",
-        "polaridade": "+",
-        "palavra_sent": "energia"
-    },
-    {
-        "aspecto": "usabilidade",
-        "polaridade": "+",
-        "palavra_sent": "facil"
-    },
-    {
-        "aspecto": "facil de usar",
-        "polaridade": "+",
-        "palavra_sent": "facil"
-    },
-    {
-        "aspecto": "preco",
-        "polaridade": "+",
-        "palavra_sent": "preco"
-    },
-    {
-        "aspecto": "facilidade",
-        "polaridade": "+",
-        "palavra_sent": "facilidade"
-    },
-    {
-        "aspecto": "produto",
-        "polaridade": "-",
-        "palavra_sent": "esperava"
-    },
-    {
-        "aspecto": "maquina",
-        "polaridade": "-",
-        "palavra_sent": "estragando"
-    },
-    {
-        "aspecto": "produto",
-        "polaridade": "+",
-        "palavra_sent": "correspondido"
-    },
-    {
-        "aspecto": "produto",
-        "polaridade": "+",
-        "palavra_sent": "gostando"
-    },
-    {
-        "aspecto": "manual",
-        "polaridade": "+",
-        "palavra_sent": "facilitou"
-    },
-    {
-        "aspecto": "maquina",
-        "polaridade": "-",
-        "palavra_sent": "so"
-    },
-    {
-        "aspecto": "maquina",
-        "polaridade": "-",
-        "palavra_sent": "so"
-    },
-    {
-        "aspecto": "produto",
-        "polaridade": "+",
-        "palavra_sent": "receber"
-    },
-    {
-        "aspecto": "usabilidade",
-        "polaridade": "+",
-        "palavra_sent": "muito"
-    },
-    {
-        "aspecto": "maquina",
-        "polaridade": "-",
-        "palavra_sent": "louca"
-    },
-    {
-        "aspecto": "usabilidade",
-        "polaridade": "-",
-        "palavra_sent": "excessivo"
-    },
-    {
-        "aspecto": "maquina",
-        "polaridade": "+",
-        "palavra_sent": "pia"
-    },
-    {
-        "aspecto": "maquina",
-        "polaridade": "+",
-        "palavra_sent": "conquistou"
-    },
-    {
-        "aspecto": "velocidade",
-        "polaridade": "+",
-        "palavra_sent": "rapida"
-    },
-    {
-        "aspecto": "produto",
-        "polaridade": "+",
-        "palavra_sent": "excelente"
-    },
-    {
-        "aspecto": "custo",
-        "polaridade": "+",
-        "palavra_sent": "otimo"
-    },
-    {
-        "aspecto": "peca",
-        "polaridade": "-",
-        "palavra_sent": "peca"
-    },
-    {
-        "aspecto": "design",
-        "polaridade": "+",
-        "palavra_sent": "linda"
-    },
-    {
-        "aspecto": "tamanho",
-        "polaridade": "-",
-        "palavra_sent": "pequena"
-    },
-    {
-        "aspecto": "maquina",
-        "polaridade": "-",
-        "palavra_sent": "constantemente"
-    },
-    {
-        "aspecto": "peso",
-        "polaridade": "-",
-        "palavra_sent": "pesado"
-    },
-    {
-        "aspecto": "maquina",
-        "polaridade": "-",
-        "palavra_sent": "silenciosa"
+        "id": 0,
+        "data": "2017/03/03",
+        "estrelas": 5,
+        "foi_recomendado": "Recomendo",
+        "titulo": "Ótimo smartphone!!",
+        "revisao": "não tem do que reclamar sobre o iphone number .na verdade , tem uma coisa para reclamar sim , o preço absurdo .infelizmente somos reféns desse tipo de prática aqui no brasileiro .",
+        "revisao_anot": "#Resenha_0\n#Aspectos: A0_sim, A1_preco, A2_usabilidade\n#Estrelas: 5\nnao tem do que reclamar sobre o iphone number .\nna verdade , tem uma coisa para [reclamar]_[A0,-] [sim]_[A0] , o [preco]_[A1] [absurdo]_[A1,-] .\ninfelizmente [somos]_[A2,-] refens desse tipo de [pratica]_[A2] aqui no brasileiro .\n"
+    },
+    {
+        "id": 1,
+        "data": "2017/02/22",
+        "estrelas": 5,
+        "foi_recomendado": "Recomendo",
+        "titulo": "O melhor smartphone",
+        "revisao": "usando o iphone não há dúvida de se tratar do melhor smartphone do mercado .",
+        "revisao_anot": "#Resenha_1\n#Aspectos: A0_smartphone\n#Estrelas: 5\nusando o iphone nao ha duvida de se tratar do [melhor]_[A0,+] [smartphone]_[A0] do mercado .\n"
+    },
+    {
+        "id": 2,
+        "data": "2017/02/21",
+        "estrelas": 5,
+        "foi_recomendado": "Recomendo",
+        "titulo": "Perfeito",
+        "revisao": "todos sabem que o produto é ótimo .apesar do preço altíssimo , não dá pra negar que é a melhor opção do mercado .",
+        "revisao_anot": "#Resenha_2\n#Aspectos: A0_produto, A1_preco, A2_opcao\n#Estrelas: 5\ntodos sabem que o [produto]_[A0] e [otimo]_[A0,+] .\napesar do [preco]_[A1] altissimo , nao da pra [negar]_[A1,+] que e a [melhor]_[A2,+] [opcao]_[A2] do mercado .\n"
+    },
+    {
+        "id": 3,
+        "data": "2017/03/06",
+        "estrelas": 5,
+        "foi_recomendado": "Recomendo",
+        "titulo": "Bom",
+        "revisao": "ótimo aparelho , bem rápido e responsivo .",
+        "revisao_anot": "#Resenha_3\n#Aspectos: A0_aparelho, A1_velocidade\n#Estrelas: 5\n[otimo]_[A0,+] [aparelho]_[A0] , [bem]_[A1,+] [rapido]_[A1] e responsivo .\n"
+    },
+    {
+        "id": 4,
+        "data": "2017/01/19",
+        "estrelas": 5,
+        "foi_recomendado": "Recomendo",
+        "titulo": "Ótimo produto",
+        "revisao": "como já esperado de um aparelho da apple o celular é bem avançado nas suas funcionalidades , a aparência também é um ponto positivo .",
+        "revisao_anot": "#Resenha_4\n#Aspectos: A0_aparelho, A1_celular, A2_aparencia\n#Estrelas: 5\ncomo ja [esperado]_[A0,+] de um [aparelho]_[A0] da apple o [celular]_[A1] e [bem]_[A1,+] avancado nas suas funcionalidades , a [aparencia]_[A2] tambem e um ponto [positivo]_[A2,+] .\n"
+    },
+    {
+        "id": 5,
+        "data": "2017/07/19",
+        "estrelas": 5,
+        "foi_recomendado": "Recomendo",
+        "titulo": "Adorei",
+        "revisao": "o iphone number é um smartphone muito bom , com um processador super rápido , e um sistema operacional sem comparações .tem um design bonito , feito com material muito resistente e durável .comparado com outros smartphones similares , acho que é o melhor que existe no mercado .único ponto negativo é a duração da bateria , que comparado com aparelhos inferiores , dura menos .não sei como é a duração da bateria dos smartphones similares ( como o último lançamento da samsung ) para poder comparar .",
+        "revisao_anot": "#Resenha_5\n#Aspectos: A0_smartphone, A1_processador, A2_velocidade, A3_sistema operacional, A4_design, A5_bateria, A6_duracao da bateria\n#Estrelas: 5\no iphone number e um [smartphone]_[A0] [muito]_[A0,+] bom , com um [processador]_[A1] [super]_[A1,+;A2,+] [rapido]_[A2;A3,+] , e um [sistema operacional]_[A3] sem comparacoes .\ntem um [design]_[A4] [bonito]_[A4;A4,+] , [feito]_[A4,+] com [material]_[A4] [muito]_[A4,+] resistente e duravel .comparado com outros smartphones similares , acho que e o melhor que existe no mercado .\nunico ponto negativo e a [duracao da [bateria]_[A5]]_[A6] , que comparado com aparelhos [inferiores]_[A5,-;A6,-] , dura menos .\nnao sei como e a [duracao da [bateria]_[A5]]_[A6] dos smartphones similares ( como o ultimo lancamento da [samsung]_[A5,+;A6,+] ) para poder comparar .\n"
+    },
+    {
+        "id": 6,
+        "data": "2019/01/03",
+        "estrelas": 5,
+        "foi_recomendado": "Recomendo",
+        "titulo": "Excelente custo benefício",
+        "revisao": "o produto atendeu as expectativas , tem um ótimo design e qualidade .",
+        "revisao_anot": "#Resenha_6\n#Aspectos: A0_produto, A1_design\n#Estrelas: 5\no [produto]_[A0] atendeu as expectativas , tem um [otimo]_[A0,+;A1,+] [design]_[A1] e qualidade .\n"
+    },
+    {
+        "id": 7,
+        "data": "2016/12/26",
+        "estrelas": 5,
+        "foi_recomendado": "Recomendo",
+        "titulo": "Iphone 7",
+        "revisao": "",
+        "revisao_anot": "#Resenha_7\n#Aspectos: \n#Estrelas: 5\n"
+    },
+    {
+        "id": 8,
+        "data": "2017/08/23",
+        "estrelas": 5,
+        "foi_recomendado": "Recomendo",
+        "titulo": "Mara",
+        "revisao": "",
+        "revisao_anot": "#Resenha_8\n#Aspectos: \n#Estrelas: 5\n"
+    },
+    {
+        "id": 9,
+        "data": "2017/08/21",
+        "estrelas": 4,
+        "foi_recomendado": "Recomendo",
+        "titulo": "Cumpre o prometido.",
+        "revisao": "recomendo a todos , produto original , top , muito bonito e simples de usar , sempre usei iphone e continuarei usando , produto excelente .camera muito top , tanto a traseira quanto a dianteira .bateria aguenta um dia inteiro de uso , com uso moderado dura number dia e meio .",
+        "revisao_anot": "#Resenha_9\n#Aspectos: A0_produto, A1_design, A2_camera, A3_bateria\n#Estrelas: 4\nrecomendo a todos , [produto]_[A0] [original]_[A0,+] , top , [muito]_[A1,+] [bonito]_[A1] e simples de usar , sempre usei iphone e continuarei usando , [produto]_[A0] [excelente]_[A0,+] .\n[camera]_[A2] [muito]_[A2,+] top , tanto a traseira quanto a dianteira .\n[bateria]_[A3] [aguenta]_[A3,+] um dia inteiro de uso , com uso moderado dura number dia e meio .\n"
+    },
+    {
+        "id": 10,
+        "data": "2017/01/30",
+        "estrelas": 5,
+        "foi_recomendado": "Recomendo",
+        "titulo": "produto 100%",
+        "revisao": "",
+        "revisao_anot": "#Resenha_10\n#Aspectos: \n#Estrelas: 5\n"
+    },
+    {
+        "id": 11,
+        "data": "2017/01/02",
+        "estrelas": 5,
+        "foi_recomendado": "Recomendo",
+        "titulo": "Bom",
+        "revisao": "",
+        "revisao_anot": "#Resenha_11\n#Aspectos: \n#Estrelas: 5\n"
+    },
+    {
+        "id": 12,
+        "data": "2018/11/20",
+        "estrelas": 4,
+        "foi_recomendado": "Recomendo",
+        "titulo": "Ainda não tenho por causa do custo benefício",
+        "revisao": "",
+        "revisao_anot": "#Resenha_12\n#Aspectos: \n#Estrelas: 4\n"
+    },
+    {
+        "id": 13,
+        "data": "2016/11/28",
+        "estrelas": 4,
+        "foi_recomendado": "Recomendo",
+        "titulo": "Ótimo smartfone",
+        "revisao": "",
+        "revisao_anot": "#Resenha_13\n#Aspectos: \n#Estrelas: 4\n"
+    },
+    {
+        "id": 14,
+        "data": "2017/03/04",
+        "estrelas": 5,
+        "foi_recomendado": "Recomendo",
+        "titulo": "Aparelho excepcional",
+        "revisao": "",
+        "revisao_anot": "#Resenha_14\n#Aspectos: \n#Estrelas: 5\n"
+    },
+    {
+        "id": 15,
+        "data": "2017/06/04",
+        "estrelas": 4,
+        "foi_recomendado": "Não recomendo",
+        "titulo": "Baixo custo/benefício.",
+        "revisao": "na média , pior do que o galaxy s7 .",
+        "revisao_anot": "#Resenha_15\n#Aspectos: \n#Estrelas: 4\nna media , pior do que o galaxy s7 .\n"
+    },
+    {
+        "id": 16,
+        "data": "2017/05/05",
+        "estrelas": 5,
+        "foi_recomendado": "Recomendo",
+        "titulo": "Excelente mas preço elevado",
+        "revisao": "",
+        "revisao_anot": "#Resenha_16\n#Aspectos: \n#Estrelas: 5\n"
+    },
+    {
+        "id": 17,
+        "data": "2017/04/09",
+        "estrelas": 5,
+        "foi_recomendado": "Recomendo",
+        "titulo": "Espetacular ",
+        "revisao": "",
+        "revisao_anot": "#Resenha_17\n#Aspectos: \n#Estrelas: 5\n"
+    },
+    {
+        "id": 18,
+        "data": "2017/04/24",
+        "estrelas": 5,
+        "foi_recomendado": "Recomendo",
+        "titulo": "Sensacional ",
+        "revisao": "",
+        "revisao_anot": "#Resenha_18\n#Aspectos: \n#Estrelas: 5\n"
+    },
+    {
+        "id": 19,
+        "data": "2017/04/24",
+        "estrelas": 4,
+        "foi_recomendado": "Recomendo",
+        "titulo": "Bom produto",
+        "revisao": "bom produto .",
+        "revisao_anot": "#Resenha_19\n#Aspectos: A0_produto\n#Estrelas: 4\n[bom]_[A0,+] [produto]_[A0] .\n"
+    },
+    {
+        "id": 20,
+        "data": "2017/04/17",
+        "estrelas": 5,
+        "foi_recomendado": "Recomendo",
+        "titulo": "Excelente",
+        "revisao": "",
+        "revisao_anot": "#Resenha_20\n#Aspectos: \n#Estrelas: 5\n"
+    },
+    {
+        "id": 21,
+        "data": "2017/04/13",
+        "estrelas": 4,
+        "foi_recomendado": "Recomendo",
+        "titulo": "Iphone",
+        "revisao": "",
+        "revisao_anot": "#Resenha_21\n#Aspectos: \n#Estrelas: 4\n"
+    },
+    {
+        "id": 22,
+        "data": "2017/03/27",
+        "estrelas": 5,
+        "foi_recomendado": "Recomendo",
+        "titulo": "Ainda melhor",
+        "revisao": "o iphone number e ainda melhor que os demais .a câmera e maravilhosa e todos os novos aplicativos são ótimos .",
+        "revisao_anot": "#Resenha_22\n#Aspectos: \n#Estrelas: 5\no iphone number e ainda melhor que os demais .\na câmera e maravilhosa e todos os novos aplicativos sao otimos .\n"
+    },
+    {
+        "id": 23,
+        "data": "2017/03/27",
+        "estrelas": 5,
+        "foi_recomendado": "Recomendo",
+        "titulo": "Ótimo produto",
+        "revisao": "fora a bateria , não tenho nada a reclamar do produto .é um produto ótimo , conforme o esperado .",
+        "revisao_anot": "#Resenha_23\n#Aspectos: A0_bateria, A1_produto\n#Estrelas: 5\nfora a [bateria]_[A0] , nao tenho nada a [reclamar]_[A0,+;A1,+] do [produto]_[A1] .\ne um [produto]_[A1] [otimo]_[A1,+] , conforme o esperado .\n"
+    },
+    {
+        "id": 24,
+        "data": "2017/03/27",
+        "estrelas": 5,
+        "foi_recomendado": "Recomendo",
+        "titulo": "Nota 10",
+        "revisao": "muito show .",
+        "revisao_anot": "#Resenha_24\n#Aspectos: \n#Estrelas: 5\nmuito show .\n"
+    },
+    {
+        "id": 25,
+        "data": "2017/03/15",
+        "estrelas": 5,
+        "foi_recomendado": "Recomendo",
+        "titulo": "Celular",
+        "revisao": "",
+        "revisao_anot": "#Resenha_25\n#Aspectos: \n#Estrelas: 5\n"
+    },
+    {
+        "id": 26,
+        "data": "2017/08/07",
+        "estrelas": 5,
+        "foi_recomendado": "Recomendo",
+        "titulo": "Ótimo aparelho ",
+        "revisao": "de muita facilidade de uso e ótima usabilidade .",
+        "revisao_anot": "#Resenha_26\n#Aspectos: A0_facilidade, A1_usabilidade\n#Estrelas: 5\nde muita [[facilidade]_[A0] de uso]_[A1] e [otima]_[A0,+;A1,+;A1,+] [usabilidade]_[A1] .\n"
+    },
+    {
+        "id": 27,
+        "data": "2016/12/26",
+        "estrelas": 5,
+        "foi_recomendado": "Recomendo",
+        "titulo": "excelente custo benefício",
+        "revisao": "",
+        "revisao_anot": "#Resenha_27\n#Aspectos: \n#Estrelas: 5\n"
+    },
+    {
+        "id": 28,
+        "data": "2016/12/20",
+        "estrelas": 5,
+        "foi_recomendado": "Recomendo",
+        "titulo": "Produto maravilhoso",
+        "revisao": "",
+        "revisao_anot": "#Resenha_28\n#Aspectos: \n#Estrelas: 5\n"
+    },
+    {
+        "id": 29,
+        "data": "2016/12/04",
+        "estrelas": 5,
+        "foi_recomendado": "Recomendo",
+        "titulo": "Bom como sempre ",
+        "revisao": "",
+        "revisao_anot": "#Resenha_29\n#Aspectos: \n#Estrelas: 5\n"
+    },
+    {
+        "id": 30,
+        "data": "2016/12/15",
+        "estrelas": 5,
+        "foi_recomendado": "Recomendo",
+        "titulo": "A melhor opção",
+        "revisao": "está sendo uma das melhores experiências , pois , com a tecnologia e funções do iphone podemos ir além da atmosfera moderna .",
+        "revisao_anot": "#Resenha_30\n#Aspectos: \n#Estrelas: 5\nesta sendo uma das melhores experiencias , pois , com a tecnologia e funcoes do iphone podemos ir alem da atmosfera moderna .\n"
+    },
+    {
+        "id": 31,
+        "data": "2016/11/11",
+        "estrelas": 5,
+        "foi_recomendado": "Recomendo",
+        "titulo": "Bom",
+        "revisao": "",
+        "revisao_anot": "#Resenha_31\n#Aspectos: \n#Estrelas: 5\n"
+    },
+    {
+        "id": 32,
+        "data": "2017/06/12",
+        "estrelas": 5,
+        "foi_recomendado": "Recomendo",
+        "titulo": "Não tenho o produto",
+        "revisao": "",
+        "revisao_anot": "#Resenha_32\n#Aspectos: \n#Estrelas: 5\n"
+    },
+    {
+        "id": 33,
+        "data": "2017/05/24",
+        "estrelas": 4,
+        "foi_recomendado": "Recomendo",
+        "titulo": "ÓTIMO",
+        "revisao": "",
+        "revisao_anot": "#Resenha_33\n#Aspectos: \n#Estrelas: 4\n"
+    },
+    {
+        "id": 34,
+        "data": "2017/04/23",
+        "estrelas": 4,
+        "foi_recomendado": "Recomendo",
+        "titulo": "Ótimo produto mas caro",
+        "revisao": "sistema muito rápido , mesmo se comparado ao android táctil .excelente qualidade de som e fotos .falta o carregamento rápido e o valor do aparelho ainda acho muito elevado .para as demais , é interessante comparar com outros smartphones de mesmo nível .",
+        "revisao_anot": "#Resenha_34\n#Aspectos: A0_velocidade, A1_som, A2_valor, A3_aparelho\n#Estrelas: 4\nsistema [muito]_[A0,+] [rapido]_[A0] , mesmo se comparado ao android tactil .\n[excelente]_[A1,+] qualidade de [som]_[A1] e fotos .\n[falta]_[A0,-] o carregamento [rapido]_[A0;A2,+] e o [valor]_[A2;A3,-] do [aparelho]_[A3] ainda acho muito elevado .\npara as demais , e interessante comparar com outros smartphones de mesmo nivel .\n"
+    },
+    {
+        "id": 35,
+        "data": "2017/04/17",
+        "estrelas": 5,
+        "foi_recomendado": "Recomendo",
+        "titulo": "Ótimo produto.",
+        "revisao": "um ótimo produto .",
+        "revisao_anot": "#Resenha_35\n#Aspectos: A0_produto\n#Estrelas: 5\num [otimo]_[A0,+] [produto]_[A0] .\n"
+    },
+    {
+        "id": 36,
+        "data": "2017/04/16",
+        "estrelas": 4,
+        "foi_recomendado": "Recomendo",
+        "titulo": "Ótimo sistema operacional ",
+        "revisao": "",
+        "revisao_anot": "#Resenha_36\n#Aspectos: \n#Estrelas: 4\n"
+    },
+    {
+        "id": 37,
+        "data": "2017/03/24",
+        "estrelas": 5,
+        "foi_recomendado": "Recomendo",
+        "titulo": "Amo esse produto",
+        "revisao": "",
+        "revisao_anot": "#Resenha_37\n#Aspectos: \n#Estrelas: 5\n"
+    },
+    {
+        "id": 38,
+        "data": "2017/09/19",
+        "estrelas": 4,
+        "foi_recomendado": "Recomendo",
+        "titulo": "iPhone 7",
+        "revisao": "",
+        "revisao_anot": "#Resenha_38\n#Aspectos: \n#Estrelas: 4\n"
+    },
+    {
+        "id": 39,
+        "data": "2017/03/06",
+        "estrelas": 5,
+        "foi_recomendado": "Recomendo",
+        "titulo": "Bom produto",
+        "revisao": "",
+        "revisao_anot": "#Resenha_39\n#Aspectos: \n#Estrelas: 5\n"
+    },
+    {
+        "id": 40,
+        "data": "2017/09/12",
+        "estrelas": 5,
+        "foi_recomendado": "Recomendo",
+        "titulo": "Otimo",
+        "revisao": "",
+        "revisao_anot": "#Resenha_40\n#Aspectos: \n#Estrelas: 5\n"
+    },
+    {
+        "id": 41,
+        "data": "2017/02/14",
+        "estrelas": 5,
+        "foi_recomendado": "Recomendo",
+        "titulo": "legal o produto",
+        "revisao": "",
+        "revisao_anot": "#Resenha_41\n#Aspectos: \n#Estrelas: 5\n"
+    },
+    {
+        "id": 42,
+        "data": "2017/01/09",
+        "estrelas": 5,
+        "foi_recomendado": "Recomendo",
+        "titulo": "N/A",
+        "revisao": "",
+        "revisao_anot": "#Resenha_42\n#Aspectos: \n#Estrelas: 5\n"
+    },
+    {
+        "id": 43,
+        "data": "2017/04/06",
+        "estrelas": 5,
+        "foi_recomendado": "Recomendo",
+        "titulo": "Excelente!!!",
+        "revisao": "precisa de alguma explicação ?",
+        "revisao_anot": "#Resenha_43\n#Aspectos: \n#Estrelas: 5\nprecisa de alguma explicacao ?\n"
+    },
+    {
+        "id": 44,
+        "data": "2017/04/04",
+        "estrelas": 5,
+        "foi_recomendado": "Recomendo",
+        "titulo": "Produto maravilhoso",
+        "revisao": "comprei o aparelho junto a norteie , empresa super confiável e com o melhor preço do mercado !",
+        "revisao_anot": "#Resenha_44\n#Aspectos: A0_aparelho, A1_empresa, A2_preco\n#Estrelas: 5\ncomprei o [aparelho]_[A0] junto a norteie , [empresa]_[A1] [super]_[A0,+;A1,+] confiavel e com o [melhor]_[A2,+] [preco]_[A2] do mercado !\n"
+    },
+    {
+        "id": 45,
+        "data": "2017/03/30",
+        "estrelas": 5,
+        "foi_recomendado": "Recomendo",
+        "titulo": "Excelente",
+        "revisao": "atendeu todas as minhas necessidades , estou muito satisfeita com o produto .",
+        "revisao_anot": "#Resenha_45\n#Aspectos: A0_produto\n#Estrelas: 5\natendeu todas as minhas necessidades , estou muito [satisfeita]_[A0,+] com o [produto]_[A0] .\n"
+    },
+    {
+        "id": 46,
+        "data": "2017/03/24",
+        "estrelas": 5,
+        "foi_recomendado": "Recomendo",
+        "titulo": "Ótimo produto",
+        "revisao": "prático , robusto , de fácil utilização , enfim , completo .",
+        "revisao_anot": "#Resenha_46\n#Aspectos: A0_usabilidade, A1_design\n#Estrelas: 5\n[pratico]_[A0] , [robusto]_[A1;A0,+] , de [facil]_[A1,+] utilizacao , enfim , completo .\n"
+    },
+    {
+        "id": 47,
+        "data": "2017/03/22",
+        "estrelas": 5,
+        "foi_recomendado": "Recomendo",
+        "titulo": "Sensacional ",
+        "revisao": "",
+        "revisao_anot": "#Resenha_47\n#Aspectos: \n#Estrelas: 5\n"
+    },
+    {
+        "id": 48,
+        "data": "2017/03/19",
+        "estrelas": 5,
+        "foi_recomendado": "Recomendo",
+        "titulo": "Otimo",
+        "revisao": "um produto muito bom .recomendo , pra quem gosta de tecnologia .",
+        "revisao_anot": "#Resenha_48\n#Aspectos: A0_produto\n#Estrelas: 5\num [produto]_[A0] [muito]_[A0,+] bom .\nrecomendo , pra quem gosta de tecnologia .\n"
+    },
+    {
+        "id": 49,
+        "data": "2017/08/09",
+        "estrelas": 5,
+        "foi_recomendado": "Recomendo",
+        "titulo": "otimo",
+        "revisao": "",
+        "revisao_anot": "#Resenha_49\n#Aspectos: \n#Estrelas: 5\n"
+    },
+    {
+        "id": 50,
+        "data": "2017/02/13",
+        "estrelas": 5,
+        "foi_recomendado": "Recomendo",
+        "titulo": "Era necessario",
+        "revisao": "",
+        "revisao_anot": "#Resenha_50\n#Aspectos: \n#Estrelas: 5\n"
+    },
+    {
+        "id": 51,
+        "data": "2017/08/08",
+        "estrelas": 5,
+        "foi_recomendado": "Recomendo",
+        "titulo": "Otimo produto",
+        "revisao": "em primeiro contato achei estranho mais me adaptei muito fácil e recomendo sem medo de errar .",
+        "revisao_anot": "#Resenha_51\n#Aspectos: \n#Estrelas: 5\nem primeiro contato achei estranho mais me adaptei muito facil e recomendo sem medo de errar .\n"
+    },
+    {
+        "id": 52,
+        "data": "2017/08/20",
+        "estrelas": 5,
+        "foi_recomendado": "Recomendo",
+        "titulo": "Ótimo aparelho ",
+        "revisao": "tenho o produto a pouco tempo mais estou gostando bastante .",
+        "revisao_anot": "#Resenha_52\n#Aspectos: A0_produto\n#Estrelas: 5\ntenho o [produto]_[A0] a pouco tempo mais estou [gostando]_[A0,+] bastante .\n"
+    },
+    {
+        "id": 53,
+        "data": "2017/08/14",
+        "estrelas": 4,
+        "foi_recomendado": "Recomendo",
+        "titulo": "iPhone 7",
+        "revisao": "bom produto .",
+        "revisao_anot": "#Resenha_53\n#Aspectos: A0_produto\n#Estrelas: 4\n[bom]_[A0,+] [produto]_[A0] .\n"
+    },
+    {
+        "id": 54,
+        "data": "2017/04/30",
+        "estrelas": 1,
+        "foi_recomendado": "Não recomendo",
+        "titulo": "Não Recebí o produto ",
+        "revisao": "",
+        "revisao_anot": "#Resenha_54\n#Aspectos: \n#Estrelas: 1\n"
+    },
+    {
+        "id": 55,
+        "data": "2019/01/02",
+        "estrelas": 4,
+        "foi_recomendado": "Não recomendo",
+        "titulo": "Top",
+        "revisao": "",
+        "revisao_anot": "#Resenha_55\n#Aspectos: \n#Estrelas: 4\n"
+    },
+    {
+        "id": 56,
+        "data": "2017/08/04",
+        "estrelas": 4,
+        "foi_recomendado": "Recomendo",
+        "titulo": "Iphone 7",
+        "revisao": "bom produto .",
+        "revisao_anot": "#Resenha_56\n#Aspectos: A0_produto\n#Estrelas: 4\n[bom]_[A0,+] [produto]_[A0] .\n"
+    },
+    {
+        "id": 57,
+        "data": "2017/07/17",
+        "estrelas": 4,
+        "foi_recomendado": "Recomendo",
+        "titulo": "Bom",
+        "revisao": "o produto é bom , elegante e bonito !",
+        "revisao_anot": "#Resenha_57\n#Aspectos: A0_produto, A1_design\n#Estrelas: 4\no [produto]_[A0] e [bom]_[A0,+;A1,+] , [elegante]_[A1;A1,+] e [bonito]_[A1] !\n"
+    },
+    {
+        "id": 58,
+        "data": "2017/05/01",
+        "estrelas": 5,
+        "foi_recomendado": "Recomendo",
+        "titulo": ".",
+        "revisao": "",
+        "revisao_anot": "#Resenha_58\n#Aspectos: \n#Estrelas: 5\n"
+    },
+    {
+        "id": 59,
+        "data": "2017/04/11",
+        "estrelas": 5,
+        "foi_recomendado": "Recomendo",
+        "titulo": "Recomendo",
+        "revisao": "entrega rápida , produto ótimo .",
+        "revisao_anot": "#Resenha_59\n#Aspectos: A0_velocidade, A1_produto\n#Estrelas: 5\nentrega [rapida]_[A0] , [produto]_[A1] [otimo]_[A0,+;A1,+] .\n"
+    },
+    {
+        "id": 60,
+        "data": "2017/04/10",
+        "estrelas": 5,
+        "foi_recomendado": "Recomendo",
+        "titulo": "Avaliação extremamente positiva do iPhone 7",
+        "revisao": "é um ótimo produto .",
+        "revisao_anot": "#Resenha_60\n#Aspectos: A0_produto\n#Estrelas: 5\ne um [otimo]_[A0,+] [produto]_[A0] .\n"
+    },
+    {
+        "id": 61,
+        "data": "2017/04/05",
+        "estrelas": 4,
+        "foi_recomendado": "Recomendo",
+        "titulo": "Qualidade ",
+        "revisao": "ótimo produto , facilidade de uso , funcionalidade ótimo .",
+        "revisao_anot": "#Resenha_61\n#Aspectos: A0_produto, A1_facilidade, A2_funcionalidade, A3_usabilidade\n#Estrelas: 4\n[otimo]_[A0,+;A1,+;A3,+] [produto]_[A0] , [[facilidade]_[A1] de uso]_[A3] , [funcionalidade]_[A2] [otimo]_[A2,+] .\n"
+    },
+    {
+        "id": 62,
+        "data": "2017/04/03",
+        "estrelas": 5,
+        "foi_recomendado": "Recomendo",
+        "titulo": "Perfeito",
+        "revisao": "acabamento sutil e funções que apresentam facilidade ao se acessar .",
+        "revisao_anot": "#Resenha_62\n#Aspectos: A0_acabamento, A1_facilidade\n#Estrelas: 5\n[acabamento]_[A0] [sutil]_[A0,+;A1,+] e funcoes que apresentam [facilidade]_[A1] ao se acessar .\n"
+    },
+    {
+        "id": 63,
+        "data": "2017/03/30",
+        "estrelas": 5,
+        "foi_recomendado": "Recomendo",
+        "titulo": "Muito bom ",
+        "revisao": "",
+        "revisao_anot": "#Resenha_63\n#Aspectos: \n#Estrelas: 5\n"
+    },
+    {
+        "id": 64,
+        "data": "2017/08/02",
+        "estrelas": 5,
+        "foi_recomendado": "Recomendo",
+        "titulo": "Excelente. ",
+        "revisao": "aparelho apple iphone number excelente .ótimo custo beneficio atende todos meus requisitos com um excelente capacidade de execução .",
+        "revisao_anot": "#Resenha_64\n#Aspectos: A0_aparelho, A1_custo\n#Estrelas: 5\n[aparelho]_[A0] apple iphone number [excelente]_[A0,+] .\n[otimo]_[A1,+] [custo]_[A1] beneficio atende todos meus requisitos com um excelente capacidade de execucao .\n"
+    },
+    {
+        "id": 65,
+        "data": "2017/07/06",
+        "estrelas": 4,
+        "foi_recomendado": "Recomendo",
+        "titulo": "Bom smartphone, porém tem preço alto",
+        "revisao": "é o melhor aparelho para quem quer um smartphone pequeno .no entanto , o preço é muito alto .",
+        "revisao_anot": "#Resenha_65\n#Aspectos: A0_aparelho, A1_smartphone, A2_tamanho, A3_preco\n#Estrelas: 4\ne o [melhor]_[A0,+] [aparelho]_[A0] para quem [quer]_[A2,+] um [smartphone]_[A1] [pequeno]_[A2;A1,-] .\nno entanto , o [preco]_[A3] e [muito]_[A3,+] alto .\n"
+    },
+    {
+        "id": 66,
+        "data": "2017/06/28",
+        "estrelas": 5,
+        "foi_recomendado": "Recomendo",
+        "titulo": "Apple é Apple",
+        "revisao": "",
+        "revisao_anot": "#Resenha_66\n#Aspectos: \n#Estrelas: 5\n"
+    },
+    {
+        "id": 67,
+        "data": "2017/06/27",
+        "estrelas": 3,
+        "foi_recomendado": "Recomendo",
+        "titulo": "Cancelado",
+        "revisao": "",
+        "revisao_anot": "#Resenha_67\n#Aspectos: \n#Estrelas: 3\n"
+    },
+    {
+        "id": 68,
+        "data": "2017/06/14",
+        "estrelas": 5,
+        "foi_recomendado": "Recomendo",
+        "titulo": "maravilhoso",
+        "revisao": "",
+        "revisao_anot": "#Resenha_68\n#Aspectos: \n#Estrelas: 5\n"
     }
 ]

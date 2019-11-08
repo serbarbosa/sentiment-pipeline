@@ -48,9 +48,7 @@ class Opizera_Summarizer(object):
         ''' Read the annotations of the files (opinions) '''
         files = sorted(os.listdir(opinions_path))
         for file_name in files:
-            print(file_name)
             sentences = utils.get_sentences(os.path.join(opinions_path, file_name))
-            print(sentences)
             for (id_sentence, text_sentence) in sentences:
                 annotations = self.__aspect_manager.get_data_sentence(self.__name,  re.match('(.+)\.txt', file_name).group(1), id_sentence)['annotations']
                 print(annotations)

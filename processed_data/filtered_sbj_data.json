@@ -1,1978 +1,554 @@
 [
     {
         "id": 0,
-        "data": "10/02/2015",
-        "estrelas": 3,
-        "foi_recomendado": "Não recomendo este produto",
-        "titulo": "Funciona, mas dá um trabaljho...",
-        "revisao": "começando pelo ponto positivo , até agora ela limpou a louça razoavelmente - cumpre o seu papel principal .mas como é chato chegar a esse ponto !number ) o sistema de travamento da porta é bem ' justo ' : é necessário fazer força para puxar .a máquina é muito leve , e se não se segurá-la com a outra mão ela vem junto com a porta .e ao fazer pressão na chapa superior dela para evitar que ela corra para a frente tem-se a impressão de que essa chapa vai ceder : é incrivelmente fina .number ) ao puxar a gaveta inferior para colocar as louças , a irritação começa pela própria porta que não fica horizontal : ela fica levemente inclinada para cima , mas o suficiente para que a gaveta saia do sulco de travamento e volte para dentro da máquina a qualquer movimento menos cuidadoso .number ) e a gaveta só sai até a metade !se a máquina estiver no chão , colocar os pratos no fundo da gaveta é um verdadeiro ato de contorcionismo , pois o braço tem que entrar até o meio da máquina para colocar o prato .além disso , como a gaveta inferior fica elevada pela tampa inclinada , quando se abre a gaveta superior ela enrosca em talheres mais compridos ."
+        "data": "2017/03/03",
+        "estrelas": 5,
+        "foi_recomendado": "Recomendo",
+        "titulo": "Ótimo smartphone!!",
+        "revisao": "não tem do que reclamar sobre o iphone number .na verdade , tem uma coisa para reclamar sim , o preço absurdo .infelizmente somos reféns desse tipo de prática aqui no brasileiro ."
     },
     {
         "id": 1,
-        "data": "02/07/2013",
-        "estrelas": 2,
-        "foi_recomendado": "Não recomendo este produto",
-        "titulo": "Pouca durabilidade e alto custo de reparo",
-        "revisao": ""
+        "data": "2017/02/22",
+        "estrelas": 5,
+        "foi_recomendado": "Recomendo",
+        "titulo": "O melhor smartphone",
+        "revisao": "usando o iphone não há dúvida de se tratar do melhor smartphone do mercado ."
     },
     {
         "id": 2,
-        "data": "08/09/2012",
-        "estrelas": 4,
-        "foi_recomendado": "Recomendo este produto",
-        "titulo": "ótima lavadora",
-        "revisao": "só lamento não ter comprado uma maior !o que gostei : econômica , lava e esteriliza bem a louça o que não gostei : recomendo chamar um profissional para instalar .cesto inferior com design pouco funcional ."
+        "data": "2017/02/21",
+        "estrelas": 5,
+        "foi_recomendado": "Recomendo",
+        "titulo": "Perfeito",
+        "revisao": "todos sabem que o produto é ótimo .apesar do preço altíssimo , não dá pra negar que é a melhor opção do mercado ."
     },
     {
         "id": 3,
-        "data": "18/02/2013",
-        "estrelas": 4,
-        "foi_recomendado": "Recomendo este produto",
-        "titulo": "elogio e dica",
-        "revisao": "produto muito bom gostei .esta totalmente aprovado , facilitou o meu dia a dia .só o espaço do sabão é apertado para outras marcas sem ser recomendadas ."
+        "data": "2017/03/06",
+        "estrelas": 5,
+        "foi_recomendado": "Recomendo",
+        "titulo": "Bom",
+        "revisao": "ótimo aparelho , bem rápido e responsivo ."
     },
     {
         "id": 4,
-        "data": "06/02/2013",
-        "estrelas": 3,
-        "foi_recomendado": "Recomendo este produto",
-        "titulo": "Tem custo benefício bom.",
-        "revisao": "é uma excelente máquina para o dia-a - dia .não espere muito dela e ficará satisfeito .o que gostei : para o dia-a - dia facilita muito não precisar mais lavar louça na pia ."
+        "data": "2017/01/19",
+        "estrelas": 5,
+        "foi_recomendado": "Recomendo",
+        "titulo": "Ótimo produto",
+        "revisao": "como já esperado de um aparelho da apple o celular é bem avançado nas suas funcionalidades , a aparência também é um ponto positivo ."
     },
     {
         "id": 5,
-        "data": "09/09/2012",
+        "data": "2017/07/19",
         "estrelas": 5,
-        "foi_recomendado": "Recomendo este produto",
-        "titulo": "tv sony bravia 32 polegadas",
-        "revisao": "como disse é um produto sony , basta a marca para saber que estou falando de um produto de qualidade .o que gostei : imagem maravilhosa da televisões sony que tenho , me faz recomendar este produto ."
+        "foi_recomendado": "Recomendo",
+        "titulo": "Adorei",
+        "revisao": "o iphone number é um smartphone muito bom , com um processador super rápido , e um sistema operacional sem comparações .tem um design bonito , feito com material muito resistente e durável .comparado com outros smartphones similares , acho que é o melhor que existe no mercado .único ponto negativo é a duração da bateria , que comparado com aparelhos inferiores , dura menos .não sei como é a duração da bateria dos smartphones similares ( como o último lançamento da samsung ) para poder comparar ."
     },
     {
         "id": 6,
-        "data": "09/09/2012",
+        "data": "2019/01/03",
         "estrelas": 5,
-        "foi_recomendado": "Recomendo este produto",
-        "titulo": "tv sony bravia 32 polegadas",
-        "revisao": "como disse é um produto sony , basta a marca para saber que estou falando de um produto de qualidade .o que gostei : imagem maravilhosa da televisões sony que tenho , me faz recomendar este produto ."
+        "foi_recomendado": "Recomendo",
+        "titulo": "Excelente custo benefício",
+        "revisao": "o produto atendeu as expectativas , tem um ótimo design e qualidade ."
     },
     {
         "id": 7,
-        "data": "01/12/2012",
-        "estrelas": 3,
-        "foi_recomendado": "Recomendo este produto",
-        "titulo": "Produto bonito, boas funcoes mas internamente deixa a desejar",
-        "revisao": "comparando custo , benefícios , design estou satisfeito , mas realmente o projeto interno precisa aperfeicoamento .o que gostei : houve evolução no produto desde a primeira lava-louça que tive , melhor acabamento , ergonomia .melhor posição de onde colocar o secante , programas mais coerentes .o que não gostei : porta copos um pouco estreito pro tipo de copos que uso .ha barras na grade de pratos que acabam interferindo na posição de number pratos forcando a não usar essas posições , péssimo não terem verificado isso no projeto ."
+        "data": "2016/12/26",
+        "estrelas": 5,
+        "foi_recomendado": "Recomendo",
+        "titulo": "Iphone 7",
+        "revisao": ""
     },
     {
         "id": 8,
-        "data": "24/08/2013",
-        "estrelas": 4,
-        "foi_recomendado": "Recomendo este produto",
-        "titulo": null,
-        "revisao": "o equipamento é de boa qualidade e fácil operação , não vibra nem faz barulho .o que não achei number é que quando carregamos a máquina com toda a capacidade dita , a qualidade da limpeza dos produtos do alto não fica boa .a brastemp deve estudar como diminuir o tempo dos processos sem perder a qualidade .a durabilidade e qualidade do material não posso opinar pois que só tenho ela a uns number meses ."
+        "data": "2017/08/23",
+        "estrelas": 5,
+        "foi_recomendado": "Recomendo",
+        "titulo": "Mara",
+        "revisao": ""
     },
     {
         "id": 9,
-        "data": "21/03/2013",
-        "estrelas": 5,
-        "foi_recomendado": "Recomendo este produto",
-        "titulo": "Amei!",
-        "revisao": "soubesse que seria tão boa , teria adquirido antes .claro que precisa respeitar o modo de adequar a louça dentro .eu amei !"
+        "data": "2017/08/21",
+        "estrelas": 4,
+        "foi_recomendado": "Recomendo",
+        "titulo": "Cumpre o prometido.",
+        "revisao": "recomendo a todos , produto original , top , muito bonito e simples de usar , sempre usei iphone e continuarei usando , produto excelente .camera muito top , tanto a traseira quanto a dianteira .bateria aguenta um dia inteiro de uso , com uso moderado dura number dia e meio ."
     },
     {
         "id": 10,
-        "data": "28/05/2014",
+        "data": "2017/01/30",
         "estrelas": 5,
-        "foi_recomendado": "Recomendo este produto",
-        "titulo": "Fundamental e Sensacional",
-        "revisao": "é brastemp , é moderna , ela é uma sensação .o espaço é excelente , distribuído e equidistante .um produto excelente , em especial em razão do preço .compre para a amada de presente e deixe que ela diga : eu mereço ?"
+        "foi_recomendado": "Recomendo",
+        "titulo": "produto 100%",
+        "revisao": ""
     },
     {
         "id": 11,
-        "data": "26/01/2013",
-        "estrelas": 3,
-        "foi_recomendado": "Não recomendo este produto",
-        "titulo": "Satisfeito!",
-        "revisao": "tinha uma outra máquina , até gostava dela , no entanto ao trocá-la por essa fiquei muito mais satisfeito , além de deixar minha cozinha muito mais bonita !minha esposa amou !o que gostei : eficiência e design !"
+        "data": "2017/01/02",
+        "estrelas": 5,
+        "foi_recomendado": "Recomendo",
+        "titulo": "Bom",
+        "revisao": ""
     },
     {
         "id": 12,
-        "data": "29/12/2014",
-        "estrelas": 3,
-        "foi_recomendado": "Não recomendo este produto",
-        "titulo": "A máquina é boa, mas seca muito mal.",
-        "revisao": "a máquina de lavar é ótima para esta função , realmente limpa as louças ."
+        "data": "2018/11/20",
+        "estrelas": 4,
+        "foi_recomendado": "Recomendo",
+        "titulo": "Ainda não tenho por causa do custo benefício",
+        "revisao": ""
     },
     {
         "id": 13,
-        "data": "29/12/2014",
-        "estrelas": 3,
-        "foi_recomendado": "Não recomendo este produto",
-        "titulo": "Boa máquina de lavar, mas não seca direito.",
-        "revisao": "a máquina é muito boa no quesito lavagem , mas deixa a desejar muito com relação à sua secagem ."
+        "data": "2016/11/28",
+        "estrelas": 4,
+        "foi_recomendado": "Recomendo",
+        "titulo": "Ótimo smartfone",
+        "revisao": ""
     },
     {
         "id": 14,
-        "data": "07/09/2014",
-        "estrelas": 1,
-        "foi_recomendado": "Não recomendo este produto",
-        "titulo": "COMPREI VEIO USADA E SUJA NÃO TROUXERAM OUTRA. ",
+        "data": "2017/03/04",
+        "estrelas": 5,
+        "foi_recomendado": "Recomendo",
+        "titulo": "Aparelho excepcional",
         "revisao": ""
     },
     {
         "id": 15,
-        "data": "13/07/2016",
+        "data": "2017/06/04",
         "estrelas": 4,
-        "foi_recomendado": "Recomendo este produto",
-        "titulo": "O produto é bom",
-        "revisao": "achei que esta tem muitas peças de plástico , o que me deixa em dúvida quanto à durabilidade e fico com receio de , se necessitar , não encontrar as peças para reposição , mas a qualidade da lavagem da louça continua excelente ."
+        "foi_recomendado": "Não recomendo",
+        "titulo": "Baixo custo/benefício.",
+        "revisao": "na média , pior do que o galaxy s7 ."
     },
     {
         "id": 16,
-        "data": "06/05/2016",
-        "estrelas": 3,
-        "foi_recomendado": "Não recomendo este produto",
-        "titulo": "Poderia ser melhor.",
-        "revisao": "a máquina lava bem e é fácil de usar ."
+        "data": "2017/05/05",
+        "estrelas": 5,
+        "foi_recomendado": "Recomendo",
+        "titulo": "Excelente mas preço elevado",
+        "revisao": ""
     },
     {
         "id": 17,
-        "data": "10/02/2016",
-        "estrelas": 1,
-        "foi_recomendado": "Não recomendo este produto",
-        "titulo": "Não funcionou.",
-        "revisao": "essa e a segunda maquina que ocorre o mesmo defeito .foi foi marcado com assistência técnica visita ."
+        "data": "2017/04/09",
+        "estrelas": 5,
+        "foi_recomendado": "Recomendo",
+        "titulo": "Espetacular ",
+        "revisao": ""
     },
     {
         "id": 18,
-        "data": "18/12/2012",
-        "estrelas": 4,
-        "foi_recomendado": "Recomendo este produto",
-        "titulo": "Minha amiga lava louça.",
-        "revisao": "um grande feito para quem trabalha fora e precisa cuidar da família , ou melhor , uma grande valorosa da dona de casa .já não me vejo sem minha amiga lava louça .o que gostei : o produto tem me ajudado bastante , pois tenho number filhos pequenos , os quais necessitam da minha atenção e enquanto a lava louça ( minha amiga ) me ajuda com a louça suja , me sobra uma pouco mais de tempo para que eu possa ficar com os meus filhos e também com meu esposo .o que não gostei : gostaria que a lava louça fosse um pouco mais rápida ."
+        "data": "2017/04/24",
+        "estrelas": 5,
+        "foi_recomendado": "Recomendo",
+        "titulo": "Sensacional ",
+        "revisao": ""
     },
     {
         "id": 19,
-        "data": "24/03/2015",
-        "estrelas": 1,
-        "foi_recomendado": "Não recomendo este produto",
-        "titulo": "Está longe de cumprir o que promete",
-        "revisao": "a promessa da venda é boa e encanta a gente , mas estou com um trambolho em casa que não cumpre o que promete , e o fabricante não dá a mínima para nossas queixas : number - mesmo comprando todos os produtos para lavagem , as louças ficam molhadas , pingando .number - tenho que conferir os utensílios , pois sempre , a cada lavagem , vêm peças sujas .a atendente da brastemp informou que estou usando sabão errado .mas eu utilizo o sabão em barras indicado no manual ."
+        "data": "2017/04/24",
+        "estrelas": 4,
+        "foi_recomendado": "Recomendo",
+        "titulo": "Bom produto",
+        "revisao": "bom produto ."
     },
     {
         "id": 20,
-        "data": "02/10/2013",
-        "estrelas": 3,
-        "foi_recomendado": "Não recomendo este produto",
-        "titulo": "desempenho ",
+        "data": "2017/04/17",
+        "estrelas": 5,
+        "foi_recomendado": "Recomendo",
+        "titulo": "Excelente",
         "revisao": ""
     },
     {
         "id": 21,
-        "data": "14/02/2016",
-        "estrelas": 3,
-        "foi_recomendado": "Não recomendo este produto",
-        "titulo": "produto muito frágil",
-        "revisao": "a porta é muito frágil o que diminui muito a vida útil e as peças de reposição são muito caras , chega a custa mais number de máquina nova , o que é um absurdo ."
+        "data": "2017/04/13",
+        "estrelas": 4,
+        "foi_recomendado": "Recomendo",
+        "titulo": "Iphone",
+        "revisao": ""
     },
     {
         "id": 22,
-        "data": "03/12/2012",
-        "estrelas": 4,
-        "foi_recomendado": "Recomendo este produto",
-        "titulo": "zs",
-        "revisao": "no geral gostei da minha aquisição meu tempo rende um pouco mais !já conhecia a máquina quando decidi comprar , então foi só pesquisar o preço e realizar o sonho !o que gostei : faz meu tempo render um pouco mais !o que não gostei : a eficiência na lavagem das panelas , fica um pouco a desejar !"
+        "data": "2017/03/27",
+        "estrelas": 5,
+        "foi_recomendado": "Recomendo",
+        "titulo": "Ainda melhor",
+        "revisao": "o iphone number e ainda melhor que os demais .a câmera e maravilhosa e todos os novos aplicativos são ótimos ."
     },
     {
         "id": 23,
-        "data": "22/08/2014",
-        "estrelas": 1,
-        "foi_recomendado": "Não recomendo este produto",
-        "titulo": "Horrível, deu problema e estou 1 ano com esse abacaxi",
-        "revisao": "nunca tive tranquilidade , meu produto deu defeito e já foram diversos técnicos lá em casa e não acham o problema .mesmo estando na garantia cobram a visita e da última vez cobrou ar $ number reais porque falaram que a culpa era nossa ."
+        "data": "2017/03/27",
+        "estrelas": 5,
+        "foi_recomendado": "Recomendo",
+        "titulo": "Ótimo produto",
+        "revisao": "fora a bateria , não tenho nada a reclamar do produto .é um produto ótimo , conforme o esperado ."
     },
     {
         "id": 24,
-        "data": "18/05/2013",
+        "data": "2017/03/27",
         "estrelas": 5,
-        "foi_recomendado": "Recomendo este produto",
-        "titulo": "Excelente produto",
-        "revisao": "não tenho nada a reclamar .algumas questões que vi nas opiniões daqui foram resolvidas facilmente com a leitura do manual .é pratica , eficiente fácil de usar , as louças ficam realmente limpas .copos que tem alto relevo por exemplo ficam bem limpos e não fica nada acumulado nos talheres que são trabalhados ."
+        "foi_recomendado": "Recomendo",
+        "titulo": "Nota 10",
+        "revisao": "muito show ."
     },
     {
         "id": 25,
-        "data": "26/12/2012",
-        "estrelas": 4,
-        "foi_recomendado": "Recomendo este produto",
-        "titulo": "LAVA LOÇAS BRASTEMP",
-        "revisao": "para quem não tem paciência de lavar pratos , copos , facas , garfos e colheres é uma excelente compra .terei que fazer um novo armário com o espaço certinho para coloca - lá do lado da pia .o que gostei : para copos , pratos , talheres , ela lava muito bem , a quantidade de água usada para lavagem é mínima e o gasto com energia também é pequeno .o que não gostei : ela é muito grande , se a cozinha for pequena ou o seu armário não for projetado para acomoda - lá , fica demais , até atrapalha ."
+        "data": "2017/03/15",
+        "estrelas": 5,
+        "foi_recomendado": "Recomendo",
+        "titulo": "Celular",
+        "revisao": ""
     },
     {
         "id": 26,
-        "data": "17/03/2013",
+        "data": "2017/08/07",
         "estrelas": 5,
-        "foi_recomendado": "Recomendo este produto",
-        "titulo": "Lava louças Brastemp",
-        "revisao": "depois de muito analisar , acho que esta é a melhor opção de compra de uma lava-louças .possui as formulas que necessito e o preço é bom , em relação a outras no mercado ."
+        "foi_recomendado": "Recomendo",
+        "titulo": "Ótimo aparelho ",
+        "revisao": "de muita facilidade de uso e ótima usabilidade ."
     },
     {
         "id": 27,
-        "data": "01/12/2015",
-        "estrelas": 2,
-        "foi_recomendado": "Não recomendo este produto",
-        "titulo": "Produto avariado",
-        "revisao": "o produto chegou avariado em casa e ficou number semanas na assistência técnica ."
+        "data": "2016/12/26",
+        "estrelas": 5,
+        "foi_recomendado": "Recomendo",
+        "titulo": "excelente custo benefício",
+        "revisao": ""
     },
     {
         "id": 28,
-        "data": "12/08/2016",
+        "data": "2016/12/20",
         "estrelas": 5,
-        "foi_recomendado": "Recomendo este produto",
-        "titulo": "Como conseguia viver sem?",
-        "revisao": "está me ajudando muito .como consegui viver sem ?"
+        "foi_recomendado": "Recomendo",
+        "titulo": "Produto maravilhoso",
+        "revisao": ""
     },
     {
         "id": 29,
-        "data": "17/08/2013",
+        "data": "2016/12/04",
         "estrelas": 5,
-        "foi_recomendado": "Recomendo este produto",
-        "titulo": "ok",
+        "foi_recomendado": "Recomendo",
+        "titulo": "Bom como sempre ",
         "revisao": ""
     },
     {
         "id": 30,
-        "data": "28/12/2013",
-        "estrelas": 4,
-        "foi_recomendado": "Recomendo este produto",
-        "titulo": "conforto",
-        "revisao": ""
+        "data": "2016/12/15",
+        "estrelas": 5,
+        "foi_recomendado": "Recomendo",
+        "titulo": "A melhor opção",
+        "revisao": "está sendo uma das melhores experiências , pois , com a tecnologia e funções do iphone podemos ir além da atmosfera moderna ."
     },
     {
         "id": 31,
-        "data": "11/08/2015",
-        "estrelas": 4,
-        "foi_recomendado": "Recomendo este produto",
-        "titulo": "Lava-Louças da Familia",
-        "revisao": "adequado para uma família de quatro pessoas para um dia ou um pouco a mais .muito melhor que lavar a louça , e mais econômico ."
+        "data": "2016/11/11",
+        "estrelas": 5,
+        "foi_recomendado": "Recomendo",
+        "titulo": "Bom",
+        "revisao": ""
     },
     {
         "id": 32,
-        "data": "21/10/2015",
+        "data": "2017/06/12",
         "estrelas": 5,
-        "foi_recomendado": "Recomendo este produto",
-        "titulo": "Performa-se. Informações, ",
+        "foi_recomendado": "Recomendo",
+        "titulo": "Não tenho o produto",
         "revisao": ""
     },
     {
         "id": 33,
-        "data": "20/07/2013",
+        "data": "2017/05/24",
         "estrelas": 4,
-        "foi_recomendado": "Recomendo este produto",
-        "titulo": "Bom custo beneficio",
+        "foi_recomendado": "Recomendo",
+        "titulo": "ÓTIMO",
         "revisao": ""
     },
     {
         "id": 34,
-        "data": "15/12/2016",
-        "estrelas": 1,
-        "foi_recomendado": "Não recomendo este produto",
-        "titulo": "O prduto talvez seja bom, quando entregarem vou saber.",
-        "revisao": "uma porcaria o serviço de entrega .liguei para reclamar mas mentem , informando que entraram em contato , que foram em casa e não tinha ninguém , mas moro em condomínio , a portaria me avisa quando chega um entregador ."
+        "data": "2017/04/23",
+        "estrelas": 4,
+        "foi_recomendado": "Recomendo",
+        "titulo": "Ótimo produto mas caro",
+        "revisao": "sistema muito rápido , mesmo se comparado ao android táctil .excelente qualidade de som e fotos .falta o carregamento rápido e o valor do aparelho ainda acho muito elevado .para as demais , é interessante comparar com outros smartphones de mesmo nível ."
     },
     {
         "id": 35,
-        "data": "20/03/2013",
-        "estrelas": 4,
-        "foi_recomendado": "Recomendo este produto",
-        "titulo": "So far, so good...",
-        "revisao": "acabei de comprar , pesquisando o preço no buscarei .ainda não instalei , mas fiquei satisfeito com a rapidez da entrega da loja ."
+        "data": "2017/04/17",
+        "estrelas": 5,
+        "foi_recomendado": "Recomendo",
+        "titulo": "Ótimo produto.",
+        "revisao": "um ótimo produto ."
     },
     {
         "id": 36,
-        "data": "19/07/2016",
+        "data": "2017/04/16",
         "estrelas": 4,
-        "foi_recomendado": "Recomendo este produto",
-        "titulo": "EXCELENTE PRODUTO.",
+        "foi_recomendado": "Recomendo",
+        "titulo": "Ótimo sistema operacional ",
         "revisao": ""
     },
     {
         "id": 37,
-        "data": "19/07/2016",
-        "estrelas": 4,
-        "foi_recomendado": "Recomendo este produto",
-        "titulo": "PRODUTO DE BOA QUALIDADE E GRANDE UTILIDADE NO LAR",
+        "data": "2017/03/24",
+        "estrelas": 5,
+        "foi_recomendado": "Recomendo",
+        "titulo": "Amo esse produto",
         "revisao": ""
     },
     {
         "id": 38,
-        "data": "30/03/2016",
-        "estrelas": 5,
-        "foi_recomendado": "Recomendo este produto",
-        "titulo": "Toda dona de casa deve ter uma.",
-        "revisao": "ela é ótima e me ajuda demais .o preço ainda é muita alto ."
+        "data": "2017/09/19",
+        "estrelas": 4,
+        "foi_recomendado": "Recomendo",
+        "titulo": "iPhone 7",
+        "revisao": ""
     },
     {
         "id": 39,
-        "data": "21/02/2016",
+        "data": "2017/03/06",
         "estrelas": 5,
-        "foi_recomendado": "Recomendo este produto",
-        "titulo": "otimo produto",
-        "revisao": "meu descanso depois do almoço não tem preço !esse produto me da esta satisfação !"
+        "foi_recomendado": "Recomendo",
+        "titulo": "Bom produto",
+        "revisao": ""
     },
     {
         "id": 40,
-        "data": "15/08/2013",
+        "data": "2017/09/12",
         "estrelas": 5,
-        "foi_recomendado": "Recomendo este produto",
-        "titulo": "Praticidade",
-        "revisao": ""
-    },
-    {
-        "id": 41,
-        "data": "02/08/2013",
-        "estrelas": 4,
-        "foi_recomendado": "Recomendo este produto",
-        "titulo": "Bom produto",
-        "revisao": "gosto muito dessa maquina minha mãe tem uma e estou comprando uma para mim porque é muito boa hei de achar cara ."
-    },
-    {
-        "id": 42,
-        "data": "18/07/2013",
-        "estrelas": 5,
-        "foi_recomendado": "Recomendo este produto",
-        "titulo": "Excelente",
-        "revisao": "não sei como eu vivi sem essa lavadora por tanto tempo , super recomendo , é uma grande ajuda no trabalho doméstico ."
-    },
-    {
-        "id": 43,
-        "data": "06/12/2012",
-        "estrelas": 4,
-        "foi_recomendado": "Recomendo este produto",
-        "titulo": "  perspectivas boas no uso de uma brastemp",
-        "revisao": "até o presente momento , atende expectativas .o que gostei : boa facilidade de uso .o que não gostei : produto ainda muito novo impede contrariedades ."
-    },
-    {
-        "id": 44,
-        "data": "26/12/2013",
-        "estrelas": 4,
-        "foi_recomendado": "Recomendo este produto",
-        "titulo": "Bom",
-        "revisao": "recomendo o produto desde que o preço seja atrativo ."
-    },
-    {
-        "id": 45,
-        "data": "26/12/2013",
-        "estrelas": 5,
-        "foi_recomendado": "Recomendo este produto",
-        "titulo": "Muito bom",
-        "revisao": ""
-    },
-    {
-        "id": 46,
-        "data": "23/12/2013",
-        "estrelas": 5,
-        "foi_recomendado": "Recomendo este produto",
-        "titulo": "lava louças",
-        "revisao": ""
-    },
-    {
-        "id": 47,
-        "data": "02/10/2013",
-        "estrelas": 5,
-        "foi_recomendado": "Recomendo este produto",
-        "titulo": "É um ótimo produto",
-        "revisao": "muito fácil de instalar e de usar , só não gostei do consumo do material de limpeza ."
-    },
-    {
-        "id": 48,
-        "data": "10/08/2015",
-        "estrelas": 5,
-        "foi_recomendado": "Recomendo este produto",
-        "titulo": "Satisfeita ",
-        "revisao": ""
-    },
-    {
-        "id": 49,
-        "data": "10/08/2015",
-        "estrelas": 4,
-        "foi_recomendado": "Recomendo este produto",
-        "titulo": "boa",
-        "revisao": ""
-    },
-    {
-        "id": 50,
-        "data": "29/08/2013",
-        "estrelas": 4,
-        "foi_recomendado": "Recomendo este produto",
-        "titulo": "A maquina é muito boa!",
-        "revisao": "as lavas louças , todas são apenas um bom quebra galho , pois o sabão usado é muito agressivo e não pode ser usado em alumínio madeira teflon ou seja coisas que você gostaria de lavar , alem do mais exige que você retira todo resido de alimentos que fica nas louças , se você deixar resíduos a louça sai sujas , mesmo assim não me arrependi de ter comprado a gente tem que se adequar a ela , comprando panelas de inox por exemplo ."
-    },
-    {
-        "id": 51,
-        "data": "31/12/2013",
-        "estrelas": 5,
-        "foi_recomendado": "Recomendo este produto",
-        "titulo": "lavadora de louças",
-        "revisao": ""
-    },
-    {
-        "id": 52,
-        "data": "22/09/2013",
-        "estrelas": 5,
-        "foi_recomendado": "Recomendo este produto",
-        "titulo": "VIDA DAS MULHERES BEM MAIS FACIL",
-        "revisao": "quando chegamos cansadas do trabalho e ainda ter que lavar louça , e estragar as unhas pintadas bonitinhas , se você ainda sofre isso eu tenho a solução .compra a lava louças , é pratico rápido e eficiente .e marca boa brastemp alem que a entrega é muito rápido !"
-    },
-    {
-        "id": 53,
-        "data": "13/12/2014",
-        "estrelas": 2,
-        "foi_recomendado": "Não recomendo este produto",
-        "titulo": "Lava mal e não seca",
-        "revisao": "esta máquina ative de number peças é um engodo : o carrinho inferior desencaixa todas as vezes ; o chuveirinho superior desencaixa ao roçar da louça , a lavagem \" pesada \" deixa sujeira grudada na caneca , e simplesmente não seca ."
-    },
-    {
-        "id": 54,
-        "data": "18/12/2013",
-        "estrelas": 1,
-        "foi_recomendado": "Não recomendo este produto",
-        "titulo": "Não pude usar",
-        "revisao": ""
-    },
-    {
-        "id": 55,
-        "data": "03/11/2015",
-        "estrelas": 4,
-        "foi_recomendado": "Recomendo este produto",
-        "titulo": "Poderia ser melhor...",
-        "revisao": "pode ser melhorado o acabamento interno ( material fraco ) , o design da porta ( não há trava de meia abertura para permitir a evaporação da água após a lavagem ) e grade inferior ( a trava que limita o movimento da grade inferior dificulta o acesso aos pratos maiores no fundo da mesma ) .o tempo de operação me parece muito longo em relação a outros modelos / marcas que já tive ."
-    },
-    {
-        "id": 56,
-        "data": "25/10/2015",
-        "estrelas": 5,
-        "foi_recomendado": "Recomendo este produto",
-        "titulo": "ESTA LAVA LOUÇa A SALVOU MEU CASAMENTO",
-        "revisao": "detesto lavar louça e meu marido também então imagine as brigas diárias .ah e realmente lava panelas , ou melhor cumpre o que promete é só seguir corretamente as instruções .gostamos tanto que indicamos para amigos e parentes .aprovada !"
-    },
-    {
-        "id": 57,
-        "data": "09/10/2014",
-        "estrelas": 1,
-        "foi_recomendado": "Não recomendo este produto",
-        "titulo": "Um monte de problemas",
-        "revisao": "produto veio com defeito e no segundo dia tive que trocar duas peças fundamentais para seu funcionamento ."
-    },
-    {
-        "id": 58,
-        "data": "12/05/2014",
-        "estrelas": 5,
-        "foi_recomendado": "Recomendo este produto",
-        "titulo": "Praticidade  ^^'",
-        "revisao": "comprei a minha no finalzinho de novembro , e já se passaram number meses , e eu amo minha lava louças , até agora não apresentou nenhum defeito de fabrica ( graças a deus , espero que ela continue assim ) quando fui comprar fiquei muito indecisa , pois muita gente reclama de defeitos e que não se acostuma a usar , mas decidi que iria comprar e ponto final .foi a melhor coisa que fiz porque trabalho os number dias da semana faço faculdade não tenho lá muito tempo e também odeio água fria , e meu marido só com muita insistência lava a louça , agora minha pia não fica cheia de louça , vou juntando louça lá dentro e quando esta cheia eu a ligo , ligo umas três vezes na semana só , porque cabe bastante coisa nela , e sai tudo bem limpinho e esterilizado =) a única coisa que não me agrada muito é que ela só lava panela de inox , se você colocar alumino nela ele sai todo manchado ( nunca coloquei panela com teflon , nem esmaltada porque no manual diz que não pode , só tentei coloca o alumínio mesmo ) , e tem que encaixar tudo certinho , pra que não caia durante a lavagem , e acabe quebrando !não me imagino sem ela , é bem pratica e facilita minha vida , porque enquanto ela lava a louça , da pra eu ai fazendo outras coisas na casa , uma ótima ajuda , pra quem tem uma vida corrida como eu , e prefere gastar o tempo que ia lavar a louça com outras coisas !"
-    },
-    {
-        "id": 59,
-        "data": "18/01/2014",
-        "estrelas": 5,
-        "foi_recomendado": "Recomendo este produto",
-        "titulo": "Adoro",
-        "revisao": "adoro a minha lava-louça .ela é ideal para uma família pequena e ajuda muito para quem tem uma vida corrida .fácil de usar e muito silenciosa ; eu sempre coloco o ciclo a noite ."
-    },
-    {
-        "id": 60,
-        "data": "30/12/2013",
-        "estrelas": 3,
-        "foi_recomendado": "Recomendo este produto",
-        "titulo": "Rendimento Razoável.",
-        "revisao": "ótima para lavar pratos , copos , talheres e xícaras , porém lavar panelas e objetos que tenham sujeira impregnada , ai não tem milagre .cuidado não colocar pratos e copos infantis com adesivos ou decalques pois o sabão e calor destroem os mesmos ."
-    },
-    {
-        "id": 61,
-        "data": "12/12/2013",
-        "estrelas": 5,
-        "foi_recomendado": "Recomendo este produto",
-        "titulo": "Recomendo você comprar uma agora! Excelente eletrodoméstico!",
-        "revisao": "eu tinha um grande preconceito quando ouvia falar sobre lava-louça , até pesquisar mais sobre este incrível eletrodoméstico !realmente facilita a vida , economizando tempo e simplificando as tarefas domésticas .estou com o aparelho a number meses , e já coloquei de tudo na lava-louça , panelas , pratos , talheres , vasilhas plásticas , assadeiras , garrafas , jarra de liquidificador e lavou incrivelmente bem .basta acomodar os utensílios conforme orientação descrita no manual , usar um detergente de qualidade e pronto !praticamente não notei no aumento de consumo de energia elétrica , a única coisa que talvez possa ser um ponto negativo , é o valor alto do detergente próprio para máquina , se comparado ao detergente comum , mas vamos combinar , toda praticidade tem um custo .em relação a marca brastemp , não tenho do que reclamar , botões de simples manuseio , eficiência na lavagem e baixo consumo de energia ."
-    },
-    {
-        "id": 62,
-        "data": "28/08/2016",
-        "estrelas": 5,
-        "foi_recomendado": "Recomendo este produto",
-        "titulo": "Facilidade no dia a dia",
-        "revisao": ""
-    },
-    {
-        "id": 63,
-        "data": "20/08/2016",
-        "estrelas": 5,
-        "foi_recomendado": "Recomendo este produto",
-        "titulo": "Muito bom ",
-        "revisao": "está me ajudando muito ."
-    },
-    {
-        "id": 64,
-        "data": "15/08/2016",
-        "estrelas": 4,
-        "foi_recomendado": "Recomendo este produto",
-        "titulo": "Atendeu as espectativas",
-        "revisao": "adorei , sempre tive receio de comprar porque algumas pessoas falavam que não lava direito , mas é folclore lava muito bem .chamamos nossa ajudante de maria julia .minha filha de number anos adorou a aquisição .podem comprar sem medo ."
-    },
-    {
-        "id": 65,
-        "data": "23/05/2016",
-        "estrelas": 5,
-        "foi_recomendado": "Recomendo este produto",
-        "titulo": "Atendeu à nossas necessidades",
-        "revisao": "produto com bom custo beneficio , de boa qualidade e fácil de usar ."
-    },
-    {
-        "id": 66,
-        "data": "17/01/2016",
-        "estrelas": 5,
-        "foi_recomendado": "Recomendo este produto",
-        "titulo": "excelente",
-        "revisao": ""
-    },
-    {
-        "id": 67,
-        "data": "03/11/2015",
-        "estrelas": 5,
-        "foi_recomendado": "Recomendo este produto",
-        "titulo": "Maquina",
-        "revisao": ""
-    },
-    {
-        "id": 68,
-        "data": "03/11/2015",
-        "estrelas": 5,
-        "foi_recomendado": "Recomendo este produto",
-        "titulo": "Pratico e efeciente",
-        "revisao": "se eu soubesse que era estão bom , tinha adquirido antes uma lava loucas , por sua praticidade e eficiência ."
-    },
-    {
-        "id": 69,
-        "data": "22/10/2015",
-        "estrelas": 5,
-        "foi_recomendado": "Recomendo este produto",
-        "titulo": "Qualidade",
-        "revisao": ""
-    },
-    {
-        "id": 70,
-        "data": "02/09/2015",
-        "estrelas": 4,
-        "foi_recomendado": "Recomendo este produto",
-        "titulo": "Lava muito bem as louças que ficam com brilho que na mão seria impossível....",
-        "revisao": "gostei muito dei de presente para minha tia que está adorando pois segundo ela sobra mais tempo para as tarefas do dia a dia ela recomenda !"
-    },
-    {
-        "id": 71,
-        "data": "17/08/2015",
-        "estrelas": 5,
-        "foi_recomendado": "Recomendo este produto",
-        "titulo": "Ótima, meu braço direito.",
-        "revisao": ""
-    },
-    {
-        "id": 72,
-        "data": "31/07/2017",
-        "estrelas": 5,
-        "foi_recomendado": "Recomendo este produto",
-        "titulo": "Funciona muito bem",
-        "revisao": "ótima máquina , silenciosa e de fácil instalação .deveria ter a opção de selecionar ou não a secagem da louça em todos os programas ( o único programa que não seca é o rápido ) , já que nem sempre temos a necessidade de secar a louça na máquina ."
-    },
-    {
-        "id": 73,
-        "data": "26/06/2017",
-        "estrelas": 5,
-        "foi_recomendado": "Recomendo este produto",
-        "titulo": "Sobre o produto",
-        "revisao": "os botões são muito sensíveis ao toque , o que regulo fácil !"
-    },
-    {
-        "id": 74,
-        "data": "09/03/2017",
-        "estrelas": 1,
-        "foi_recomendado": "Não recomendo este produto",
-        "titulo": "não cabe pratos fundo",
-        "revisao": ""
-    },
-    {
-        "id": 75,
-        "data": "02/11/2015",
-        "estrelas": 4,
-        "foi_recomendado": "Recomendo este produto",
-        "titulo": "Pelo o que eu vi nos comentarios ela é boa",
-        "revisao": "eu sou gabriel um garoto de number anos que quer ajudar a vó com as louças , então gente o custo beneficio é bom ?"
-    },
-    {
-        "id": 76,
-        "data": "25/10/2015",
-        "estrelas": 5,
-        "foi_recomendado": "Recomendo este produto",
-        "titulo": "Cumpre o que promete!",
-        "revisao": "a máquina consegue tirar algumas sujeiras das louças , talheres e equipamentos de cozinha que não conseguimos tirar numa lavagem normal com esponja e detergente .tendo atenção na disposição das coisas dentro da máquina na hora de lavar , para que os jatos de água consigam atingir todas as partes e lavar tudo direitinho , ela é muito eficiente .arrependido de não ter comprado uma dessas antes .quanto tempo perdido lavando louças !estou esperando para receber a conta de água e de luz para ver o seu custo-benefício , mas de qualquer forma vai ser difícil ter ânimo para encarar novamente uma pia cheia de louças ."
-    },
-    {
-        "id": 77,
-        "data": "08/08/2014",
-        "estrelas": 1,
-        "foi_recomendado": "Não recomendo este produto",
-        "titulo": "ruim demais. pessimo produto",
-        "revisao": "painel deu problema com 2meses de uso ."
-    },
-    {
-        "id": 78,
-        "data": "27/01/2014",
-        "estrelas": 5,
-        "foi_recomendado": "Recomendo este produto",
-        "titulo": "satisfeito",
-        "revisao": ""
-    },
-    {
-        "id": 79,
-        "data": "02/12/2013",
-        "estrelas": 5,
-        "foi_recomendado": "Recomendo este produto",
-        "titulo": "Excelente Brastemp Ative 8 serviços!",
-        "revisao": "puxa , nem sei o que dizer , de tanta satisfação que estou com o produto !a máquina é ótima , o tamanho ideal .eu ainda não tenho filhos , então resolvi comprar a de number serviços , exatamente esperando que logo a família cresça !entretanto não poderia ter feito escolha de tamanho melhor !ela tem a função \" aquaspray \" para dar uma pré lavada ( sem sabão ) , para esperar completar a capacidade da máquina .excelente produto mesmo !estou muito feliz com a compra !"
-    },
-    {
-        "id": 80,
-        "data": "19/11/2015",
-        "estrelas": 2,
-        "foi_recomendado": "Não recomendo este produto",
-        "titulo": "Produto chegou sem funcionar",
-        "revisao": "produto chegou avariado e teve que ir diretamente para a assistência técnica autorizada ."
-    },
-    {
-        "id": 81,
-        "data": "12/10/2018",
-        "estrelas": 1,
-        "foi_recomendado": "Não recomendo este produto",
-        "titulo": "Problemas graves logo após o término da garantia",
-        "revisao": "comprei e mesmo usando muito pouco , no number 3o mês , ou seja , no primeiro mês apos o fim da garantia , a maquina acusou um problema , que ao pesquisa em sites especializado , é algo recorrente .problema na bomba que retira a agua da maquina .mas o pior .o preço do conserto ( peça + mao de obra ) chegou a ultrapassar o preço que eu paguei por ela .comprei de outra marca , joguei essa no lixo porque a brastemp simplesmente abusou disso , escondendo esse defeito recorrente e não se comprometendo a consertar de graça , como em um recall ."
-    },
-    {
-        "id": 82,
-        "data": "19/11/2012",
-        "estrelas": 4,
-        "foi_recomendado": "Recomendo este produto",
-        "titulo": "Boa escolha",
-        "revisao": "bom custo ex beneficio se comparado a outros modelos o que gostei : compacta , cabendo em pequenos nichos .o que não gostei : ainda não detectei ."
-    },
-    {
-        "id": 83,
-        "data": "30/06/2013",
-        "estrelas": 5,
-        "foi_recomendado": "Recomendo este produto",
-        "titulo": "Muito boa.",
-        "revisao": ""
-    },
-    {
-        "id": 84,
-        "data": "17/10/2012",
-        "estrelas": 3,
-        "foi_recomendado": "Recomendo este produto",
-        "titulo": "Perder tempo lavando louça, nunca mais!",
-        "revisao": "a brastemp é uma marca conceituada no mercado e espero , realmente , que a minha lava-louça não me dê problemas .pois é isso que esperamos quando adquirimos produtos de marcas sólidas e conceituadas no mercado , como a brastemp , pois é péssimo quando adquirimos um produto por uma necessidade e este não funciona e correr atrás de fabricante é desgastante demais .o que gostei : compacta , mas ao mesmo tempo eficiente , e moderna ."
-    },
-    {
-        "id": 85,
-        "data": "16/10/2012",
-        "estrelas": 3,
-        "foi_recomendado": "Recomendo este produto",
-        "titulo": "Muito bom o produto, recomendo sem problemas.",
-        "revisao": "muito bom o produto , recomendo sem problemas .o que gostei : muito bom o produto , recomendo o que não gostei : o cesto inferior é preciso certa paciência para acomodar a louça ."
-    },
-    {
-        "id": 86,
-        "data": "01/10/2012",
-        "estrelas": 3,
-        "foi_recomendado": "Recomendo este produto",
-        "titulo": "Brastemp",
-        "revisao": "pode comprar sem medo , pois é uma brastemp ."
-    },
-    {
-        "id": 87,
-        "data": "28/08/2016",
-        "estrelas": 5,
-        "foi_recomendado": "Recomendo este produto",
-        "titulo": "Facilidade no dia a dia",
-        "revisao": ""
-    },
-    {
-        "id": 88,
-        "data": "26/06/2013",
-        "estrelas": 4,
-        "foi_recomendado": "Recomendo este produto",
-        "titulo": "Boa qualidade e desempenho.",
-        "revisao": "atende o especificado ."
-    },
-    {
-        "id": 89,
-        "data": "03/06/2013",
-        "estrelas": 4,
-        "foi_recomendado": "Recomendo este produto",
-        "titulo": "recomendo",
-        "revisao": "estou amando , saio para trabalhar e deixo ela lavando as louças , lava e seca é maravilhoso , super espaçosa ."
-    },
-    {
-        "id": 90,
-        "data": "01/06/2013",
-        "estrelas": 5,
-        "foi_recomendado": "Recomendo este produto",
-        "titulo": "Não fique sem uma lava louça.",
-        "revisao": "muito prática tanto para instalação como utilização ."
-    },
-    {
-        "id": 91,
-        "data": "12/02/2013",
-        "estrelas": 5,
-        "foi_recomendado": "Recomendo este produto",
-        "titulo": "Produto perfeito.",
-        "revisao": "muito bom produto .fácil de manusear .possui sistema de água quente que minha esposa queria .o que gostei : equipamento leve e silencioso .possui sistema de água quente .o que não gostei : não medi ainda o consumo de energia e água , só acho o tempo de lavagem muito demorado em relação à máquina que possuíamos ."
-    },
-    {
-        "id": 92,
-        "data": "26/07/2014",
-        "estrelas": 4,
-        "foi_recomendado": "Recomendo este produto",
-        "titulo": "Bom desempenho + material frágil",
-        "revisao": ""
-    },
-    {
-        "id": 93,
-        "data": "06/07/2014",
-        "estrelas": 5,
-        "foi_recomendado": "Recomendo este produto",
-        "titulo": "O eletrodoméstico mais querido da minha casa!",
-        "revisao": "somos só duas pessoas em casa mas recebo até number pessoas de uma vez e esta lava-louças se encaixa perfeitamente na minha necessidade .ela é pequena o suficiente para lavar louça de um café da manhã e almoço por exemplo sem ficar com dó do espaço sobrando e em duas ou uma lavagem eu organizo a cozinha no domingo .a louça tem que ser bem colocada para não ficar suja mas com a experiência você sabe onde colocar cada coisa e ter um bom resultado .eu tenho uma amiga que não tem paciência e prefere lavar , mas eu já acho que estraga as mãos e unhas , e ainda a cozinha fica desorganizada com a louça secando na pia .costumo dizer que parece um armarinho mágico que eu escondo a louça suja e depois tiro limpa !amo !"
-    },
-    {
-        "id": 94,
-        "data": "03/06/2014",
-        "estrelas": 5,
-        "foi_recomendado": "Recomendo este produto",
-        "titulo": "Minha amiga prática que traz beleza limpeza e harmonia na minha cozinnha",
-        "revisao": "corresponde ao serviço desejado !fácil de manusear .bonita e de facilidade ao instalar !estou satisfeitíssima com o produto e com mais tempo livre pra * * * minha vida !"
-    },
-    {
-        "id": 95,
-        "data": "03/06/2014",
-        "estrelas": 5,
-        "foi_recomendado": "Recomendo este produto",
-        "titulo": "Melhor compra que já fizemos",
-        "revisao": "mas deveria ter sido um dos primeiros , não temos mais que esquentar a cabeça com lavar a louça , não importa o quanto a mesma esteja suja .limpa muitíssimo bem , super simples de instalar e usar .o manual é bem detalhado e qualquer duvida que você possa ter o site da brastemp resolve !também é econômica , não só na quantidade d'água mas também com relação ao produto secante / abrilhantado .e a função acquaspray ajuda mesmo !minha esposa não poderia estar mais feliz e eu também !"
-    },
-    {
-        "id": 96,
-        "data": "07/05/2014",
-        "estrelas": 5,
-        "foi_recomendado": "Recomendo este produto",
-        "titulo": "Simples e excelente!",
-        "revisao": "a capacidade dela é surpreendente , o ciclo das lavagens é rápido , e a louça fica limpinha , limpinha !com os produtos de limpeza certos , nada vai dar errado .considerando uma lavagem de louças normal , à mão , a economia de água é considerável .os programas de lavagem são simples de escolher , bastando pressionar um botão para navegar pelas opções .a função aquaspray ajuda quando a máquina não está cheia , e a louça será lavada depois , com mais itens .como toda máquina , ela tem um tamanho avantajado , portanto é bom saber direitinho onde vai colocá-la , antes de comprar ."
-    },
-    {
-        "id": 97,
-        "data": "17/09/2015",
-        "estrelas": 5,
-        "foi_recomendado": "Recomendo este produto",
-        "titulo": "Melhor aquisição para quem trabalha fora",
-        "revisao": "comprei esta lavadora já tem number ano , por indicação de uma amiga .posso dizer que é uma maravilha , economiza muito tempo , e para uma família de até number pessoas é muito pratica .além da economia de agua nessa época de crise gástrica , é só ajeitar a louça do dia , deixar trabalhando e no dia seguinte guardar , todo muito limpo e brilhando .as vezes coloco até panela , só não limpa bem se estiver com coisa grudada , ai não tem jeito mesmo , porque não faz milagres ."
-    },
-    {
-        "id": 98,
-        "data": "23/06/2015",
-        "estrelas": 4,
-        "foi_recomendado": "Recomendo este produto",
-        "titulo": "Recomendo, porém aconselho a pesquisar",
-        "revisao": "gostei .vale a pena dar uma olhada e comparar o nível de ruído de outras marcas .a lavadora é bem bonita , dá um \" up \" na cozinha , ajuda na tarefa do dia a dia pra lavar louças , mas não faz milagres também .mas , enfim , acho que é uma boa máquina ."
-    },
-    {
-        "id": 99,
-        "data": "06/02/2015",
-        "estrelas": 5,
-        "foi_recomendado": "Recomendo este produto",
-        "titulo": "Caraca Moleque, que é isso de bom!!!!! ",
-        "revisao": "pois se ao deixarmos a porta aberta , dependendo do espaço de circulação fica obstruído pela mesma .grato pela atenção ."
-    },
-    {
-        "id": 100,
-        "data": "02/01/2015",
-        "estrelas": 4,
-        "foi_recomendado": "Recomendo este produto",
-        "titulo": "Tenho e testei para dar minha avaliação",
-        "revisao": "acho que todos os usuários que utilizam o buscarei , deveriam avaliar também os produtos comprados .as avaliações aqui me ajudaram a compras vários produtos bons .comprei essa lava louça no black ferida e estou com ela há dois meses .ela é muito bonita , com um ótimo espaço interno onde cabem muitas louças e talheres .os oito serviços são muito bons , mas acho um exagera você ter que colocar duas vezes o sabão para lavar - fora do dispenser e dentro do dispenser .quanto ao líquido secante é muito bom pois colocamos apenas uma vez e ele é utilizado por quarenta secagens .achei a peça de abertura da porta frágil , mas se pegar no modo correto a porta fica preservada por vários anos .uma coisa fantástica que achei é o silêncio .trens coisas que não achei tão legal : não achei que secou bem todas as vezes e com comida mais gordurosa ou que leva ovo , antes de colocar na máquina , passe uma boa esponja pois a máquina lava bem , mas não tira o cheiro do ovo e tenho alguns pratos quadrados ou com circunferência maior que um prato normal .eles não se encaixam na configuração de pratos da lava louca .conclusão : a máquina é muito boa , faz o seu papel muito bem .detalhe : leia as instruções para saber mexer bem nela e conseguir ótimos resultados ."
-    },
-    {
-        "id": 101,
-        "data": "16/09/2014",
-        "estrelas": 4,
-        "foi_recomendado": "Recomendo este produto",
-        "titulo": "A lavadora de louças limpa, mas demora na limpeza.",
-        "revisao": "é ótima para quem não gosta de lavar , no inverno ou quer otimizar o tempo : como fazemos com as roupas .porém , ela leva muito tempo para lavar a louça , são quase duas horas !"
-    },
-    {
-        "id": 102,
-        "data": "28/12/2013",
-        "estrelas": 5,
-        "foi_recomendado": "Recomendo este produto",
-        "titulo": "Praticidade",
-        "revisao": ""
-    },
-    {
-        "id": 103,
-        "data": "16/12/2013",
-        "estrelas": 4,
-        "foi_recomendado": "Recomendo este produto",
-        "titulo": "Lava bem pratos, copos e talheres...",
-        "revisao": "lava bem pratos , copos e talheres .mas panelas nem tanto , sempre é preciso dar um acabamento final neles , pois sempre saem com um pouco se sujeira grudada ."
-    },
-    {
-        "id": 104,
-        "data": "14/12/2013",
-        "estrelas": 5,
-        "foi_recomendado": "Recomendo este produto",
-        "titulo": "Muito bom!!!!",
-        "revisao": "está facilitando muito minha vida .está valendo a pena ."
-    },
-    {
-        "id": 105,
-        "data": "11/12/2013",
-        "estrelas": 5,
-        "foi_recomendado": "Recomendo este produto",
-        "titulo": "EXCELENTE LAVA LOUÇAS",
-        "revisao": "ela é bastante espaçosa por dentro e compactar por fora , tanto que consegui colocar dentro do armário por baixo da pia ."
-    },
-    {
-        "id": 106,
-        "data": "02/12/2013",
-        "estrelas": 5,
-        "foi_recomendado": "Recomendo este produto",
-        "titulo": "Facilita no dia-a-dia",
-        "revisao": "nos possibilidade utilizar o tempo que era dedicado à lavar louça para outras tarefas ."
-    },
-    {
-        "id": 107,
-        "data": "30/10/2013",
-        "estrelas": 4,
-        "foi_recomendado": "Recomendo este produto",
-        "titulo": "ASSISTENCIA TECNICA DEMORADA",
-        "revisao": "produto veio com defeito , tive que solicitei a assistência técnica , que demorou mais de duas semanas para trocar a peça com defeito ."
-    },
-    {
-        "id": 108,
-        "data": "22/10/2013",
-        "estrelas": 5,
-        "foi_recomendado": "Recomendo este produto",
-        "titulo": "Produto de boa qualidade",
-        "revisao": ""
-    },
-    {
-        "id": 109,
-        "data": "10/07/2013",
-        "estrelas": 5,
-        "foi_recomendado": "Recomendo este produto",
-        "titulo": "Amei o produto!",
-        "revisao": "só tenho elogios .ela é ótima , fácil de usar e lava super bem se você colocar a quantidade de louça recomendada .vale a pena adquirir ."
-    },
-    {
-        "id": 110,
-        "data": "09/07/2013",
-        "estrelas": 5,
-        "foi_recomendado": "Recomendo este produto",
-        "titulo": "Facilidade no dia-a-dia",
-        "revisao": "facilitou demais as atividades da cozinha lavando e secando a louça .a mesma fica mais brilhante quando limpa .adorei !"
-    },
-    {
-        "id": 111,
-        "data": "30/06/2013",
-        "estrelas": 5,
-        "foi_recomendado": "Recomendo este produto",
-        "titulo": "Bom produto",
-        "revisao": "tamanho compacto ocupa pouco espaço ."
-    },
-    {
-        "id": 112,
-        "data": "30/10/2013",
-        "estrelas": 5,
-        "foi_recomendado": "Recomendo este produto",
-        "titulo": "Recomendo",
-        "revisao": "a primeira eu me desfiz dela apenas porque estava muito feia ( o cachorro fazia xixi nela ) ."
-    },
-    {
-        "id": 113,
-        "data": "06/05/2014",
-        "estrelas": 5,
-        "foi_recomendado": "Recomendo este produto",
-        "titulo": "Ótimo",
-        "revisao": "perfeita .mas independente disso é um ótimo produto .lava super bem .super indico ."
-    },
-    {
-        "id": 114,
-        "data": "28/05/2013",
-        "estrelas": 4,
-        "foi_recomendado": "Recomendo este produto",
-        "titulo": "Muito boa mas falta espaço interno!!",
-        "revisao": "minha experiência foi muito boa , agora não fica mais louça suja na pia .somos em duas pessoas e colocamos toda noite a lava-louças para funcionar , ela é muito boa mas deixa a desejar no espaço interno , que foi feito somente para copos , xícaras , pratos e talheres ; sendo assim se você colocar uma jarra de suco , uma tampa de panela , ou um simples pote , ela já perde muito espaço e você tem que ficar analisando bem como dispor do mesmo para que toda a louça seja bem lavada .mas num geral é muito boa e ajuda muito em casa , o que não cabe nela , lavo na mão com as panelas ."
-    },
-    {
-        "id": 115,
-        "data": "11/01/2013",
-        "estrelas": 4,
-        "foi_recomendado": "Recomendo este produto",
-        "titulo": "recomendo",
-        "revisao": ""
-    },
-    {
-        "id": 116,
-        "data": "01/11/2012",
-        "estrelas": 4,
-        "foi_recomendado": "Recomendo este produto",
-        "titulo": "Boa lava louça. Recomendo!",
-        "revisao": "ela é maior e mais silenciosa que a minha antiga , além de lavar mais louças do que a outra .gostei muito da lava-louças .depois que você acostuma não quer mais ficar sem .o que gostei : - muito fácil de instalar - espaçosa : cabe bastante louça .- lavagem com secagem realmente funciona .- o acesso aos compartimentos para sabão e abrilhantado fica na porta o que facilita muito .- silenciosa : em relação à que eu tinha antes ( clean ) ela é bem silenciosa .- econômica : a opção de jato de água ajuda bastante quando tem pouca louça pra lavar , pois da pra juntar ate o dia seguinte .o que não gostei : - preço : embora esteja baixo de outras de seu padrão , o preço de uma maquina de lavar louça ainda é muito alto ."
-    },
-    {
-        "id": 117,
-        "data": "17/07/2017",
-        "estrelas": 4,
-        "foi_recomendado": "Recomendo este produto",
-        "titulo": "Excelente compra",
-        "revisao": "muito bom o produto , uso todo dia e tem funcionado muito bem , muito bom custo e benefício , únicos problemas que tive é que não cabe number serviços , os pratos ficam muito em cima um do outro e não lavam bem quando na capacidade , mas dando alguns espaços lava perfeito , e os copos e xícaras frequentemente ficam com restinho de detergente dentro , algumas colheres raramente também , tem sempre que olhar quando tira e passar uma água pra tirar esses restos , mas isso é o de menos perto do trabalho que poupa ."
-    },
-    {
-        "id": 118,
-        "data": "09/04/2014",
-        "estrelas": 5,
-        "foi_recomendado": "Recomendo este produto",
-        "titulo": "Silenciosa e econômica",
-        "revisao": "essa máquina de lavar louças é muito silenciosa e econômica .comporta uma grande quantidade de louças , mas não é necessário esperar que ela fique cheia para limpar as louças .assim dá para esperar a próxima refeição para encher a máquina e aproveitar ao máximo a sua capacidade .painel de controle muito fácil de operar ."
-    },
-    {
-        "id": 119,
-        "data": "04/04/2014",
-        "estrelas": 5,
-        "foi_recomendado": "Recomendo este produto",
-        "titulo": "Perfeita!",
-        "revisao": "essa máquina é simplesmente perfeita !somos em number pessoas em casa , ligamos ela todos os dias , em geral no ciclo rápido e as louças saem perfeitas e brilhando .não houve aumento na conta de luz ."
-    },
-    {
-        "id": 120,
-        "data": "13/03/2014",
-        "estrelas": 5,
-        "foi_recomendado": "Recomendo este produto",
-        "titulo": "Brastemp Ative",
-        "revisao": "eu fiquei com medo de comprar , pois apenas number dos brasileiros tem uma .mas posso dizer que e umas das melhores aquisições a ser feita .ela lava panelas sim , e lava de tudo que pode ir a uma lava louças .e olha que eu sou meia chata com isso .mas é grande e preciso ver o espaço para deixa _ la mas isso não e motivo pra não comprar uma ."
-    },
-    {
-        "id": 121,
-        "data": "12/03/2014",
-        "estrelas": 5,
-        "foi_recomendado": "Recomendo este produto",
-        "titulo": "amei amei amei",
-        "revisao": "sempre me irritava e pensava que precisava de uma pia maior na minha cozinha , mas na verdade eu só precisava de uma lava louças .minha pia está linda e limpinha .sem contar que fica todo muito limpinho .cliente muito satisfeita e o bom de faro me ajudou da escolha até a compra do produto obrigada bom de faro ."
-    },
-    {
-        "id": 122,
-        "data": "01/04/2014",
-        "estrelas": 5,
-        "foi_recomendado": "Recomendo este produto",
-        "titulo": "Brastempe não tem erro",
-        "revisao": ""
-    },
-    {
-        "id": 123,
-        "data": "23/03/2014",
-        "estrelas": 5,
-        "foi_recomendado": "Recomendo este produto",
-        "titulo": "Maravilhosa Brastemp Ative BLF08 De Piso!",
-        "revisao": "a maquina de lavar louças brastemp active number serviços é simplesmente maravilhosa !amei demais ."
-    },
-    {
-        "id": 124,
-        "data": "24/01/2014",
-        "estrelas": 4,
-        "foi_recomendado": "Recomendo este produto",
-        "titulo": "Ótima maquina",
-        "revisao": "gostamos muito da maquina .lava muito bem , seca e deixa as louças brilhando .o único ponto negativo que encontrei até agora é quanto ao nível de ruído que considero muito alto ."
-    },
-    {
-        "id": 125,
-        "data": "29/12/2013",
-        "estrelas": 4,
-        "foi_recomendado": "Recomendo este produto",
-        "titulo": "boa",
-        "revisao": ""
-    },
-    {
-        "id": 126,
-        "data": "28/12/2013",
-        "estrelas": 5,
-        "foi_recomendado": "Recomendo este produto",
+        "foi_recomendado": "Recomendo",
         "titulo": "Otimo",
         "revisao": ""
     },
     {
-        "id": 127,
-        "data": "20/06/2014",
+        "id": 41,
+        "data": "2017/02/14",
         "estrelas": 5,
-        "foi_recomendado": "Recomendo este produto",
-        "titulo": "tempo para *** a vida",
+        "foi_recomendado": "Recomendo",
+        "titulo": "legal o produto",
         "revisao": ""
     },
     {
-        "id": 128,
-        "data": "19/06/2014",
+        "id": 42,
+        "data": "2017/01/09",
         "estrelas": 5,
-        "foi_recomendado": "Recomendo este produto",
-        "titulo": "Muito bom e prático",
-        "revisao": "produto excelente .ótimo desempenho e economia ."
+        "foi_recomendado": "Recomendo",
+        "titulo": "N/A",
+        "revisao": ""
     },
     {
-        "id": 129,
-        "data": "31/05/2014",
+        "id": 43,
+        "data": "2017/04/06",
         "estrelas": 5,
-        "foi_recomendado": "Recomendo este produto",
+        "foi_recomendado": "Recomendo",
+        "titulo": "Excelente!!!",
+        "revisao": "precisa de alguma explicação ?"
+    },
+    {
+        "id": 44,
+        "data": "2017/04/04",
+        "estrelas": 5,
+        "foi_recomendado": "Recomendo",
+        "titulo": "Produto maravilhoso",
+        "revisao": "comprei o aparelho junto a norteie , empresa super confiável e com o melhor preço do mercado !"
+    },
+    {
+        "id": 45,
+        "data": "2017/03/30",
+        "estrelas": 5,
+        "foi_recomendado": "Recomendo",
         "titulo": "Excelente",
-        "revisao": "estou usando a lava-louça há uma semana e não poderia estar mais satisfeita .é muito fácil de usar , linda e prática ."
+        "revisao": "atendeu todas as minhas necessidades , estou muito satisfeita com o produto ."
     },
     {
-        "id": 130,
-        "data": "26/05/2014",
+        "id": 46,
+        "data": "2017/03/24",
         "estrelas": 5,
-        "foi_recomendado": "Recomendo este produto",
-        "titulo": "Produto com bom custo x benefício ",
-        "revisao": "esta máquina de lavar louças cumpre o que promete .comprei uma há mais de number ano e até agora funcionou perfeitamente , cumprindo com o que promete ."
+        "foi_recomendado": "Recomendo",
+        "titulo": "Ótimo produto",
+        "revisao": "prático , robusto , de fácil utilização , enfim , completo ."
     },
     {
-        "id": 131,
-        "data": "08/04/2014",
+        "id": 47,
+        "data": "2017/03/22",
+        "estrelas": 5,
+        "foi_recomendado": "Recomendo",
+        "titulo": "Sensacional ",
+        "revisao": ""
+    },
+    {
+        "id": 48,
+        "data": "2017/03/19",
+        "estrelas": 5,
+        "foi_recomendado": "Recomendo",
+        "titulo": "Otimo",
+        "revisao": "um produto muito bom .recomendo , pra quem gosta de tecnologia ."
+    },
+    {
+        "id": 49,
+        "data": "2017/08/09",
+        "estrelas": 5,
+        "foi_recomendado": "Recomendo",
+        "titulo": "otimo",
+        "revisao": ""
+    },
+    {
+        "id": 50,
+        "data": "2017/02/13",
+        "estrelas": 5,
+        "foi_recomendado": "Recomendo",
+        "titulo": "Era necessario",
+        "revisao": ""
+    },
+    {
+        "id": 51,
+        "data": "2017/08/08",
+        "estrelas": 5,
+        "foi_recomendado": "Recomendo",
+        "titulo": "Otimo produto",
+        "revisao": "em primeiro contato achei estranho mais me adaptei muito fácil e recomendo sem medo de errar ."
+    },
+    {
+        "id": 52,
+        "data": "2017/08/20",
+        "estrelas": 5,
+        "foi_recomendado": "Recomendo",
+        "titulo": "Ótimo aparelho ",
+        "revisao": "tenho o produto a pouco tempo mais estou gostando bastante ."
+    },
+    {
+        "id": 53,
+        "data": "2017/08/14",
         "estrelas": 4,
-        "foi_recomendado": "Recomendo este produto",
-        "titulo": "Muito boa!",
-        "revisao": "lava muito bem e é bem espaçosa .o único ponto a melhorar é o jeito de abrir a porta , que é meio difícil ."
+        "foi_recomendado": "Recomendo",
+        "titulo": "iPhone 7",
+        "revisao": "bom produto ."
     },
     {
-        "id": 132,
-        "data": "05/11/2012",
-        "estrelas": 4,
-        "foi_recomendado": "Recomendo este produto",
-        "titulo": "Estou comprando",
-        "revisao": "testei e aprovei , por isso indico .já estou a espera da minha !"
-    },
-    {
-        "id": 133,
-        "data": "11/09/2017",
+        "id": 54,
+        "data": "2017/04/30",
         "estrelas": 1,
-        "foi_recomendado": "Não recomendo este produto",
-        "titulo": "Valor cobrado R$500,00acima da promoção Brastemp Renova. Site não confiável",
-        "revisao": "valor cobrado ar $ number , number 0acima da promoção brastemp renova ."
-    },
-    {
-        "id": 134,
-        "data": "11/09/2017",
-        "estrelas": 4,
-        "foi_recomendado": "Recomendo este produto",
-        "titulo": "facilitador da dona de casa",
-        "revisao": "para dona de casa que tem vários afazeres , a máquina de lavar louça poupa o seu tempo , louças limpas , esterilizadas e copos com brilho e ainda economiza água ."
-    },
-    {
-        "id": 135,
-        "data": "11/09/2017",
-        "estrelas": 4,
-        "foi_recomendado": "Recomendo este produto",
-        "titulo": "bom",
+        "foi_recomendado": "Não recomendo",
+        "titulo": "Não Recebí o produto ",
         "revisao": ""
     },
     {
-        "id": 136,
-        "data": "10/09/2017",
-        "estrelas": 5,
-        "foi_recomendado": "Recomendo este produto",
-        "titulo": "excelente",
-        "revisao": ""
-    },
-    {
-        "id": 137,
-        "data": "13/01/2016",
-        "estrelas": 5,
-        "foi_recomendado": "Recomendo este produto",
-        "titulo": "Maravilhosa",
-        "revisao": "ainda estou aprendendo a usar porém não vivo sem ela .pia limpa todos os dias , louça super limpa , tudo de bom !"
-    },
-    {
-        "id": 138,
-        "data": "28/03/2015",
+        "id": 55,
+        "data": "2019/01/02",
         "estrelas": 4,
-        "foi_recomendado": "Recomendo este produto",
-        "titulo": "Ótimo produto, até necessitar de conserto.",
-        "revisao": "se necessitar de conserto , faltam peças ."
+        "foi_recomendado": "Não recomendo",
+        "titulo": "Top",
+        "revisao": ""
     },
     {
-        "id": 139,
-        "data": "24/08/2013",
+        "id": 56,
+        "data": "2017/08/04",
         "estrelas": 4,
-        "foi_recomendado": "Recomendo este produto",
-        "titulo": "BOA COMPRA",
-        "revisao": "o equipamento é de boa qualidade e fácil operação , não vibra nem faz barulho .o que não achei number é que quando carregamos a máquina com toda a capacidade dita , a qualidade da limpeza dos produtos do alto não fica boa .a brastemp deve estudar como diminuir o tempo dos processos sem perder a qualidade ."
+        "foi_recomendado": "Recomendo",
+        "titulo": "Iphone 7",
+        "revisao": "bom produto ."
     },
     {
-        "id": 140,
-        "data": "24/07/2013",
+        "id": 57,
+        "data": "2017/07/17",
         "estrelas": 4,
-        "foi_recomendado": "Recomendo este produto",
-        "titulo": "Aprovado",
-        "revisao": "mão na roda , facilita muito o dia-a - dia .ponto positivo : lava boa parte das louças , os vidros e talheres ficam bem brilhosos ponto negativo : não lava alumínio e acumula sujeira próximo à porta .o processo de secagem também não é muito eficaz e o sabão recomendado é muito caro ."
-    },
-    {
-        "id": 141,
-        "data": "24/03/2013",
-        "estrelas": 5,
-        "foi_recomendado": "Recomendo este produto",
-        "titulo": "EU QUERO UMA LAVA LOUÇA BRASTEMP!!",
-        "revisao": "utilizada na casa da minha mãe , muito bom .eu quero uma !"
-    },
-    {
-        "id": 142,
-        "data": "07/08/2014",
-        "estrelas": 3,
-        "foi_recomendado": "Recomendo este produto",
-        "titulo": "BOM",
-        "revisao": ""
-    },
-    {
-        "id": 143,
-        "data": "02/08/2014",
-        "estrelas": 5,
-        "foi_recomendado": "Recomendo este produto",
-        "titulo": "elogio",
-        "revisao": ""
-    },
-    {
-        "id": 144,
-        "data": "22/07/2014",
-        "estrelas": 5,
-        "foi_recomendado": "Recomendo este produto",
-        "titulo": "bom",
-        "revisao": ""
-    },
-    {
-        "id": 145,
-        "data": "21/07/2014",
-        "estrelas": 4,
-        "foi_recomendado": "Recomendo este produto",
-        "titulo": "bom",
-        "revisao": ""
-    },
-    {
-        "id": 146,
-        "data": "15/07/2014",
-        "estrelas": 4,
-        "foi_recomendado": "Recomendo este produto",
-        "titulo": "Funcional",
-        "revisao": ""
-    },
-    {
-        "id": 147,
-        "data": "27/10/2014",
-        "estrelas": 5,
-        "foi_recomendado": "Recomendo este produto",
-        "titulo": "muito útil",
-        "revisao": "muito boa ."
-    },
-    {
-        "id": 148,
-        "data": "10/10/2014",
-        "estrelas": 5,
-        "foi_recomendado": "Recomendo este produto",
-        "titulo": "satisfeito",
-        "revisao": ""
-    },
-    {
-        "id": 149,
-        "data": "25/08/2014",
-        "estrelas": 5,
-        "foi_recomendado": "Recomendo este produto",
-        "titulo": "Produto excelente!!!!",
-        "revisao": "esta já é a number terceira , a outra durou mais de number anos sem apresentar defeito .seus programas são excelentes ."
-    },
-    {
-        "id": 150,
-        "data": "20/08/2014",
-        "estrelas": 5,
-        "foi_recomendado": "Recomendo este produto",
-        "titulo": "facilidade de uso",
-        "revisao": ""
-    },
-    {
-        "id": 151,
-        "data": "10/08/2014",
-        "estrelas": 4,
-        "foi_recomendado": "Recomendo este produto",
-        "titulo": "bom , pratico..",
-        "revisao": ""
-    },
-    {
-        "id": 152,
-        "data": "23/08/2017",
-        "estrelas": 4,
-        "foi_recomendado": "Recomendo este produto",
-        "titulo": "Parece que os detalhes de fabricaçao poderiam ser melhores",
-        "revisao": "funciona bem .uma grande ajuda ."
-    },
-    {
-        "id": 153,
-        "data": "16/08/2017",
-        "estrelas": 4,
-        "foi_recomendado": "Recomendo este produto",
-        "titulo": "Muito bom",
-        "revisao": "facilidade para o dia a dia .acomoda bem as louças ."
-    },
-    {
-        "id": 154,
-        "data": "15/08/2017",
-        "estrelas": 5,
-        "foi_recomendado": "Recomendo este produto",
-        "titulo": "excelente ",
-        "revisao": "muito bom , deveria ter comprado há mais tempo , as louças saem limpinhas até mesmo panelas .quanto ao que dizem que a louça tem que estar limpa para ser lavada na maquina , isso não procede , coloco as louças bem sujas e sai limpa pronta para ser guardada no armário ."
-    },
-    {
-        "id": 155,
-        "data": "11/08/2017",
-        "estrelas": 4,
-        "foi_recomendado": "Recomendo este produto",
-        "titulo": "Muito bom, atendeu a minha espectativa.",
-        "revisao": "pratico , fácil de usar e perfeito !"
-    },
-    {
-        "id": 156,
-        "data": "09/08/2017",
-        "estrelas": 5,
-        "foi_recomendado": "Recomendo este produto",
-        "titulo": "Lava louças Brastemp Ative",
-        "revisao": ""
-    },
-    {
-        "id": 157,
-        "data": "08/09/2017",
-        "estrelas": 5,
-        "foi_recomendado": "Recomendo este produto",
-        "titulo": "Excelente produto",
-        "revisao": "estou bastante satisfeito com o produto ."
-    },
-    {
-        "id": 158,
-        "data": "04/09/2017",
-        "estrelas": 5,
-        "foi_recomendado": "Recomendo este produto",
-        "titulo": "otima",
-        "revisao": ""
-    },
-    {
-        "id": 159,
-        "data": "29/08/2017",
-        "estrelas": 4,
-        "foi_recomendado": "Recomendo este produto",
+        "foi_recomendado": "Recomendo",
         "titulo": "Bom",
-        "revisao": ""
+        "revisao": "o produto é bom , elegante e bonito !"
     },
     {
-        "id": 160,
-        "data": "29/08/2017",
+        "id": 58,
+        "data": "2017/05/01",
         "estrelas": 5,
-        "foi_recomendado": "Recomendo este produto",
-        "titulo": "Realmente é uma Brastemp!",
-        "revisao": "já tive outras lava-louças e a brastemp sempre foi a melhor !"
-    },
-    {
-        "id": 161,
-        "data": "28/08/2017",
-        "estrelas": 4,
-        "foi_recomendado": "Recomendo este produto",
+        "foi_recomendado": "Recomendo",
         "titulo": ".",
         "revisao": ""
     },
     {
-        "id": 162,
-        "data": "04/01/2015",
+        "id": 59,
+        "data": "2017/04/11",
         "estrelas": 5,
-        "foi_recomendado": "Recomendo este produto",
-        "titulo": "Se tornou meu braço direito,não tenho mais que ficar na pia, maravilhosa",
-        "revisao": "o produto e perfeito , pratico , fácil de usar , funções fáceis , boa capacidade interna designer arrojado , economia e muito compacta ."
-    },
-    {
-        "id": 163,
-        "data": "02/01/2015",
-        "estrelas": 5,
-        "foi_recomendado": "Recomendo este produto",
-        "titulo": "Ótimo custo/benefício",
-        "revisao": "ótima lava-louças , só achei um pouco apertada para encaixar as louças ."
-    },
-    {
-        "id": 164,
-        "data": "09/12/2014",
-        "estrelas": 4,
-        "foi_recomendado": "Recomendo este produto",
-        "titulo": "Produto viável ",
-        "revisao": "super recomendo , muito prática e ganho de tempo no dia a dia !"
-    },
-    {
-        "id": 165,
-        "data": "09/12/2014",
-        "estrelas": 5,
-        "foi_recomendado": "Recomendo este produto",
-        "titulo": "Lava louças brastemp",
-        "revisao": "estou com a minha a quase um ano e estou satisfeito , posicionando bem a louça e colocando o sabão na medida certa ela lava muito bem , só precisa tirar os restos de comida ."
-    },
-    {
-        "id": 166,
-        "data": "09/11/2014",
-        "estrelas": 5,
-        "foi_recomendado": "Recomendo este produto",
-        "titulo": "Ótimo",
-        "revisao": ""
-    },
-    {
-        "id": 167,
-        "data": "18/01/2015",
-        "estrelas": 5,
-        "foi_recomendado": "Recomendo este produto",
-        "titulo": "PRATICIDADE",
-        "revisao": ""
-    },
-    {
-        "id": 168,
-        "data": "17/01/2015",
-        "estrelas": 5,
-        "foi_recomendado": "Recomendo este produto",
-        "titulo": "Satisfação total",
-        "revisao": ""
-    },
-    {
-        "id": 169,
-        "data": "17/01/2015",
-        "estrelas": 5,
-        "foi_recomendado": "Recomendo este produto",
-        "titulo": "Praticidade",
-        "revisao": "veio facilitar trabalho no dia a dia , quando o número de pessoas é maior , bem como , posso acumular louças de um dia para o outro .bem lavados ."
-    },
-    {
-        "id": 170,
-        "data": "05/01/2015",
-        "estrelas": 4,
-        "foi_recomendado": "Recomendo este produto",
-        "titulo": "falta um pouco de espaço para louças ou panelas grandes....",
-        "revisao": "apesar de escolher um modelo grande , a lavadora não comporta louças e panelas grandes ."
-    },
-    {
-        "id": 171,
-        "data": "04/01/2015",
-        "estrelas": 5,
-        "foi_recomendado": "Recomendo este produto",
-        "titulo": "Praticidade",
-        "revisao": "simplesmente maravilhoso !"
-    },
-    {
-        "id": 172,
-        "data": "06/06/2017",
-        "estrelas": 3,
-        "foi_recomendado": "Não recomendo este produto",
-        "titulo": "Não eficaz",
-        "revisao": ""
-    },
-    {
-        "id": 173,
-        "data": "03/05/2017",
-        "estrelas": 5,
-        "foi_recomendado": "Recomendo este produto",
-        "titulo": "Ótimo",
-        "revisao": "entrega super rápida , o produto é excelente !o vendedor atende as expectativas !"
-    },
-    {
-        "id": 174,
-        "data": "24/04/2017",
-        "estrelas": 5,
-        "foi_recomendado": "Recomendo este produto",
-        "titulo": "Lava louças honesta",
-        "revisao": "simples de operar com boa capacidade ( number serviços ) .silenciosa e eficiente ."
-    },
-    {
-        "id": 175,
-        "data": "11/04/2017",
-        "estrelas": 1,
-        "foi_recomendado": "Não recomendo este produto",
-        "titulo": "Equipamento ainda não foi entregue",
-        "revisao": ""
-    },
-    {
-        "id": 176,
-        "data": "05/04/2017",
-        "estrelas": 5,
-        "foi_recomendado": "Recomendo este produto",
-        "titulo": "Ideal para poca louça.",
-        "revisao": "ficou mais fácil de usar ."
-    },
-    {
-        "id": 177,
-        "data": "08/08/2017",
-        "estrelas": 5,
-        "foi_recomendado": "Recomendo este produto",
-        "titulo": "máq lavar",
-        "revisao": ""
-    },
-    {
-        "id": 178,
-        "data": "27/07/2017",
-        "estrelas": 4,
-        "foi_recomendado": "Recomendo este produto",
-        "titulo": "Av maquina de lavar",
-        "revisao": "gostei da maquina ."
-    },
-    {
-        "id": 179,
-        "data": "20/07/2017",
-        "estrelas": 5,
-        "foi_recomendado": "Recomendo este produto",
-        "titulo": "Muito Bom. Lava mesmo!",
-        "revisao": ""
-    },
-    {
-        "id": 180,
-        "data": "17/07/2017",
-        "estrelas": 4,
-        "foi_recomendado": "Recomendo este produto",
-        "titulo": "bom produto",
-        "revisao": ""
-    },
-    {
-        "id": 181,
-        "data": "02/07/2017",
-        "estrelas": 5,
-        "foi_recomendado": "Recomendo este produto",
-        "titulo": "Demonstra eficiência e tem contribuído para eu ter mais tempo livre",
-        "revisao": "perfeita aliada na organização da cozinha ."
-    },
-    {
-        "id": 182,
-        "data": "08/02/2015",
-        "estrelas": 5,
-        "foi_recomendado": "Recomendo este produto",
-        "titulo": "Lavadora de louças excelente",
-        "revisao": "produto excelente , lava perfeitamente as louças , inclusive panelas .economiza água e o custo de lavagem é muito barato ."
-    },
-    {
-        "id": 183,
-        "data": "31/01/2015",
-        "estrelas": 4,
-        "foi_recomendado": "Recomendo este produto",
-        "titulo": "gostei muito",
-        "revisao": ""
-    },
-    {
-        "id": 184,
-        "data": "26/01/2015",
-        "estrelas": 4,
-        "foi_recomendado": "Recomendo este produto",
-        "titulo": "Produto bom x custo benefício",
-        "revisao": "questiono a qualidade de fabricação porque comparei a anterior com esta e notei estas falhas de qualidade ."
-    },
-    {
-        "id": 185,
-        "data": "23/01/2015",
-        "estrelas": 5,
-        "foi_recomendado": "Recomendo este produto",
-        "titulo": "Prática, rápida e eficiente.",
-        "revisao": "apenas separo as louças e coloco como o recomendado no manual .acrescento os detergentes próprios , escolho a função e pronto .o resultado é ótimo !"
-    },
-    {
-        "id": 186,
-        "data": "18/01/2015",
-        "estrelas": 5,
-        "foi_recomendado": "Recomendo este produto",
-        "titulo": "Produto de bom desempenho.",
-        "revisao": "boa experiência ."
-    },
-    {
-        "id": 187,
-        "data": "07/04/2015",
-        "estrelas": 5,
-        "foi_recomendado": "Recomendo este produto",
-        "titulo": "Produto de boa qualidade",
-        "revisao": ""
-    },
-    {
-        "id": 188,
-        "data": "06/04/2015",
-        "estrelas": 5,
-        "foi_recomendado": "Recomendo este produto",
-        "titulo": "Muito Eficiente!!",
-        "revisao": ""
-    },
-    {
-        "id": 189,
-        "data": "04/03/2015",
-        "estrelas": 4,
-        "foi_recomendado": "Recomendo este produto",
-        "titulo": "Bom produto ",
-        "revisao": "facilita o dia a dia ."
-    },
-    {
-        "id": 190,
-        "data": "12/02/2015",
-        "estrelas": 5,
-        "foi_recomendado": "Recomendo este produto",
-        "titulo": "Gostei muito",
-        "revisao": "achei bastante espaçosa , atendeu minhas necessidades e de fácil manejo , além de ter um design muito bonito ."
-    },
-    {
-        "id": 191,
-        "data": "08/02/2015",
-        "estrelas": 5,
-        "foi_recomendado": "Recomendo este produto",
-        "titulo": "Lavadora de louças excelente",
-        "revisao": "muito prática e útil ."
-    },
-    {
-        "id": 192,
-        "data": "22/03/2017",
-        "estrelas": 5,
-        "foi_recomendado": "Recomendo este produto",
-        "titulo": "Investimento conjugal ",
-        "revisao": ""
-    },
-    {
-        "id": 193,
-        "data": "05/04/2017",
-        "estrelas": 5,
-        "foi_recomendado": "Recomendo este produto",
-        "titulo": "Perfeita para lavagem de pouca quantidade.",
-        "revisao": ""
-    },
-    {
-        "id": 194,
-        "data": "07/03/2017",
-        "estrelas": 5,
-        "foi_recomendado": "Recomendo este produto",
-        "titulo": "lava tudo mesmo. perfeita.",
-        "revisao": "ótima ajudante em casa ."
-    },
-    {
-        "id": 195,
-        "data": "27/02/2017",
-        "estrelas": 5,
-        "foi_recomendado": "Recomendo este produto",
-        "titulo": "ótimo desempenho",
-        "revisao": ""
-    },
-    {
-        "id": 196,
-        "data": "24/02/2017",
-        "estrelas": 5,
-        "foi_recomendado": "Recomendo este produto",
-        "titulo": "Bom Produto, Entrega Rápida",
-        "revisao": "tudo funcionou bem , a entrega foi rápida e o produto atendeu às expectativas ."
-    },
-    {
-        "id": 197,
-        "data": "22/02/2017",
-        "estrelas": 5,
-        "foi_recomendado": "Recomendo este produto",
-        "titulo": "Avaliação da lava-loucas BRASTEMP 8 serviços",
-        "revisao": ""
-    },
-    {
-        "id": 198,
-        "data": "30/03/2017",
-        "estrelas": 5,
-        "foi_recomendado": "Recomendo este produto",
-        "titulo": "nossa vida com brastemp",
-        "revisao": "o período em que aguardamos a entrega foi muito sofrido , vez que nossa máquina antiga nos fazia muita falta .com este produto , por enquanto estamos achando silencioso e fácil de operar .mas temos que usar mais para poder avaliar .uma semana é muito pouco tempo , embora já estejamos antevendo muitos anos de satisfação pela frente , em razão da lava-louças anterior ."
-    },
-    {
-        "id": 199,
-        "data": "30/03/2017",
-        "estrelas": 5,
-        "foi_recomendado": "Não recomendo este produto",
-        "titulo": "Excelente",
-        "revisao": ""
-    },
-    {
-        "id": 200,
-        "data": "27/03/2017",
-        "estrelas": 5,
-        "foi_recomendado": "Recomendo este produto",
-        "titulo": "Excelente produto.",
-        "revisao": "o produto apresenta excelente custo-benefício ."
-    },
-    {
-        "id": 201,
-        "data": "22/03/2017",
-        "estrelas": 5,
-        "foi_recomendado": "Recomendo este produto",
-        "titulo": "Investimento Conjugal",
-        "revisao": ""
-    },
-    {
-        "id": 202,
-        "data": "06/07/2015",
-        "estrelas": 4,
-        "foi_recomendado": "Recomendo este produto",
-        "titulo": "X",
-        "revisao": ""
-    },
-    {
-        "id": 203,
-        "data": "24/06/2015",
-        "estrelas": 5,
-        "foi_recomendado": "Recomendo este produto",
-        "titulo": "A máquina é boa mas a assistência técnica ...",
-        "revisao": ""
-    },
-    {
-        "id": 204,
-        "data": "12/06/2015",
-        "estrelas": 4,
-        "foi_recomendado": "Recomendo este produto",
-        "titulo": "Lava muito bem",
-        "revisao": "também deveria ter a opção de abrir a porta durante o uso para arrumar as louças dentro .cumpre a sua função muito bem !"
-    },
-    {
-        "id": 205,
-        "data": "23/04/2015",
-        "estrelas": 5,
-        "foi_recomendado": "Recomendo este produto",
-        "titulo": "Lava tudo",
-        "revisao": "é linda e pequena por fora , por dentro cabe muita louça , lava muito bem até panelas , melhor aquisição que já fiz para casa , só deu defeito no irrigador superior que travava e não girava , mas logo foi consertado pela manutenção da brastemp e já vai fazer um ano que utilizo sem problemas ."
-    },
-    {
-        "id": 206,
-        "data": "23/04/2015",
-        "estrelas": 5,
-        "foi_recomendado": "Recomendo este produto",
-        "titulo": "Adorei...",
-        "revisao": "se soubesse que era tão boa , teria comprado antes .adorei !"
-    },
-    {
-        "id": 207,
-        "data": "03/08/2015",
-        "estrelas": 4,
-        "foi_recomendado": "Recomendo este produto",
-        "titulo": "Custo x benefício",
-        "revisao": ""
-    },
-    {
-        "id": 208,
-        "data": "03/08/2015",
-        "estrelas": 4,
-        "foi_recomendado": "Recomendo este produto",
-        "titulo": "Bom custo x benefício",
-        "revisao": "faz o que promete , possuindo a vantagem de não acumular louças na pia .poderiam melhorar o desenho da lava-louças , está ultrapassado e a cor prata é bem feia ao vivo ."
-    },
-    {
-        "id": 209,
-        "data": "30/07/2015",
-        "estrelas": 4,
-        "foi_recomendado": "Recomendo este produto",
-        "titulo": "Custo-benefício",
-        "revisao": "tenho duas amigas que possuem e só elogiam .eu , particularmente , não gostei da aparência , mas preciso \" salvar o casamento \" ."
-    },
-    {
-        "id": 210,
-        "data": "20/07/2015",
-        "estrelas": 4,
-        "foi_recomendado": "Recomendo este produto",
-        "titulo": "Bom custo x benefício",
-        "revisao": "vamos ver como vai ficar o consumo de energia !"
-    },
-    {
-        "id": 211,
-        "data": "13/07/2015",
-        "estrelas": 5,
-        "foi_recomendado": "Recomendo este produto",
-        "titulo": "Adeus perda de tempo!",
-        "revisao": "se eu soubesse que seria tão bom ter uma lava-louças brastemp teria comprado a muito mais tempo .prática , econômica e fácil de usar .comprei a de number serviços e ela satisfaz plenamente as necessidades da minha família ( number pessoas ) .o preço também foi muito bom .não conhecia o site compra certa , mais fiquei muito satisfeita com a facilidade de comprar e o prazo de entrega .parabéns a brastemp e ao compra certa ."
-    },
-    {
-        "id": 212,
-        "data": "02/02/2017",
-        "estrelas": 4,
-        "foi_recomendado": "Recomendo este produto",
-        "titulo": "Queria q secasse melhor",
-        "revisao": ""
-    },
-    {
-        "id": 213,
-        "data": "14/02/2017",
-        "estrelas": 4,
-        "foi_recomendado": "Recomendo este produto",
-        "titulo": "Produto Honesto, meio rudimentar",
-        "revisao": "o fecho da porta é risível , não esperava isto de um produto brastemp .no mais funciona a contento , nada excepcional .cumpre o que promete ."
-    },
-    {
-        "id": 214,
-        "data": "23/01/2017",
-        "estrelas": 4,
-        "foi_recomendado": "Recomendo este produto",
-        "titulo": "Ajuda muito no dia a dia ",
-        "revisao": "a lavadora é muito boa .muito útil .porém após secagem , a máquina em si fica com água retida , que * * * pela porta e acabou estragando um pouco meu armário .imaginava que ela também sairia seca e não só a louça ."
-    },
-    {
-        "id": 215,
-        "data": "23/01/2017",
-        "estrelas": 5,
-        "foi_recomendado": "Recomendo este produto",
+        "foi_recomendado": "Recomendo",
         "titulo": "Recomendo",
-        "revisao": ""
+        "revisao": "entrega rápida , produto ótimo ."
     },
     {
-        "id": 216,
-        "data": "02/01/2017",
-        "estrelas": 4,
-        "foi_recomendado": "Recomendo este produto",
-        "titulo": "Produto muito bom",
-        "revisao": ""
-    },
-    {
-        "id": 217,
-        "data": "02/01/2017",
+        "id": 60,
+        "data": "2017/04/10",
         "estrelas": 5,
-        "foi_recomendado": "Recomendo este produto",
-        "titulo": "Muito bom",
-        "revisao": "utilizo diariamente para lavar a louça em casa e o produto tem correspondido satisfatoriamente ."
+        "foi_recomendado": "Recomendo",
+        "titulo": "Avaliação extremamente positiva do iPhone 7",
+        "revisao": "é um ótimo produto ."
     },
     {
-        "id": 218,
-        "data": "14/02/2017",
+        "id": 61,
+        "data": "2017/04/05",
         "estrelas": 4,
-        "foi_recomendado": "Recomendo este produto",
-        "titulo": "praticidade na  cozinha",
-        "revisao": "ha um mês , estamos gostando do produto , pois facilitou em questão do tempo gasto na lavagem manual ."
+        "foi_recomendado": "Recomendo",
+        "titulo": "Qualidade ",
+        "revisao": "ótimo produto , facilidade de uso , funcionalidade ótimo ."
     },
     {
-        "id": 219,
-        "data": "14/02/2017",
-        "estrelas": 1,
-        "foi_recomendado": "Não recomendo este produto",
-        "titulo": "Nunca funcionou",
-        "revisao": "a reforma demorou mais que o previsto e só fui instalar a máquina quase number ano depois .acionei a assistência técnica , que resolveu o problema por um tempo , mas ela voltou a apresentar defeito , funcionando de maneira intermitente .nenhum técnico conseguiu descobrir o que ocorre ."
-    },
-    {
-        "id": 220,
-        "data": "13/02/2017",
-        "estrelas": 2,
-        "foi_recomendado": "Não recomendo este produto",
-        "titulo": "Problemas na instalação",
-        "revisao": ""
-    },
-    {
-        "id": 221,
-        "data": "03/02/2017",
-        "estrelas": 4,
-        "foi_recomendado": "Recomendo este produto",
-        "titulo": "Recem comprado",
-        "revisao": ""
-    },
-    {
-        "id": 222,
-        "data": "15/09/2015",
+        "id": 62,
+        "data": "2017/04/03",
         "estrelas": 5,
-        "foi_recomendado": "Recomendo este produto",
-        "titulo": "O produto se vende sozinho",
-        "revisao": "minha tia já teve e trocou por que precisava de uma maior ."
-    },
-    {
-        "id": 223,
-        "data": "20/11/2015",
-        "estrelas": 4,
-        "foi_recomendado": "Recomendo este produto",
-        "titulo": "Excelente pra quem não gosta de lavar louças",
-        "revisao": "cumpre bem o seu papel , enquanto lava-louças .lava até as panelas satisfatoriamente , mas é lógico , não espere panelas risadinhas .no mais , estou satisfeito , era o que esperava ."
-    },
-    {
-        "id": 224,
-        "data": "25/08/2015",
-        "estrelas": 5,
-        "foi_recomendado": "Recomendo este produto",
-        "titulo": "Facilitando a vida.",
-        "revisao": "como a capacidade desta lava louça é para number serviços , acabo ligando a máquina só uma vez por dia ( eu vou acumulando louça do café da manhã , almoço e jantar ) e com isso economizo água e energia .lava muito bem .só não posso opinar ainda sobre a lavagem de panelas ."
-    },
-    {
-        "id": 225,
-        "data": "17/08/2015",
-        "estrelas": 4,
-        "foi_recomendado": "Recomendo este produto",
-        "titulo": "Muito bom",
-        "revisao": "acabo de receber o produto , usei apenas uma vez , e logo no almoço em família , mas já percebi quanto é útil ter uma lavadora , principalmente para quem gosta de receber amigos , família , muitas pessoas , economiza tempo , podendo fazer outras coisas .muito pratico , a louça seca já só guardar ."
-    },
-    {
-        "id": 226,
-        "data": "08/08/2015",
-        "estrelas": 4,
-        "foi_recomendado": "Recomendo este produto",
-        "titulo": "Bom custo beneficio",
-        "revisao": "a lavadora é boa , depois que você aprende a posicionar as louças adequadamente .você precisa passar uma escovinha na louça antes de colocar na maquina .se não fizer isto , corre o risco de encrostar nas outras louças ."
-    },
-    {
-        "id": 227,
-        "data": "06/08/2015",
-        "estrelas": 5,
-        "foi_recomendado": "Recomendo este produto",
-        "titulo": "Grata surpresa",
-        "revisao": "confesso que resisti por três meses aos pedidos da minha exposta para comprar uma lava louças .eu achava que seria um gasto excessivo e de pouco resultado prático .até que há number dias atrás ela me convenceu .qual não foi minha surpresa coma capacidade que a mesma tem de lavar e secar as louças com extrema eficiência .retira absolutamente toda a sujeira das louças bastando a nós apenas retirar os restos de comida dos pratos e panelas antes de colocar na máquina , como faríamos ao colocar tudo na pia para lavar do modo tradicional .ou seja : a máquina me conquistou .recomendo a compra a quem puder e quiser ter um item que vai proporcionar conforto e eficiência ( as unhas da minha esposa agradecem até agora ."
-    },
-    {
-        "id": 228,
-        "data": "27/10/2015",
-        "estrelas": 5,
-        "foi_recomendado": "Recomendo este produto",
+        "foi_recomendado": "Recomendo",
         "titulo": "Perfeito",
+        "revisao": "acabamento sutil e funções que apresentam facilidade ao se acessar ."
+    },
+    {
+        "id": 63,
+        "data": "2017/03/30",
+        "estrelas": 5,
+        "foi_recomendado": "Recomendo",
+        "titulo": "Muito bom ",
         "revisao": ""
     },
     {
-        "id": 229,
-        "data": "22/10/2015",
+        "id": 64,
+        "data": "2017/08/02",
         "estrelas": 5,
-        "foi_recomendado": "Recomendo este produto",
-        "titulo": "Linda lava louças",
-        "revisao": "muito boa , lava tudo perfeitamente , inclusive panelas , as louças saem super limpas , recomendo ."
+        "foi_recomendado": "Recomendo",
+        "titulo": "Excelente. ",
+        "revisao": "aparelho apple iphone number excelente .ótimo custo beneficio atende todos meus requisitos com um excelente capacidade de execução ."
     },
     {
-        "id": 230,
-        "data": "12/10/2015",
-        "estrelas": 5,
-        "foi_recomendado": "Recomendo este produto",
-        "titulo": "Ótima",
-        "revisao": "já uso a number meses e não tenho nada a reclamar ."
-    },
-    {
-        "id": 231,
-        "data": "12/10/2015",
-        "estrelas": 5,
-        "foi_recomendado": "Recomendo este produto",
-        "titulo": "Ótima",
-        "revisao": "já uso a number meses e não tenho nada a reclamar ."
-    },
-    {
-        "id": 232,
-        "data": "22/12/2016",
+        "id": 65,
+        "data": "2017/07/06",
         "estrelas": 4,
-        "foi_recomendado": "Recomendo este produto",
-        "titulo": "ACIMA DAS EXPECTATIVAS",
-        "revisao": "facilita as atividades diárias ."
+        "foi_recomendado": "Recomendo",
+        "titulo": "Bom smartphone, porém tem preço alto",
+        "revisao": "é o melhor aparelho para quem quer um smartphone pequeno .no entanto , o preço é muito alto ."
     },
     {
-        "id": 233,
-        "data": "22/12/2016",
+        "id": 66,
+        "data": "2017/06/28",
         "estrelas": 5,
-        "foi_recomendado": "Recomendo este produto",
-        "titulo": "Ótimo Produto",
-        "revisao": "muito bom é rápida e econômica ."
+        "foi_recomendado": "Recomendo",
+        "titulo": "Apple é Apple",
+        "revisao": ""
     },
     {
-        "id": 234,
-        "data": "15/12/2016",
-        "estrelas": 4,
-        "foi_recomendado": "Recomendo este produto",
-        "titulo": "Ótimo produto",
-        "revisao": "produto de excelente qualidade , ótimo custo / benefício , cumpre o que promete ."
-    },
-    {
-        "id": 235,
-        "data": "10/11/2016",
-        "estrelas": 5,
-        "foi_recomendado": "Recomendo este produto",
-        "titulo": "Excelente",
-        "revisao": "muito satisfeita ."
-    },
-    {
-        "id": 236,
-        "data": "10/11/2016",
-        "estrelas": 5,
-        "foi_recomendado": "Não recomendo este produto",
-        "titulo": "Avaliação dos produtos Brastemp.",
-        "revisao": "comprei outra na ricardo elétrica há um mês , porque a minha ficou três meses no conserto e a brastemp não tinha a peça .assistência técnica da brastemp é péssima ."
-    },
-    {
-        "id": 237,
-        "data": "01/01/2017",
+        "id": 67,
+        "data": "2017/06/27",
         "estrelas": 3,
-        "foi_recomendado": "Recomendo este produto",
-        "titulo": "Tenho ",
+        "foi_recomendado": "Recomendo",
+        "titulo": "Cancelado",
         "revisao": ""
     },
     {
-        "id": 238,
-        "data": "28/12/2016",
+        "id": 68,
+        "data": "2017/06/14",
         "estrelas": 5,
-        "foi_recomendado": "Recomendo este produto",
-        "titulo": "Lava-louça; para ter tempo.",
-        "revisao": "para ter tempo de sobra , recomendo pela sua fácil utilização e economia .linda !"
-    },
-    {
-        "id": 239,
-        "data": "22/12/2016",
-        "estrelas": 5,
-        "foi_recomendado": "Recomendo este produto",
-        "titulo": "Perfeita",
+        "foi_recomendado": "Recomendo",
+        "titulo": "maravilhoso",
         "revisao": ""
-    },
-    {
-        "id": 240,
-        "data": "22/12/2016",
-        "estrelas": 4,
-        "foi_recomendado": "Recomendo este produto",
-        "titulo": "lavalouças Brastemp",
-        "revisao": "satisfeito ."
-    },
-    {
-        "id": 241,
-        "data": "22/12/2016",
-        "estrelas": 5,
-        "foi_recomendado": "Recomendo este produto",
-        "titulo": "Lava-louça Brastemp",
-        "revisao": "satisfeito ."
-    },
-    {
-        "id": 242,
-        "data": "08/10/2016",
-        "estrelas": 4,
-        "foi_recomendado": "Recomendo este produto",
-        "titulo": "Boa máquina",
-        "revisao": "em princípio lava super bem , os objetos saem brilhando .o sabão encareceu bastante , e se for um sabão ruim , influencia na lavagem .um quilo de sabão bom , fica entre number e number reais ."
-    },
-    {
-        "id": 243,
-        "data": "25/09/2016",
-        "estrelas": 5,
-        "foi_recomendado": "Recomendo este produto",
-        "titulo": "Recomendo",
-        "revisao": ""
-    },
-    {
-        "id": 244,
-        "data": "09/08/2016",
-        "estrelas": 5,
-        "foi_recomendado": "Recomendo este produto",
-        "titulo": "Uma boa lava louças",
-        "revisao": "realmente cabe muita coisa dentro dela , numa refeição normal consigo colocar number pratos rasos , number panelas , sendo uma pequena e outra média ( number e number com ) e uma frigideira ( number 2cm ) , além de pratos de sobremesa e copos .a menos que você brote bife na panela de inox em temperatura muita alta ( o que faço constantemente ) a máquina não é capaz de tirar sujeira , então é bom logo que utilizar a panela , jogar água e raspar o fundo para tirar as crostas .os copos infelizmente ficaram foscos , já vi alguns lugares dizendo que é o sabão ( também não sei dizer se os copos são apropriados para lava louças , uma vez que já os possuía ) e quando o abrilhantado acaba você não tem como saber , uma vez que não há nada no painel que avise .fora isso os programas são fáceis de serem utilizados .na louça do dia a dia uso o programa econômico que não tem secagem mas deixo a louça lá dentro e ela fica seca mesmo assim e para as louças mais sujas com crostas utilizo o pesado ."
-    },
-    {
-        "id": 245,
-        "data": "12/01/2016",
-        "estrelas": 5,
-        "foi_recomendado": "Recomendo este produto",
-        "titulo": "excelente aquisição",
-        "revisao": ""
-    },
-    {
-        "id": 246,
-        "data": "07/12/2015",
-        "estrelas": 5,
-        "foi_recomendado": "Recomendo este produto",
-        "titulo": "Lava-louça é tudo de bom!",
-        "revisao": "máquina silenciosa , lava com eficiência e economia de água ."
     }
 ]

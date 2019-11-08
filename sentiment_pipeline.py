@@ -195,12 +195,12 @@ class Sentiment_pipeline():
             
             print("Inicializando classificador de aspectos")
             asp_classifier = aspect_classifier.Aspect_classifier()
-            self.data = asp_classifier.run(self.data, self.main_key) 
-           
+            self.plotter_data = asp_classifier.run(self.data, self.main_key) 
+             
             os.chdir(self.script_dir)
             
             if(save_partial_results):
-                self.write_results(self.data, self.data_folder + 'classified_data.json')
+                self.write_results(self.plotter_data, self.data_folder + 'aspect_data_plot.json')
             
             # --- Plotagem dos Aspectos ---
             #plotter = Aspect_plotter(self.data)
@@ -209,6 +209,7 @@ class Sentiment_pipeline():
             #plotter.plot_by_aspect(style='treemap')
             #plotter.plot_general()
         
+        print(self.data)
         #escreve dados apos todos os processamentos solicitados 
         self.write_data()
 
@@ -220,9 +221,10 @@ if __name__ == '__main__':
     p3 = 'iphone 6 16GB'                                #400 +
     p4 = 'iphone 5s 16GB'                               #1100 +
     p5 = 'Smartphone Samsung Galaxy J5 SM-J500M 16GB'   #1400 +
+    p6 = 'Smartphone Apple iPhone 7 32GB'               #70
 
     sent = Sentiment_pipeline(
-            search=p1,
+            search=p6,
             crawl_reviews=True,
             filter_subjectivity=True,
             classify_aspects=True,
