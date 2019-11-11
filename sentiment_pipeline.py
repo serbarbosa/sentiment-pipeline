@@ -8,6 +8,7 @@ main_dir = os.getcwd()
 sys.path.insert(0,main_dir + '/classificador_aspectos')
 sys.path.insert(0,main_dir + '/TopXMLP')
 sys.path.insert(0,main_dir + '/uteis')
+sys.path.insert(0,main_dir + '/opizer')
 #sys.path.insert(0,main_dir + '/filtro_subjetividade')
 
 from review_crawler.crawl_reviews import run_crawler
@@ -16,8 +17,11 @@ from classificador_aspectos import aspect_classifier
 from classificador_aspectos.aspect_plotter import Aspect_plotter
 from TopXFuzzy.TopXFuzzy_compatibility_handler import run_fuzzy
 from TopXMLP.mlp_filter import run_mlp_filter
+from opizer.main import run_opizer
 import json
 from typing import List, Dict
+
+
 
 #tentando importar enelvo
 try:
@@ -32,12 +36,13 @@ except ModuleNotFoundError:
 class Sentiment_pipeline():
 
     def __init__(self, search = 'Samsung galaxy s7', normalize = True,classify_aspects = False,
-                filter_quality_fuzzy=False, filter_quality_mlp=True, filter_subjectivity=True, crawl_reviews=True, main_key='revisao'):
+                filter_quality_fuzzy=False, filter_quality_mlp=True, filter_subjectivity=True, crawl_reviews=True, main_key='revisao',
+                summarize='opizere'):
         
         self.crawl_reviews = crawl_reviews
         self.search = search
         self.normalize = normalize
-        self. classify_aspects = classify_aspects
+        self.classify_aspects = classify_aspects
         self.filter_quality_fuzzy = filter_quality_fuzzy
         self.filter_subjectivity = filter_subjectivity
         self.filter_quality_mlp = filter_quality_mlp
@@ -46,7 +51,9 @@ class Sentiment_pipeline():
         self.data_folder = 'processed_data/'
         self.data_filename = 'data.json'
         self.main_key = main_key
+        self.annot_key = self.main_key + '_anot'
         self.script_dir = os.getcwd()
+        self.summarize = summarize
 
     def clean_up(self):
         '''Reinicia o diretorio padrao, deletando todos os arquivos presentes nele.'''
@@ -208,8 +215,16 @@ class Sentiment_pipeline():
             #plotter.plot_by_aspect(style='pie')
             #plotter.plot_by_aspect(style='treemap')
             #plotter.plot_general()
-        
-        print(self.data)
+       
+
+        self.write_data()
+        self.write_data()
+        # --- Sumarizador de Opiniao ---
+        if(self.summarize != 'False'):
+            os.chdir('opizer')
+            run_opizer(self.summarize, self.data, self.main_key, self.annot_key, 'id') 
+            os.chdir(self.script_dir)
+            
         #escreve dados apos todos os processamentos solicitados 
         self.write_data()
 
@@ -229,7 +244,8 @@ if __name__ == '__main__':
             filter_subjectivity=True,
             classify_aspects=True,
             filter_quality_fuzzy=False,
-            filter_quality_mlp=False
+            filter_quality_mlp=False,
+            summarize='tadano'
             )
     #sent.load_data_from_file('review_crawler/reviews.json')
     sent.run(save_partial_results=True)

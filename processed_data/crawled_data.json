@@ -113,110 +113,6 @@
     },
     {
         "id": 14,
-        "data": "2017/03/04",
-        "estrelas": 5,
-        "foi_recomendado": "Recomendo",
-        "titulo": "Aparelho excepcional",
-        "revisao": "Apple sempre à frente trazendo novas tecnologias e construindo aparelhos espetaculares"
-    },
-    {
-        "id": 15,
-        "data": "2017/06/04",
-        "estrelas": 4,
-        "foi_recomendado": "Não recomendo",
-        "titulo": "Baixo custo/benefício.",
-        "revisao": "Na média, pior do que o Galaxy S7."
-    },
-    {
-        "id": 16,
-        "data": "2017/05/05",
-        "estrelas": 5,
-        "foi_recomendado": "Recomendo",
-        "titulo": "Excelente mas preço elevado",
-        "revisao": "Gostei muito, rápido, câmera excelente"
-    },
-    {
-        "id": 17,
-        "data": "2017/04/09",
-        "estrelas": 5,
-        "foi_recomendado": "Recomendo",
-        "titulo": "Espetacular ",
-        "revisao": "Ainda estou conhecendo o aparelho!"
-    },
-    {
-        "id": 18,
-        "data": "2017/04/24",
-        "estrelas": 5,
-        "foi_recomendado": "Recomendo",
-        "titulo": "Sensacional ",
-        "revisao": "Produto surpreendente. Estou amando"
-    },
-    {
-        "id": 19,
-        "data": "2017/04/24",
-        "estrelas": 4,
-        "foi_recomendado": "Recomendo",
-        "titulo": "Bom produto",
-        "revisao": "Bom produto. "
-    },
-    {
-        "id": 20,
-        "data": "2017/04/17",
-        "estrelas": 5,
-        "foi_recomendado": "Recomendo",
-        "titulo": "Excelente",
-        "revisao": "iPhone é iPhone. Acho que dispensa comentários. Já tive celulares da Samsung, mas nada se compara ao iPhone."
-    },
-    {
-        "id": 21,
-        "data": "2017/04/13",
-        "estrelas": 4,
-        "foi_recomendado": "Recomendo",
-        "titulo": "Iphone",
-        "revisao": "O produto e fora de série, na verdade gostaria de dar uma nova avaliação a loja doug shop, o único problema deles é que demoraram 72horas pra enviar o aparelho, pensei q poderia ser surpreendido é enviariam antes, porém\r\nMandaram no prazo combinado, mas loja excelente com certeza farei novas compras la"
-    },
-    {
-        "id": 22,
-        "data": "2017/03/27",
-        "estrelas": 5,
-        "foi_recomendado": "Recomendo",
-        "titulo": "Ainda melhor",
-        "revisao": "O iPhone 7 e ainda melhor que os demais. A câmera e maravilhosa e todos os novos aplicativos são ótimos. "
-    },
-    {
-        "id": 23,
-        "data": "2017/03/27",
-        "estrelas": 5,
-        "foi_recomendado": "Recomendo",
-        "titulo": "Ótimo produto",
-        "revisao": "Fora a bateria, não tenho nada a reclamar do produto. É um produto ótimo, conforme o esperado."
-    },
-    {
-        "id": 24,
-        "data": "2017/03/27",
-        "estrelas": 5,
-        "foi_recomendado": "Recomendo",
-        "titulo": "Nota 10",
-        "revisao": "Já possuía o Iphone 4, e agora o Iphone 7, é só alegria. Muito show."
-    },
-    {
-        "id": 25,
-        "data": "2017/03/15",
-        "estrelas": 5,
-        "foi_recomendado": "Recomendo",
-        "titulo": "Celular",
-        "revisao": "Muito eficiente "
-    },
-    {
-        "id": 26,
-        "data": "2017/08/07",
-        "estrelas": 5,
-        "foi_recomendado": "Recomendo",
-        "titulo": "Ótimo aparelho ",
-        "revisao": "De muita facilidade de uso e ótima  usabilidade. "
-    },
-    {
-        "id": 27,
         "data": "2016/12/26",
         "estrelas": 5,
         "foi_recomendado": "Recomendo",
@@ -224,79 +120,39 @@
         "revisao": "produto dinâmico, bonito\r\né possível realizar atividades ligadas ao lazer e ao trabalho de maneira versátil\r\nsuper indico "
     },
     {
-        "id": 28,
-        "data": "2016/12/20",
+        "id": 15,
+        "data": "2017/03/04",
         "estrelas": 5,
         "foi_recomendado": "Recomendo",
-        "titulo": "Produto maravilhoso",
-        "revisao": "produto dinâmico,  bonito e muito funcional "
+        "titulo": "Aparelho excepcional",
+        "revisao": "Apple sempre à frente trazendo novas tecnologias e construindo aparelhos espetaculares"
     },
     {
-        "id": 29,
-        "data": "2016/12/04",
-        "estrelas": 5,
-        "foi_recomendado": "Recomendo",
-        "titulo": "Bom como sempre ",
-        "revisao": "Sempre o Top "
-    },
-    {
-        "id": 30,
-        "data": "2016/12/15",
-        "estrelas": 5,
-        "foi_recomendado": "Recomendo",
-        "titulo": "A melhor opção",
-        "revisao": "Está sendo uma das melhores experiências, pois, com a tecnologia e funções do IPhone podemos ir além da atmosfera moderna. "
-    },
-    {
-        "id": 31,
-        "data": "2016/11/11",
-        "estrelas": 5,
-        "foi_recomendado": "Recomendo",
-        "titulo": "Bom",
-        "revisao": "BOA"
-    },
-    {
-        "id": 32,
-        "data": "2017/06/12",
-        "estrelas": 5,
-        "foi_recomendado": "Recomendo",
-        "titulo": "Não tenho o produto",
-        "revisao": "Sem experiência"
-    },
-    {
-        "id": 33,
-        "data": "2017/05/24",
+        "id": 16,
+        "data": "2017/06/04",
         "estrelas": 4,
-        "foi_recomendado": "Recomendo",
-        "titulo": "ÓTIMO",
-        "revisao": "ÓTIMO PRODUTO RECOMENDO A COMPRA"
+        "foi_recomendado": "Não recomendo",
+        "titulo": "Baixo custo/benefício.",
+        "revisao": "Na média, pior do que o Galaxy S7."
     },
     {
-        "id": 34,
-        "data": "2017/04/23",
-        "estrelas": 4,
-        "foi_recomendado": "Recomendo",
-        "titulo": "Ótimo produto mas caro",
-        "revisao": "Sistema muito rápido, mesmo se comparado ao Android octacore. Excelente qualidade de som e fotos. Falta o carregamento rápido e o valor do aparelho ainda acho muito elevado. Sem dúvida é um excelente aparelho, vale a pena para aquelas pessoas que querem andar na moda com um IPhone. Para as demais, é interessante comparar com outros smartphones de mesmo nível."
-    },
-    {
-        "id": 35,
-        "data": "2017/04/17",
+        "id": 17,
+        "data": "2017/05/05",
         "estrelas": 5,
         "foi_recomendado": "Recomendo",
-        "titulo": "Ótimo produto.",
-        "revisao": "Um ótimo produto."
+        "titulo": "Excelente mas preço elevado",
+        "revisao": "Gostei muito, rápido, câmera excelente"
     },
     {
-        "id": 36,
-        "data": "2017/04/16",
-        "estrelas": 4,
+        "id": 18,
+        "data": "2017/04/09",
+        "estrelas": 5,
         "foi_recomendado": "Recomendo",
-        "titulo": "Ótimo sistema operacional ",
-        "revisao": "Superou todas expectativas"
+        "titulo": "Espetacular ",
+        "revisao": "Ainda estou conhecendo o aparelho!"
     },
     {
-        "id": 37,
+        "id": 19,
         "data": "2017/03/24",
         "estrelas": 5,
         "foi_recomendado": "Recomendo",
@@ -304,47 +160,39 @@
         "revisao": "Sempre amei iphone"
     },
     {
-        "id": 38,
-        "data": "2017/09/19",
+        "id": 20,
+        "data": "2017/04/24",
+        "estrelas": 5,
+        "foi_recomendado": "Recomendo",
+        "titulo": "Sensacional ",
+        "revisao": "Produto surpreendente. Estou amando"
+    },
+    {
+        "id": 21,
+        "data": "2017/04/24",
         "estrelas": 4,
         "foi_recomendado": "Recomendo",
-        "titulo": "iPhone 7",
-        "revisao": "Aparelho bom, no entanto, esquenta muito"
-    },
-    {
-        "id": 39,
-        "data": "2017/03/06",
-        "estrelas": 5,
-        "foi_recomendado": "Recomendo",
         "titulo": "Bom produto",
-        "revisao": "Bom produto e ótimas características"
+        "revisao": "Bom produto. "
     },
     {
-        "id": 40,
-        "data": "2017/09/12",
+        "id": 22,
+        "data": "2017/04/17",
         "estrelas": 5,
         "foi_recomendado": "Recomendo",
-        "titulo": "Otimo",
-        "revisao": "Estou a pouco tempo com ele,O tempo vai dizer"
+        "titulo": "Excelente",
+        "revisao": "iPhone é iPhone. Acho que dispensa comentários. Já tive celulares da Samsung, mas nada se compara ao iPhone."
     },
     {
-        "id": 41,
-        "data": "2017/02/14",
-        "estrelas": 5,
+        "id": 23,
+        "data": "2017/04/13",
+        "estrelas": 4,
         "foi_recomendado": "Recomendo",
-        "titulo": "legal o produto",
-        "revisao": "otima"
+        "titulo": "Iphone",
+        "revisao": "O produto e fora de série, na verdade gostaria de dar uma nova avaliação a loja doug shop, o único problema deles é que demoraram 72horas pra enviar o aparelho, pensei q poderia ser surpreendido é enviariam antes, porém\r\nMandaram no prazo combinado, mas loja excelente com certeza farei novas compras la"
     },
     {
-        "id": 42,
-        "data": "2017/01/09",
-        "estrelas": 5,
-        "foi_recomendado": "Recomendo",
-        "titulo": "N/A",
-        "revisao": "N/A"
-    },
-    {
-        "id": 43,
+        "id": 24,
         "data": "2017/04/06",
         "estrelas": 5,
         "foi_recomendado": "Recomendo",
@@ -352,47 +200,55 @@
         "revisao": "Sem comentários. iPhone é iPhone. Precisa de alguma explicação???"
     },
     {
-        "id": 44,
-        "data": "2017/04/04",
+        "id": 25,
+        "data": "2017/03/27",
         "estrelas": 5,
         "foi_recomendado": "Recomendo",
-        "titulo": "Produto maravilhoso",
-        "revisao": "Comprei o aparelho junto a Notete, empresa super confiável e com o melhor preço do mercado! "
+        "titulo": "Ainda melhor",
+        "revisao": "O iPhone 7 e ainda melhor que os demais. A câmera e maravilhosa e todos os novos aplicativos são ótimos. "
     },
     {
-        "id": 45,
-        "data": "2017/03/30",
-        "estrelas": 5,
-        "foi_recomendado": "Recomendo",
-        "titulo": "Excelente",
-        "revisao": "Atendeu todas as minhas necessidades, estou muito satisfeita com o produto."
-    },
-    {
-        "id": 46,
-        "data": "2017/03/24",
+        "id": 26,
+        "data": "2017/03/27",
         "estrelas": 5,
         "foi_recomendado": "Recomendo",
         "titulo": "Ótimo produto",
-        "revisao": "Prático, robusto, de fácil utilização, enfim, completo."
+        "revisao": "Fora a bateria, não tenho nada a reclamar do produto. É um produto ótimo, conforme o esperado."
     },
     {
-        "id": 47,
-        "data": "2017/03/22",
+        "id": 27,
+        "data": "2017/03/27",
         "estrelas": 5,
         "foi_recomendado": "Recomendo",
-        "titulo": "Sensacional ",
-        "revisao": "Sempre tive é sempre vou ter. Não há igual todos os pontos são positivos. "
+        "titulo": "Nota 10",
+        "revisao": "Já possuía o Iphone 4, e agora o Iphone 7, é só alegria. Muito show."
     },
     {
-        "id": 48,
-        "data": "2017/03/19",
+        "id": 28,
+        "data": "2017/03/15",
         "estrelas": 5,
         "foi_recomendado": "Recomendo",
-        "titulo": "Otimo",
-        "revisao": "Um produto muito bom. Recomendo, pra quem gosta de tecnologia ."
+        "titulo": "Celular",
+        "revisao": "Muito eficiente "
     },
     {
-        "id": 49,
+        "id": 29,
+        "data": "2017/08/07",
+        "estrelas": 5,
+        "foi_recomendado": "Recomendo",
+        "titulo": "Ótimo aparelho ",
+        "revisao": "De muita facilidade de uso e ótima  usabilidade. "
+    },
+    {
+        "id": 30,
+        "data": "2017/06/12",
+        "estrelas": 5,
+        "foi_recomendado": "Recomendo",
+        "titulo": "Não tenho o produto",
+        "revisao": "Sem experiência"
+    },
+    {
+        "id": 31,
         "data": "2017/08/09",
         "estrelas": 5,
         "foi_recomendado": "Recomendo",
@@ -400,7 +256,7 @@
         "revisao": "otimo"
     },
     {
-        "id": 50,
+        "id": 32,
         "data": "2017/02/13",
         "estrelas": 5,
         "foi_recomendado": "Recomendo",
@@ -408,31 +264,119 @@
         "revisao": "Era necessario para o meu trabaLHO"
     },
     {
-        "id": 51,
-        "data": "2017/08/08",
+        "id": 33,
+        "data": "2016/12/20",
         "estrelas": 5,
         "foi_recomendado": "Recomendo",
-        "titulo": "Otimo produto",
-        "revisao": "Em primeiro contato achei estranho mais me adaptei muito facil e recomendo sem medo de errar."
+        "titulo": "Produto maravilhoso",
+        "revisao": "produto dinâmico,  bonito e muito funcional "
     },
     {
-        "id": 52,
-        "data": "2017/08/20",
+        "id": 34,
+        "data": "2016/12/04",
         "estrelas": 5,
         "foi_recomendado": "Recomendo",
-        "titulo": "Ótimo aparelho ",
-        "revisao": "Tenho o produto a pouco tempo mais estou gostando bastante. "
+        "titulo": "Bom como sempre ",
+        "revisao": "Sempre o Top "
     },
     {
-        "id": 53,
-        "data": "2017/08/14",
+        "id": 35,
+        "data": "2016/12/15",
+        "estrelas": 5,
+        "foi_recomendado": "Recomendo",
+        "titulo": "A melhor opção",
+        "revisao": "Está sendo uma das melhores experiências, pois, com a tecnologia e funções do IPhone podemos ir além da atmosfera moderna. "
+    },
+    {
+        "id": 36,
+        "data": "2016/11/11",
+        "estrelas": 5,
+        "foi_recomendado": "Recomendo",
+        "titulo": "Bom",
+        "revisao": "BOA"
+    },
+    {
+        "id": 37,
+        "data": "2017/09/19",
         "estrelas": 4,
         "foi_recomendado": "Recomendo",
         "titulo": "iPhone 7",
-        "revisao": "Bom produto."
+        "revisao": "Aparelho bom, no entanto, esquenta muito"
     },
     {
-        "id": 54,
+        "id": 38,
+        "data": "2017/03/06",
+        "estrelas": 5,
+        "foi_recomendado": "Recomendo",
+        "titulo": "Bom produto",
+        "revisao": "Bom produto e ótimas características"
+    },
+    {
+        "id": 39,
+        "data": "2017/09/12",
+        "estrelas": 5,
+        "foi_recomendado": "Recomendo",
+        "titulo": "Otimo",
+        "revisao": "Estou a pouco tempo com ele,O tempo vai dizer"
+    },
+    {
+        "id": 40,
+        "data": "2017/02/14",
+        "estrelas": 5,
+        "foi_recomendado": "Recomendo",
+        "titulo": "legal o produto",
+        "revisao": "otima"
+    },
+    {
+        "id": 41,
+        "data": "2017/01/09",
+        "estrelas": 5,
+        "foi_recomendado": "Recomendo",
+        "titulo": "N/A",
+        "revisao": "N/A"
+    },
+    {
+        "id": 42,
+        "data": "2017/04/04",
+        "estrelas": 5,
+        "foi_recomendado": "Recomendo",
+        "titulo": "Produto maravilhoso",
+        "revisao": "Comprei o aparelho junto a Notete, empresa super confiável e com o melhor preço do mercado! "
+    },
+    {
+        "id": 43,
+        "data": "2017/03/30",
+        "estrelas": 5,
+        "foi_recomendado": "Recomendo",
+        "titulo": "Excelente",
+        "revisao": "Atendeu todas as minhas necessidades, estou muito satisfeita com o produto."
+    },
+    {
+        "id": 44,
+        "data": "2017/03/24",
+        "estrelas": 5,
+        "foi_recomendado": "Recomendo",
+        "titulo": "Ótimo produto",
+        "revisao": "Prático, robusto, de fácil utilização, enfim, completo."
+    },
+    {
+        "id": 45,
+        "data": "2017/03/22",
+        "estrelas": 5,
+        "foi_recomendado": "Recomendo",
+        "titulo": "Sensacional ",
+        "revisao": "Sempre tive é sempre vou ter. Não há igual todos os pontos são positivos. "
+    },
+    {
+        "id": 46,
+        "data": "2017/03/19",
+        "estrelas": 5,
+        "foi_recomendado": "Recomendo",
+        "titulo": "Otimo",
+        "revisao": "Um produto muito bom. Recomendo, pra quem gosta de tecnologia ."
+    },
+    {
+        "id": 47,
         "data": "2017/04/30",
         "estrelas": 1,
         "foi_recomendado": "Não recomendo",
@@ -440,7 +384,7 @@
         "revisao": "Não recebí o produto "
     },
     {
-        "id": 55,
+        "id": 48,
         "data": "2019/01/02",
         "estrelas": 4,
         "foi_recomendado": "Não recomendo",
@@ -448,7 +392,7 @@
         "revisao": "Valeu a pena"
     },
     {
-        "id": 56,
+        "id": 49,
         "data": "2017/08/04",
         "estrelas": 4,
         "foi_recomendado": "Recomendo",
@@ -456,7 +400,7 @@
         "revisao": "Bom produto."
     },
     {
-        "id": 57,
+        "id": 50,
         "data": "2017/07/17",
         "estrelas": 4,
         "foi_recomendado": "Recomendo",
@@ -464,7 +408,7 @@
         "revisao": "O produto é bom, elegante e bonito! porém, como todos os produtos da Apple a integração com outros sistemas e/ou equipamentos de outras marcas atrapalha bastante o uso!"
     },
     {
-        "id": 58,
+        "id": 51,
         "data": "2017/05/01",
         "estrelas": 5,
         "foi_recomendado": "Recomendo",
@@ -472,7 +416,39 @@
         "revisao": "."
     },
     {
-        "id": 59,
+        "id": 52,
+        "data": "2017/05/24",
+        "estrelas": 4,
+        "foi_recomendado": "Recomendo",
+        "titulo": "ÓTIMO",
+        "revisao": "ÓTIMO PRODUTO RECOMENDO A COMPRA"
+    },
+    {
+        "id": 53,
+        "data": "2017/04/23",
+        "estrelas": 4,
+        "foi_recomendado": "Recomendo",
+        "titulo": "Ótimo produto mas caro",
+        "revisao": "Sistema muito rápido, mesmo se comparado ao Android octacore. Excelente qualidade de som e fotos. Falta o carregamento rápido e o valor do aparelho ainda acho muito elevado. Sem dúvida é um excelente aparelho, vale a pena para aquelas pessoas que querem andar na moda com um IPhone. Para as demais, é interessante comparar com outros smartphones de mesmo nível."
+    },
+    {
+        "id": 54,
+        "data": "2017/04/17",
+        "estrelas": 5,
+        "foi_recomendado": "Recomendo",
+        "titulo": "Ótimo produto.",
+        "revisao": "Um ótimo produto."
+    },
+    {
+        "id": 55,
+        "data": "2017/04/16",
+        "estrelas": 4,
+        "foi_recomendado": "Recomendo",
+        "titulo": "Ótimo sistema operacional ",
+        "revisao": "Superou todas expectativas"
+    },
+    {
+        "id": 56,
         "data": "2017/04/11",
         "estrelas": 5,
         "foi_recomendado": "Recomendo",
@@ -480,7 +456,7 @@
         "revisao": "Entrega rápida, produto ótimo. Sou um apple lover!"
     },
     {
-        "id": 60,
+        "id": 57,
         "data": "2017/04/10",
         "estrelas": 5,
         "foi_recomendado": "Recomendo",
@@ -488,7 +464,7 @@
         "revisao": "É um ótimo produto. "
     },
     {
-        "id": 61,
+        "id": 58,
         "data": "2017/04/05",
         "estrelas": 4,
         "foi_recomendado": "Recomendo",
@@ -496,7 +472,7 @@
         "revisao": "Ótimo produto , facilidade de uso , funcionalidade ótimo . "
     },
     {
-        "id": 62,
+        "id": 59,
         "data": "2017/04/03",
         "estrelas": 5,
         "foi_recomendado": "Recomendo",
@@ -504,12 +480,36 @@
         "revisao": "O Iphone 7 é arrojado e ao mesmo tempo moderno. Acabamento sutil e funções que apresentam facilidade ao se acessar."
     },
     {
-        "id": 63,
+        "id": 60,
         "data": "2017/03/30",
         "estrelas": 5,
         "foi_recomendado": "Recomendo",
         "titulo": "Muito bom ",
         "revisao": "Ótimo produto"
+    },
+    {
+        "id": 61,
+        "data": "2017/08/08",
+        "estrelas": 5,
+        "foi_recomendado": "Recomendo",
+        "titulo": "Otimo produto",
+        "revisao": "Em primeiro contato achei estranho mais me adaptei muito facil e recomendo sem medo de errar."
+    },
+    {
+        "id": 62,
+        "data": "2017/08/20",
+        "estrelas": 5,
+        "foi_recomendado": "Recomendo",
+        "titulo": "Ótimo aparelho ",
+        "revisao": "Tenho o produto a pouco tempo mais estou gostando bastante. "
+    },
+    {
+        "id": 63,
+        "data": "2017/08/14",
+        "estrelas": 4,
+        "foi_recomendado": "Recomendo",
+        "titulo": "iPhone 7",
+        "revisao": "Bom produto."
     },
     {
         "id": 64,
