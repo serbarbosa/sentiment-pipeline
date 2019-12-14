@@ -1,0 +1,9 @@
+2 de 5 muito ruim pessimo	1	5
+5 de 5 muito bom	1	6
+comprei , mas ainda n avaliei	1	0
+2 de 5 muito ruim pessimo	1	500000
+comprei , , , , mas ainda n avaliei	1	2
+3 de 5 veio asul pedi verde	1	8
+não sei o que dizer	1	2
+pode ser que seja bom e pode ser que seja ruim	1	-1
+gostei bastante msm, recomendo	1	-2000

@@ -1,6 +1,5 @@
 *.json
 !mac_morpho_backup.json
-*.txt
 *.pyc
 !pos-tags.txt
 !prefixes.txt
