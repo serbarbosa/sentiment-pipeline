@@ -42,8 +42,8 @@ class Subjectivity_filter():
         for sentence in sentences:
             if(self.is_subjective(sentence)):
                 filtered += sentence
-#            else:
-#                print(" - apagando: '" + sentence + "'")
+            #else:
+            #    print(" - apagando: '" + sentence + "'")
         
         return filtered
 

@@ -210,11 +210,11 @@ class Sentiment_pipeline():
                 self.write_results(self.plotter_data, self.data_folder + 'aspect_data_plot.json')
             
             # --- Plotagem dos Aspectos ---
-            #plotter = Aspect_plotter(self.data)
-            #plotter.plot_by_aspect(style='bars')
-            #plotter.plot_by_aspect(style='pie')
+            plotter = Aspect_plotter(self.plotter_data)
+            plotter.plot_by_aspect(style='bars')
+            plotter.plot_by_aspect(style='pie')
             #plotter.plot_by_aspect(style='treemap')
-            #plotter.plot_general()
+            plotter.plot_general()
        
 
         self.write_data()
@@ -237,15 +237,15 @@ if __name__ == '__main__':
     p4 = 'iphone 5s 16GB'                               #1100 +
     p5 = 'Smartphone Samsung Galaxy J5 SM-J500M 16GB'   #1400 +
     p6 = 'Smartphone Apple iPhone 7 32GB'               #70
-
+    p7 = 'Smartphone Motorola Moto G G7 Plus XT1965-2 64GB'
     sent = Sentiment_pipeline(
-            search=p6,
+            search=p3,
             crawl_reviews=True,
             filter_subjectivity=True,
             classify_aspects=True,
             filter_quality_fuzzy=False,
-            filter_quality_mlp=False,
-            summarize='tadano'
+            filter_quality_mlp=True,
+            summarize='opizere'
             )
     #sent.load_data_from_file('review_crawler/reviews.json')
     sent.run(save_partial_results=True)
