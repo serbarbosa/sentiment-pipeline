@@ -88,7 +88,6 @@ class Sentiment_pipeline():
 
             Return : True ou False indicando se conseguiu ler os dados
         '''
-        print(filepath)
         if(os.path.getsize(filepath) == 0): return False
        
         with open(filepath, 'r', encoding='utf-8') as f:
