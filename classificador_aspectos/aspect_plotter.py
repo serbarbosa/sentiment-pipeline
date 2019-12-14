@@ -17,13 +17,13 @@ class Aspect_plotter() :
         for cell in self.json_data:
 
             #processa o aspecto somente se a polaridade foi classificada
-            if cell['polaridade'] is not '' :
+            if cell['polaridade'] != '' :
                 #insere cada novo aspecto com contagem 0
                 if cell['aspecto'] not in self.plotter_data:
                     self.plotter_data[cell['aspecto']] = [0,0]
 
                 #cada aspecto armazena contagem de positivos e de negativos : [pos, neg]
-                if cell['polaridade'] is '+' :
+                if cell['polaridade'] == '+' :
                     self.plotter_data[cell['aspecto']][0] += 1
                 else:
                     self.plotter_data[cell['aspecto']][1] -= 1
@@ -36,7 +36,7 @@ class Aspect_plotter() :
         if len(sorted_data) < 10: max_length = len(sorted_data)
         
         # --- Pie ----
-        if style is 'pie':
+        if style == 'pie':
 
             gauge = pygal.SolidGauge(inner_radius = 0.70)
             
@@ -48,7 +48,7 @@ class Aspect_plotter() :
             gauge.render_in_browser()
         
         # --- Bar ----
-        elif(style is 'bars'):
+        elif(style == 'bars'):
             config = Config()
             config.human_readable = True
             config.print_labels = True
@@ -77,7 +77,7 @@ class Aspect_plotter() :
             bar_plotter.render_in_browser()
         
         # --- Treemap ----
-        elif(style is 'treemap'):
+        elif(style == 'treemap'):
             treemap_plotter = pygal.Treemap()
             
             max_length = 20

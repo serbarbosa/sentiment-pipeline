@@ -2,7 +2,7 @@
 '''Patterns MODULE'''
 
 import nltk
-import MySQLdb as mdb
+#import MySQLdb as mdb
 
 from nltk.tree import *
 from nltk.chunk import RegexpParser
@@ -49,7 +49,7 @@ def GetPatternsTree(tagsList, pattern, patternName):
 	tree = gramaticalAnalyse.parse(tagsList)
 	patt = ExtractPhrases(tree, patternName)
 	return patt
-
+'''
 def ExistCaract(word, flag):
 	db = mdb.connect('localhost', 'root', 'root', 'comments_booking')
 	db.set_character_set("utf8")
@@ -61,7 +61,7 @@ def ExistCaract(word, flag):
 		cur.execute("SELECT caract FROM caractlist WHERE stem = '"+word+"'")
 
 	return cur.fetchone()
-
+'''
 def InsertMultiwordNewAdjective(dictAdjectives, name, adj):
 	stemmer = nltk.stem.RSLPStemmer()
 	first = stemmer.stem(name.split()[0])
@@ -94,7 +94,7 @@ def InsertNewAdjective(dictAdjectives, caract, adj):
 		dictAdjectives[caract][0].append(adj)
 
 	return dictAdjectives
-
+'''
 #Sentiment Lexicon. Return the polarity of a given adjective.
 def Sentilex(word):
 	db = mdb.connect('localhost', 'root', 'root', 'comments_booking')
@@ -109,7 +109,6 @@ def Sentilex(word):
 	else:
 		polSent = 0
 		return int(polSent)
-
 #Returns the weight of an adverb according a weight table [Sousa et al. 2015, modified]
 def AdverbWeight(adv):
 	db = mdb.connect('localhost', 'root', 'root', 'comments_booking')
@@ -123,6 +122,7 @@ def AdverbWeight(adv):
 	except TypeError:
 		return 0
 
+'''
 #Used when get ADV+ADJ. adj = ADV+ADJ
 def GetOverallPolarity(adj):
 	adv = adj.split()[0]
