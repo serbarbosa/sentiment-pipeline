@@ -1,3 +1,7 @@
-*.txt
 *.json
 *.pyc
+*.txt
+!pos-tags.txt
+!prefixes.txt
+!suffixes.txt
+!vocabulary.txt
