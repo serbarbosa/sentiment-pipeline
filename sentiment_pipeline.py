@@ -88,6 +88,7 @@ class Sentiment_pipeline():
 
             Return : True ou False indicando se conseguiu ler os dados
         '''
+        print(filepath)
         if(os.path.getsize(filepath) == 0): return False
        
         with open(filepath, 'r', encoding='utf-8') as f:
@@ -239,7 +240,7 @@ if __name__ == '__main__':
     p6 = 'Smartphone Apple iPhone 7 32GB'               #70
     p7 = 'Smartphone Motorola Moto G G7 Plus XT1965-2 64GB'
     sent = Sentiment_pipeline(
-            search=p3,
+            search=p1,
             crawl_reviews=True,
             filter_subjectivity=True,
             classify_aspects=True,
