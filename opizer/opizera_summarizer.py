@@ -22,7 +22,10 @@ import json
 
 depth_adt = -1
 tokenizer = RegexpTokenizer(r'\w+')
-nlpnet.set_data_dir(str(os.getcwd()+'/opizer/resource/nlpnet_data'))
+
+
+file_path = __file__[:-(len(__name__+".py"))]
+nlpnet.set_data_dir(file_path + "resource/nlpnet_data/")
 tagger = nlpnet.POSTagger()
 
 class Opizera_Summarizer(object):

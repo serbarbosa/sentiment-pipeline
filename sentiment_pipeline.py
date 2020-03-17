@@ -4,7 +4,8 @@ import shutil
 import time
 
 #resolvendo imports para subdiretorios
-main_dir = os.getcwd()
+main_dir = __file__[:-len("sentiment_pipeline.py")]
+
 sys.path.insert(0,main_dir + '/classificador_aspectos')
 sys.path.insert(0,main_dir + '/TopXMLP')
 sys.path.insert(0,main_dir + '/uteis')
@@ -18,10 +19,9 @@ from classificador_aspectos.aspect_plotter import Aspect_plotter
 from TopXFuzzy.TopXFuzzy_compatibility_handler import run_fuzzy
 from TopXMLP.mlp_filter import run_mlp_filter
 from opizer.main import run_opizer
+
 import json
 from typing import List, Dict
-
-
 
 #tentando importar enelvo
 try:
@@ -52,13 +52,18 @@ class Sentiment_pipeline():
         self.data_filename = 'data.json'
         self.main_key = main_key
         self.annot_key = self.main_key + '_anot'
-        self.script_dir = os.getcwd()
+        self.script_dir = main_dir
         self.summarize = summarize
+    
+    def set_script_dir(self, path):
+        self.script_dir = path
 
     def clean_up(self):
         '''Reinicia o diretorio padrao, deletando todos os arquivos presentes nele.'''
+        
         shutil.rmtree(self.data_folder)
         os.makedirs(self.data_folder)
+        
 
     def set_data_folder(self, folder : str):
         '''Define a pasta destino para os dados.'''
@@ -120,7 +125,7 @@ class Sentiment_pipeline():
     def normalize_data(self):
         '''Normaliza os dados com enelvo.'''
 
-        print("Inicializando normalizador ...")
+        #print("Inicializando normalizador ...")
         norm = normaliser.Normaliser()
 
         for i in range(self.data_size):
@@ -129,35 +134,39 @@ class Sentiment_pipeline():
     def normalize_and_filter(self):
         '''Normaliza os dados com enelvo e em seguida realiza a filtragem por subjetividade.'''
 
-        print("Inicializando normalizador ...")
+        #print("Inicializando normalizador ...")
         norm = normaliser.Normaliser()
         
-        print("Inicializando filtro de subjetividade ...")
+        #print("Inicializando filtro de subjetividade ...")
         sbj_filter = Subjectivity_filter('filtro_subjetividade')
         
         for i in range(self.data_size):
-            if i % 100 == 0:
-                print('filtrando: ' + str(i*100//self.data_size) + '%')
+            #if i % 100 == 0:
+                #print('filtrando: ' + str(i*100//self.data_size) + '%')
             self.data[i][self.main_key] = norm.normalise(self.data[i][self.main_key])
             self.data[i][self.main_key] = sbj_filter.run_filter(self.data[i][self.main_key])
         
-        print('filtrando: 100%')
+        #print('filtrando: 100%')
     
     def run(self, save_partial_results = False):
         
+        called_dir = os.getcwd()
+        os.chdir(self.script_dir)
         # Verifica se será aplicado módulo para extrair revisoes de produtos
         if(self.crawl_reviews):
             self.clean_up()
             print("Resgatando revisões para '" + self.search + "' ...")
-            os.chdir('review_crawler')
+            os.chdir(self.script_dir + "/" + 'review_crawler')
             run_crawler(self.search)
             os.chdir(self.script_dir)
             #copiando arquivo da saida do crawler para o diretorio padrao do script
             if(self.load_data_from_file('review_crawler/reviews.json')):
                 if(save_partial_results):
                     self.write_results(self.data, self.data_folder + 'crawled_data.json')
+                print("Revisões encontradas:")
+                print(self.data_size)
             else:
-                print('Nao foi possivel extrair revisoes')
+                print('Não foi possível extrair revisões.')
                 return
 
         # nesse ponto, não pode continuar se os dados não foram carregados ainda
@@ -168,14 +177,14 @@ class Sentiment_pipeline():
         # --- Filtro de Qualidade de Revisao ---
         if(self.filter_quality_mlp):
             os.chdir('TopXMLP')
-            print("Inicializando TopX-MLP e filtrando por qualidade")
+            #print("Inicializando TopX-MLP e filtrando por qualidade")
             self.data = run_mlp_filter((self.data, self.main_key), self.data_size, grade='good', metric=1) 
             os.chdir(self.script_dir)
             if(save_partial_results):
                 self.write_results(self.data, self.data_folder + 'mlp_filtered_data.json')
             
         elif(self.filter_quality_fuzzy):
-            print("Inicializando TopX Fuzzy e filtrando por qualidade")
+            #print("Inicializando TopX Fuzzy e filtrando por qualidade")
             os.chdir('TopXFuzzy')
             self.data = run_fuzzy(self.data)
             os.chdir(self.script_dir)
@@ -200,7 +209,7 @@ class Sentiment_pipeline():
             
             os.chdir('classificador_aspectos')
             
-            print("Inicializando classificador de aspectos")
+            #print("Inicializando classificador de aspectos")
             asp_classifier = aspect_classifier.Aspect_classifier()
             self.plotter_data = asp_classifier.run(self.data, self.main_key) 
              
@@ -228,9 +237,11 @@ class Sentiment_pipeline():
         #escreve dados apos todos os processamentos solicitados 
         self.write_data()
 
+        os.chdir(called_dir)
 
 if __name__ == '__main__':
-    
+   
+
     p1 = 'brastemp ative'                               #200 +
     p2 = 'Brastemp BWK11AB Superior 11 Kg Branco'       #600 +
     p3 = 'iphone 6 16GB'                                #400 +
@@ -238,8 +249,13 @@ if __name__ == '__main__':
     p5 = 'Smartphone Samsung Galaxy J5 SM-J500M 16GB'   #1400 +
     p6 = 'Smartphone Apple iPhone 7 32GB'               #70
     p7 = 'Smartphone Motorola Moto G G7 Plus XT1965-2 64GB'
+    
+    search_query = p2
+    if len(sys.argv) > 1:
+        search_query = sys.argv[1]
+   
     sent = Sentiment_pipeline(
-            search=p1,
+            search=search_query,
             crawl_reviews=True,
             filter_subjectivity=True,
             classify_aspects=True,

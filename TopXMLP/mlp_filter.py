@@ -1,5 +1,5 @@
 from typing import Tuple
-import quality_predictor
+from . import quality_predictor
 
 def run_mlp_filter(parser_params : Tuple, num_reviews, grade, metric):
     '''
