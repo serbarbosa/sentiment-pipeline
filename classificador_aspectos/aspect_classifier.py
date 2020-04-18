@@ -162,7 +162,7 @@ class Aspect_classifier():
                 opinion_matrix[occur[2][0]][occur[2][1]] = word
                 
         #montando anotacao para padrao de leitura do opizer
-        annotation = '#Resenha_' + str(data[index]['id'])+'\n#Aspectos: '
+        annotation = '#Resenha_' + str(data[index]["id"])+'\n#Aspectos: '
         
         #anotando aspetos
         first_aspect = None        
@@ -174,7 +174,7 @@ class Aspect_classifier():
                 annotation += ', '+v+'_'+k
         
         #anotando estrelas
-        annotation +='\n#Estrelas: '+str(data[index]['estrelas'])+'\n'
+        annotation +='\n#Estrelas: '+str(data[index]["estrelas"])+'\n'
         
         #anotando revisao
         for line in opinion_matrix:
@@ -188,7 +188,7 @@ class Aspect_classifier():
             annotation += review_line
         
         #escrevendo nova entrada no json com a anotacao
-        data[index]['revisao_anot'] = annotation
+        data[index]["revisao_anot"] = annotation
         
 
     def _sent_analisys(self, data : List[Dict], index : int, review : str):
@@ -218,7 +218,7 @@ class Aspect_classifier():
             #caso onde nao foram encontradas palavras de sentimento
             if(len(keywords[1]) == 0):
                 for aspect in keywords[0]:
-                    opinions.append({'aspecto' : aspect[0], 'polaridade' : '', 'palavra_sent' : 'x'})
+                    opinions.append({"aspecto" : aspect[0], "polaridade" : "", "palavra_sent" : "x"})
                      
             #caso onde encontrou-se sentimento
             else:
@@ -234,7 +234,7 @@ class Aspect_classifier():
                     else:
                         review_sentiments[sent_word[0]].append([aspect[0], orientation, [i, sent_word[1], sent_word[2]]])
 
-                    opinions.append({'aspecto' : aspect[0], 'polaridade' : orientation, 'palavra_sent' : sent_word[0]})
+                    opinions.append({"aspecto" : aspect[0], "polaridade" : orientation, "palavra_sent" : sent_word[0]})
 
         self.annotate_aspects(data, index, review_aspects, review_sentiments, opinion_matrix)
         return opinions

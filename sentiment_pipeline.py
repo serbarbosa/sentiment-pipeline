@@ -155,7 +155,7 @@ class Sentiment_pipeline():
         # Verifica se será aplicado módulo para extrair revisoes de produtos
         if(self.crawl_reviews):
             self.clean_up()
-            print("Resgatando revisões para '" + self.search + "' ...")
+            #print("Resgatando revisões para '" + self.search + "' ...")
             os.chdir(self.script_dir + "/" + 'review_crawler')
             run_crawler(self.search)
             os.chdir(self.script_dir)
@@ -220,10 +220,12 @@ class Sentiment_pipeline():
             
             # --- Plotagem dos Aspectos ---
             plotter = Aspect_plotter(self.plotter_data)
-            plotter.plot_by_aspect(style='bars')
-            plotter.plot_by_aspect(style='pie')
+            #-- versao web ira apenas inicializar o plotter jogando json pra stdout
+            #-- a plotagem de fato ficará a cargo do lado cliente
+            #plotter.plot_by_aspect(style='bars')
+            #plotter.plot_by_aspect(style='pie')
             #plotter.plot_by_aspect(style='treemap')
-            plotter.plot_general()
+            #plotter.plot_general()
        
 
         self.write_data()
@@ -233,6 +235,7 @@ class Sentiment_pipeline():
             os.chdir('opizer')
             run_opizer(self.summarize, self.data, self.main_key, self.annot_key, 'id') 
             os.chdir(self.script_dir)
+
             
         #escreve dados apos todos os processamentos solicitados 
         self.write_data()
@@ -250,7 +253,7 @@ if __name__ == '__main__':
     p6 = 'Smartphone Apple iPhone 7 32GB'               #70
     p7 = 'Smartphone Motorola Moto G G7 Plus XT1965-2 64GB'
     
-    search_query = p2
+    search_query = p1
     if len(sys.argv) > 1:
         search_query = sys.argv[1]
    

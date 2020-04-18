@@ -1,6 +1,7 @@
 import pygal
 from pygal.style import Style
 from pygal import Config
+import json
 
 class Aspect_plotter() :
 
@@ -17,17 +18,20 @@ class Aspect_plotter() :
         for cell in self.json_data:
 
             #processa o aspecto somente se a polaridade foi classificada
-            if cell['polaridade'] != '' :
+            if cell["polaridade"] != '' :
                 #insere cada novo aspecto com contagem 0
-                if cell['aspecto'] not in self.plotter_data:
-                    self.plotter_data[cell['aspecto']] = [0,0]
+                if cell["aspecto"] not in self.plotter_data:
+                    self.plotter_data[cell["aspecto"]] = [0,0]
 
                 #cada aspecto armazena contagem de positivos e de negativos : [pos, neg]
-                if cell['polaridade'] == '+' :
-                    self.plotter_data[cell['aspecto']][0] += 1
-                else:
-                    self.plotter_data[cell['aspecto']][1] -= 1
+                if cell["polaridade"] == '+' :
+                    self.plotter_data[cell["aspecto"]][0] += 1
+                elif cell["polaridade"] == '-':
+                    self.plotter_data[cell["aspecto"]][1] -= 1
+        self.plotter_data = json.dumps(self.plotter_data)
+        print(self.plotter_data)
     
+    """
     def plot_by_aspect(self, style='pie'):
 
         #ordenando itens por relevancia
@@ -49,7 +53,6 @@ class Aspect_plotter() :
             #result_chart = gauge.render_data_uri()
             result_chart = gauge.render()
             #result_chart = gauge.render_to_file('processed_data/gauge.svg')
-            print(result_chart)
 
         # --- Bar ----
         elif(style == 'bars'):
@@ -81,7 +84,6 @@ class Aspect_plotter() :
             #bar_plotter.render_in_browser()
             #bar_plotter.render_to_file('processed_data/bar.svg')
             result_chart = bar_plotter.render()
-            print(result_chart)
         
         # --- Treemap ----
         elif(style == 'treemap'):
@@ -98,7 +100,6 @@ class Aspect_plotter() :
             #treemap_plotter.render_in_browser()
             #treemap_plotter.render_to_file('processed_data/treemap.svg')
             result_chart = treemap_plotter.render()
-            print(result_chart)
             
 
     def plot_general(self):
@@ -125,6 +126,5 @@ class Aspect_plotter() :
         #pie_plotter.render_in_browser()
         #pie_plotter.render_to_file('processed_data/pie.svg')
         result_chart = pie_plotter.render()
-        print(result_chart)
 
-
+    """
