@@ -28,6 +28,8 @@ class Aspect_plotter() :
                     self.plotter_data[cell["aspecto"]][0] += 1
                 elif cell["polaridade"] == '-':
                     self.plotter_data[cell["aspecto"]][1] -= 1
+        
+        self.plotter_data = sorted(self.plotter_data.items(), key = lambda kv: kv[1][0]+abs(kv[1][1]), reverse = True)
         self.plotter_data = json.dumps(self.plotter_data)
         print(self.plotter_data)
     

@@ -4,12 +4,13 @@ import shutil
 import time
 
 #resolvendo imports para subdiretorios
-main_dir = __file__[:-len("sentiment_pipeline.py")]
+main_dir = os.path.join(__file__[:-len("sentiment_pipeline.py")])
 
 sys.path.insert(0,main_dir + '/classificador_aspectos')
 sys.path.insert(0,main_dir + '/TopXMLP')
 sys.path.insert(0,main_dir + '/uteis')
 sys.path.insert(0,main_dir + '/opizer')
+sys.path.insert(0,main_dir + '/processed_data')
 #sys.path.insert(0,main_dir + '/filtro_subjetividade')
 
 from review_crawler.crawl_reviews import run_crawler
@@ -39,30 +40,64 @@ class Sentiment_pipeline():
                 filter_quality_fuzzy=False, filter_quality_mlp=True, filter_subjectivity=True, crawl_reviews=True, main_key='revisao',
                 summarize='opizere'):
         
-        self.crawl_reviews = crawl_reviews
         self.search = search
+        self.data = None
+        self.data_size = 0
+        self.main_key = main_key
+        self.annot_key = self.main_key + '_anot'
+        self.script_dir = main_dir
+        self.user_name = self.create_data_dir()
+        self.data_folder = os.path.join('processed_data', self.user_name)
+        self.data_filename = 'data.json'
+
+        #atribuindo controle para quais operacoes serao realizadas
+        self.crawl_reviews = crawl_reviews
         self.normalize = normalize
+        self.summarize = summarize
         self.classify_aspects = classify_aspects
         self.filter_quality_fuzzy = filter_quality_fuzzy
         self.filter_subjectivity = filter_subjectivity
         self.filter_quality_mlp = filter_quality_mlp
-        self.data = None
-        self.data_size = 0
-        self.data_folder = 'processed_data/'
-        self.data_filename = 'data.json'
-        self.main_key = main_key
-        self.annot_key = self.main_key + '_anot'
-        self.script_dir = main_dir
-        self.summarize = summarize
+    
+
+
+    def create_data_dir(self):
+        '''Cria um diretorio unico para cada execucao ---exclusivo da versao web'''
+
+        #acessando diretorio do script
+        called_dir = os.getcwd()
+        os.chdir(os.path.join(self.script_dir, "processed_data"))
+
+        #recuperando nome dos diretorios sendo usados atualmente
+        dirs = os.listdir('.')
+        #calculando numero do usuario dessa execucao, baseado no arquivo de maior numero
+        user_name = 'user_0'
+        if len(dirs) > 0:
+            user_name = 'user_' + str(int(max(dirs)[len('user_'):]) + 1)
+        
+        #criando diretorio de dados pro usuario
+        os.makedirs(user_name)
+        
+        #copiando crawler exclusivo para o usuario
+        src = os.path.join(called_dir, self.script_dir, 'review_crawler')
+        dest = os.path.join(user_name, "review_crawler")
+        destination = shutil.copytree(src, dest)
+        
+        #retornando ao diretorio da interface
+        os.chdir(called_dir)
+        
+        return user_name
+        
     
     def set_script_dir(self, path):
         self.script_dir = path
 
     def clean_up(self):
         '''Reinicia o diretorio padrao, deletando todos os arquivos presentes nele.'''
+        '''Versao web funciona um pouco diferente. Deve-se remover sempre os dados processados na ultima execucao e deixa-los removidos'''
         
         shutil.rmtree(self.data_folder)
-        os.makedirs(self.data_folder)
+        #os.makedirs(self.data_folder)  ---versao desktop apenas
         
 
     def set_data_folder(self, folder : str):
@@ -103,7 +138,7 @@ class Sentiment_pipeline():
 
     def write_data(self, free_data=False):
         '''Escreve dados para o destino padrão.'''
-        with open(self.data_folder + self.data_filename, 'w', encoding='utf-8') as f:
+        with open(os.path.join(self.data_folder, self.data_filename), 'w', encoding='utf-8') as f:
             json.dump(self.data, f, indent=4, ensure_ascii=False)
         if(free_data):
             self.data = None
@@ -149,96 +184,104 @@ class Sentiment_pipeline():
         #print('filtrando: 100%')
     
     def run(self, save_partial_results = False):
-        
+       
         called_dir = os.getcwd()
         os.chdir(self.script_dir)
-        # Verifica se será aplicado módulo para extrair revisoes de produtos
-        if(self.crawl_reviews):
-            self.clean_up()
-            #print("Resgatando revisões para '" + self.search + "' ...")
-            os.chdir(self.script_dir + "/" + 'review_crawler')
-            run_crawler(self.search)
-            os.chdir(self.script_dir)
-            #copiando arquivo da saida do crawler para o diretorio padrao do script
-            if(self.load_data_from_file('review_crawler/reviews.json')):
-                if(save_partial_results):
-                    self.write_results(self.data, self.data_folder + 'crawled_data.json')
-                print("Revisões encontradas:")
-                print(self.data_size)
-            else:
-                print('Não foi possível extrair revisões.')
+        try:
+            # Verifica se será aplicado módulo para extrair revisoes de produtos
+            if(self.crawl_reviews):
+                #print("Resgatando revisões para '" + self.search + "' ...")
+                #os.chdir(self.script_dir + "/" + 'review_crawler')
+                #na versao web, cada usuario precisa ter seu proprio crawler
+                os.chdir(os.path.join(self.script_dir, self.data_folder, "review_crawler"))
+                run_crawler(self.search)
+                os.chdir(self.script_dir)
+                #copiando arquivo da saida do crawler para o diretorio padrao do script
+                if(self.load_data_from_file(os.path.join(self.data_folder, 'review_crawler/reviews.json'))):
+                    if(save_partial_results):
+                        self.write_results(self.data, self.data_folder + 'crawled_data.json')
+                    print("Revisões encontradas:")
+                    print(self.data_size)
+                else:
+                    print('Não foi possível extrair revisões.')
+                    return
+
+            # nesse ponto, não pode continuar se os dados não foram carregados ainda
+            elif self.data == None:
+                print('Nenhum dado disponivel ...')
                 return
+            
+            # --- Filtro de Qualidade de Revisao ---
+            if(self.filter_quality_mlp):
+                os.chdir('TopXMLP')
+                #print("Inicializando TopX-MLP e filtrando por qualidade")
+                self.data = run_mlp_filter((self.data, self.main_key), self.data_size, grade='good', metric=1) 
+                os.chdir(self.script_dir)
+                if(save_partial_results):
+                    self.write_results(self.data, self.data_folder + 'mlp_filtered_data.json')
+                
+            elif(self.filter_quality_fuzzy):
+                #print("Inicializando TopX Fuzzy e filtrando por qualidade")
+                os.chdir('TopXFuzzy')
+                self.data = run_fuzzy(self.data)
+                os.chdir(self.script_dir)
+                if(save_partial_results):
+                    self.write_results(self.data, self.data_folder + 'fuzzy_filtered_data.json')
+            
+            # --- Normalizador ---
+            if(not self.filter_subjectivity and self.normalize):
 
-        # nesse ponto, não pode continuar se os dados não foram carregados ainda
-        elif self.data == None:
-            print('Nenhum dado disponivel ...')
-            return
-        
-        # --- Filtro de Qualidade de Revisao ---
-        if(self.filter_quality_mlp):
-            os.chdir('TopXMLP')
-            #print("Inicializando TopX-MLP e filtrando por qualidade")
-            self.data = run_mlp_filter((self.data, self.main_key), self.data_size, grade='good', metric=1) 
-            os.chdir(self.script_dir)
-            if(save_partial_results):
-                self.write_results(self.data, self.data_folder + 'mlp_filtered_data.json')
-            
-        elif(self.filter_quality_fuzzy):
-            #print("Inicializando TopX Fuzzy e filtrando por qualidade")
-            os.chdir('TopXFuzzy')
-            self.data = run_fuzzy(self.data)
-            os.chdir(self.script_dir)
-            if(save_partial_results):
-                self.write_results(self.data, self.data_folder + 'fuzzy_filtered_data.json')
-        
-        # --- Normalizador ---
-        if(not self.filter_subjectivity and self.normalize):
+                self.normalize_data()   #modifica os dados carregados
+                if(save_partial_results):
+                    self.write_results(self.data, self.data_folder + 'norm_data.json')
 
-            self.normalize_data()   #modifica os dados carregados
-            if(save_partial_results):
-                self.write_results(self.data, self.data_folder + 'norm_data.json')
+            # --- Normalizador com Filtro de Subjetividade---
+            elif(self.filter_subjectivity):
+                self.normalize_and_filter() #modifica os dados carregados
+                if(save_partial_results):
+                    self.write_results(self.data, self.data_folder + 'filtered_sbj_data.json')
+                
+            # --- Identificador e Classificador de Aspectos ---
+            if(self.classify_aspects):
+                
+                os.chdir('classificador_aspectos')
+                
+                #print("Inicializando classificador de aspectos")
+                asp_classifier = aspect_classifier.Aspect_classifier()
+                self.plotter_data = asp_classifier.run(self.data, self.main_key) 
+                 
+                os.chdir(self.script_dir)
+                
+                if(save_partial_results):
+                    self.write_results(self.plotter_data, self.data_folder + 'aspect_data_plot.json')
+                
+                # --- Plotagem dos Aspectos ---
+                plotter = Aspect_plotter(self.plotter_data)
+                #-- versao web ira apenas inicializar o plotter jogando json pra stdout
+                #-- a plotagem de fato ficará a cargo do lado cliente
+                #plotter.plot_by_aspect(style='bars')
+                #plotter.plot_by_aspect(style='pie')
+                #plotter.plot_by_aspect(style='treemap')
+                #plotter.plot_general()
+           
 
-        # --- Normalizador com Filtro de Subjetividade---
-        elif(self.filter_subjectivity):
-            self.normalize_and_filter() #modifica os dados carregados
-            if(save_partial_results):
-                self.write_results(self.data, self.data_folder + 'filtered_sbj_data.json')
-            
-        # --- Identificador e Classificador de Aspectos ---
-        if(self.classify_aspects):
-            
-            os.chdir('classificador_aspectos')
-            
-            #print("Inicializando classificador de aspectos")
-            asp_classifier = aspect_classifier.Aspect_classifier()
-            self.plotter_data = asp_classifier.run(self.data, self.main_key) 
-             
-            os.chdir(self.script_dir)
-            
-            if(save_partial_results):
-                self.write_results(self.plotter_data, self.data_folder + 'aspect_data_plot.json')
-            
-            # --- Plotagem dos Aspectos ---
-            plotter = Aspect_plotter(self.plotter_data)
-            #-- versao web ira apenas inicializar o plotter jogando json pra stdout
-            #-- a plotagem de fato ficará a cargo do lado cliente
-            #plotter.plot_by_aspect(style='bars')
-            #plotter.plot_by_aspect(style='pie')
-            #plotter.plot_by_aspect(style='treemap')
-            #plotter.plot_general()
-       
+            self.write_data()
+            # --- Sumarizador de Opiniao ---
+            if(self.summarize != 'False'):
+                os.chdir('opizer')
+                run_opizer(self.summarize, self.data, self.main_key, self.annot_key, 'id') 
+                os.chdir(self.script_dir)
 
-        self.write_data()
-        self.write_data()
-        # --- Sumarizador de Opiniao ---
-        if(self.summarize != 'False'):
-            os.chdir('opizer')
-            run_opizer(self.summarize, self.data, self.main_key, self.annot_key, 'id') 
-            os.chdir(self.script_dir)
-
+                
+            #escreve dados apos todos os processamentos solicitados 
+            self.write_data()
             
-        #escreve dados apos todos os processamentos solicitados 
-        self.write_data()
+            #apos finalizar processamento, deleta os dados gerados
+            self.clean_up()
+
+        except:
+            #se algo der errado, eliminar rastros dos diretorios criados
+            self.clean_up()
 
         os.chdir(called_dir)
 
@@ -267,6 +310,7 @@ if __name__ == '__main__':
             summarize='opizere'
             )
     #sent.load_data_from_file('review_crawler/reviews.json')
-    sent.run(save_partial_results=True)
+    #roda pipeline para versao web, portanto resultados intermediarios nao serao usados
+    sent.run(save_partial_results=False)    
 
 
