@@ -17,7 +17,7 @@ from review_crawler.crawl_reviews import run_crawler
 from filtro_subjetividade.sbj_filter import Subjectivity_filter
 from classificador_aspectos import aspect_classifier
 from classificador_aspectos.aspect_plotter import Aspect_plotter
-from TopXFuzzy.TopXFuzzy_compatibility_handler import run_fuzzy
+#from TopXFuzzy.TopXFuzzy_compatibility_handler import run_fuzzy
 from TopXMLP.mlp_filter import run_mlp_filter
 from opizer.main import run_opizer
 
@@ -219,14 +219,15 @@ class Sentiment_pipeline():
                 os.chdir(self.script_dir)
                 if(save_partial_results):
                     self.write_results(self.data, self.data_folder + 'mlp_filtered_data.json')
-                
-            elif(self.filter_quality_fuzzy):
+            
+            # FILTRO FUZZY NAO DISPONIVEL PARA VERSAO WEB
+            #elif(self.filter_quality_fuzzy):
                 #print("Inicializando TopX Fuzzy e filtrando por qualidade")
-                os.chdir('TopXFuzzy')
-                self.data = run_fuzzy(self.data)
-                os.chdir(self.script_dir)
-                if(save_partial_results):
-                    self.write_results(self.data, self.data_folder + 'fuzzy_filtered_data.json')
+                #os.chdir('TopXFuzzy')
+                #self.data = run_fuzzy(self.data)
+                #os.chdir(self.script_dir)
+                #if(save_partial_results):
+                #    self.write_results(self.data, self.data_folder + 'fuzzy_filtered_data.json')
             
             # --- Normalizador ---
             if(not self.filter_subjectivity and self.normalize):
