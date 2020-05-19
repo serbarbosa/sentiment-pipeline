@@ -1,6 +1,6 @@
-import pygal
-from pygal.style import Style
-from pygal import Config
+#import pygal
+#from pygal.style import Style
+#from pygal import Config
 import json
 
 class Aspect_plotter() :

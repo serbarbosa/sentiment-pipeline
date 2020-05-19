@@ -36,10 +36,19 @@ except ModuleNotFoundError:
 
 class Sentiment_pipeline():
 
-    def __init__(self, search = 'Samsung galaxy s7', normalize = True,classify_aspects = False,
+    def __init__(self, search = '', normalize = True,classify_aspects = False,
                 filter_quality_fuzzy=False, filter_quality_mlp=True, filter_subjectivity=True, crawl_reviews=True, main_key='revisao',
                 summarize='opizere'):
-        
+       
+        #atribuindo controle para quais operacoes serao realizadas
+        self.crawl_reviews = crawl_reviews
+        self.normalize = normalize
+        self.summarize = summarize
+        self.classify_aspects = classify_aspects
+        self.filter_quality_fuzzy = filter_quality_fuzzy
+        self.filter_subjectivity = filter_subjectivity
+        self.filter_quality_mlp = filter_quality_mlp
+
         self.search = search
         self.data = None
         self.data_size = 0
@@ -50,15 +59,7 @@ class Sentiment_pipeline():
         self.data_folder = os.path.join('processed_data', self.user_name)
         self.data_filename = 'data.json'
 
-        #atribuindo controle para quais operacoes serao realizadas
-        self.crawl_reviews = crawl_reviews
-        self.normalize = normalize
-        self.summarize = summarize
-        self.classify_aspects = classify_aspects
-        self.filter_quality_fuzzy = filter_quality_fuzzy
-        self.filter_subjectivity = filter_subjectivity
-        self.filter_quality_mlp = filter_quality_mlp
-    
+            
 
 
     def create_data_dir(self):
@@ -78,10 +79,12 @@ class Sentiment_pipeline():
         #criando diretorio de dados pro usuario
         os.makedirs(user_name)
         
-        #copiando crawler exclusivo para o usuario
-        src = os.path.join(called_dir, self.script_dir, 'review_crawler')
-        dest = os.path.join(user_name, "review_crawler")
-        destination = shutil.copytree(src, dest)
+        #se for resgatar revisoes da web
+        if self.crawl_reviews:
+            #entao copia crawler exclusivo para o usuario
+            src = os.path.join(called_dir, self.script_dir, 'review_crawler')
+            dest = os.path.join(user_name, "review_crawler")
+            destination = shutil.copytree(src, dest)
         
         #retornando ao diretorio da interface
         os.chdir(called_dir)
@@ -108,6 +111,16 @@ class Sentiment_pipeline():
         '''Define o nome de arquivo que será escrito.'''
         self.data_filename = filename
     
+    def set_data(self, data, separator="\n"):
+        '''Recebe revisoes como entrada e as trata utilizando o separador informado'''
+        self.data = []
+        id = 0
+        for review in data.split(separator):
+            self.data.append({'revisao' : review, 'id' : id, 'estrelas' : '-'})
+            id += 1
+
+        self.data_size = len(self.data)
+
     def load_data(self) -> bool:
         '''Carrega os dados salvos da fonte padrão.
 
@@ -162,7 +175,6 @@ class Sentiment_pipeline():
 
         #print("Inicializando normalizador ...")
         norm = normaliser.Normaliser()
-
         for i in range(self.data_size):
             self.data[i][self.main_key] = norm.normalise(self.data[i][self.main_key])
         
@@ -231,7 +243,6 @@ class Sentiment_pipeline():
             
             # --- Normalizador ---
             if(not self.filter_subjectivity and self.normalize):
-
                 self.normalize_data()   #modifica os dados carregados
                 if(save_partial_results):
                     self.write_results(self.data, self.data_folder + 'norm_data.json')
@@ -289,29 +300,144 @@ class Sentiment_pipeline():
 if __name__ == '__main__':
    
 
-    p1 = 'brastemp ative'                               #200 +
-    p2 = 'Brastemp BWK11AB Superior 11 Kg Branco'       #600 +
-    p3 = 'iphone 6 16GB'                                #400 +
-    p4 = 'iphone 5s 16GB'                               #1100 +
-    p5 = 'Smartphone Samsung Galaxy J5 SM-J500M 16GB'   #1400 +
-    p6 = 'Smartphone Apple iPhone 7 32GB'               #70
-    p7 = 'Smartphone Motorola Moto G G7 Plus XT1965-2 64GB'
+    #p1 = 'brastemp ative'                               #200 +
+    #p2 = 'Brastemp BWK11AB Superior 11 Kg Branco'       #600 +
+    #p3 = 'iphone 6 16GB'                                #400 +
+    #p4 = 'iphone 5s 16GB'                               #1100 +
+    #p5 = 'Smartphone Samsung Galaxy J5 SM-J500M 16GB'   #1400 +
+    #p6 = 'Smartphone Apple iPhone 7 32GB'               #70
+    #p7 = 'Smartphone Motorola Moto G G7 Plus XT1965-2 64GB'
     
-    search_query = p1
-    if len(sys.argv) > 1:
-        search_query = sys.argv[1]
-   
-    sent = Sentiment_pipeline(
-            search=search_query,
-            crawl_reviews=True,
-            filter_subjectivity=True,
-            classify_aspects=True,
-            filter_quality_fuzzy=False,
-            filter_quality_mlp=True,
-            summarize='opizere'
-            )
-    #sent.load_data_from_file('review_crawler/reviews.json')
-    #roda pipeline para versao web, portanto resultados intermediarios nao serao usados
-    sent.run(save_partial_results=False)    
+
+    operation = sys.argv[1]
+    
+    data = sys.argv[2]
+    if operation == "pipeline":
+    
+        sent = Sentiment_pipeline(
+                search=data,
+                crawl_reviews=True,
+                filter_subjectivity=True,
+                classify_aspects=True,
+                filter_quality_fuzzy=False,
+                filter_quality_mlp=True,
+                summarize='opizere'
+                )
+        #sent.load_data_from_file('review_crawler/reviews.json')
+        #roda pipeline para versao web, portanto resultados intermediarios nao serao usados
+        sent.run(save_partial_results=False)    
+
+    
+    #realizando apenas normalizacao com enelvo
+    elif operation == "normalization":
+        
+        sent = Sentiment_pipeline(
+                crawl_reviews=False,
+                filter_subjectivity=False,
+                classify_aspects=False,
+                filter_quality_fuzzy=False,
+                filter_quality_mlp=False,
+                summarize='False',
+                normalize=True
+                )
+        sent.set_data(data, separator='\n')
+        sent.run(save_partial_results=False)
+        #imprime o texto normalizado
+        print("\n")
+        for value in sent.data:
+            print(value["revisao"])
+    
+    #realizando filtragem por qualidade
+    elif operation == "qltFilter":
+        
+        sent = Sentiment_pipeline(
+                crawl_reviews=False,
+                filter_subjectivity=False,
+                classify_aspects=False,
+                filter_quality_fuzzy=False,
+                filter_quality_mlp=True,
+                summarize='False',
+                normalize=False
+                )
+        sent.set_data(data, separator='\n')
+        sent.run(save_partial_results=False)
+        
+        #imprime o texto processado
+        print("\n")
+        #configurando saida para formato legível
+        for rev in sent.data:
+            quality = int(rev['qualidade'])
+            text = "Revisão de qualidade " + rev['qualidade'] + ' - '
+            if quality > 1:
+                text += 'mantida:\n'
+                text += '\t'+rev['revisao'] + '\n'
+            else:
+                text += 'removida:\n'
+                text += '\t'+rev['removido'] + '\n'
+            print(text)
+
+    #realizando filtragem por subjetividade
+    elif operation == "sbjFilter":
+        
+        sent = Sentiment_pipeline(
+                crawl_reviews=False,
+                filter_subjectivity=True,
+                classify_aspects=False,
+                filter_quality_fuzzy=False,
+                filter_quality_mlp=False,
+                summarize='False',
+                normalize=False
+                )
+        sent.set_data(data, separator = '\n')
+        sent.run(save_partial_results=False)
+        #imprime o texto processado
+        print("\n")
+        text = "Mostrando as sentenças mantidas:\n\t"
+        for value in sent.data:
+            text += value["revisao"]
+        print(text)
+
+    #realizando extracao e classificacao de aspectos
+    elif operation == "aspect":
+        
+        sent = Sentiment_pipeline(
+                crawl_reviews=False,
+                filter_subjectivity=False,
+                classify_aspects=True,
+                filter_quality_fuzzy=False,
+                filter_quality_mlp=False,
+                summarize='False',
+                normalize=False
+                )
+
+        sent.set_data(data, separator='\n')
+        sent.run(save_partial_results=False)
+        #imprime o texto processado
+        print("\n")
+        print(sent.data)
+        #for value in sent.data:
+        #    print(value["revisao"])
+
+    #realizando sumarizacao
+    elif operation == "opizer":
+        
+        sent = Sentiment_pipeline(
+                crawl_reviews=False,
+                filter_subjectivity=False,
+                classify_aspects=True,
+                filter_quality_fuzzy=False,
+                filter_quality_mlp=False,
+                summarize='opizere',
+                normalize=False
+                )
+        sent.set_data(data, separator="\n")
+        sent.run(save_partial_results=False)
+        #imprime o texto normalizado
+        #print("\n")
+        #print(sent.data)
+        #for value in sent.data:
+        #    print(value["revisao"])
+    
+
 
 
