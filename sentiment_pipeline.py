@@ -2,10 +2,11 @@ import os, os.path
 import sys
 import shutil
 import time
+import warnings
 
 #resolvendo imports para subdiretorios
-main_dir = os.path.join(__file__[:-len("sentiment_pipeline.py")])
-
+os.chdir("/home/sbarbosa/arquivos/projeto/opinionzoom")
+main_dir = "/" + os.path.join(__file__[:-len("sentiment_pipeline.py")])
 sys.path.insert(0,main_dir + '/classificador_aspectos')
 sys.path.insert(0,main_dir + '/TopXMLP')
 sys.path.insert(0,main_dir + '/uteis')
@@ -205,27 +206,53 @@ class Sentiment_pipeline():
                 #print("Resgatando revisões para '" + self.search + "' ...")
                 #os.chdir(self.script_dir + "/" + 'review_crawler')
                 #na versao web, cada usuario precisa ter seu proprio crawler
-                os.chdir(os.path.join(self.script_dir, self.data_folder, "review_crawler"))
-                run_crawler(self.search)
-                os.chdir(self.script_dir)
-                #copiando arquivo da saida do crawler para o diretorio padrao do script
-                if(self.load_data_from_file(os.path.join(self.data_folder, 'review_crawler/reviews.json'))):
+                # 
+                #os.chdir(os.path.join(self.script_dir, self.data_folder, "review_crawler"))
+                #run_crawler(self.search)
+                #os.chdir(self.script_dir)
+                ##copiando arquivo da saida do crawler para o diretorio padrao do script
+                #if(self.load_data_from_file(os.path.join(self.data_folder, 'review_crawler/reviews.json'))):
+                #    if(save_partial_results):
+                #        self.write_results(self.data, self.data_folder + 'crawled_data.json')
+                #    print("Revisões encontradas:")
+                #    print(self.data_size)
+                #else:
+                #    print('Não foi possível extrair revisões.')
+                #    self.clean_up() 
+                #    return
+                #
+                #
+                #
+                cont = 0
+                #vai fazer 3 tentativas de extrair
+                while not self.load_data_from_file(os.path.join(self.data_folder, 'review_crawler/reviews.json')) and cont < 3:
+                    cont += 1
+                    os.chdir(os.path.join(self.script_dir, self.data_folder, "review_crawler"))
+                    run_crawler(self.search)
+                    os.chdir(self.script_dir)
+                    #copiando arquivo da saida do crawler para o diretorio padrao do script
+                if cont >= 3: 
+                    print('Não foi possível extrair revisões.')
+                    self.clean_up() 
+                    return
+                else:
                     if(save_partial_results):
                         self.write_results(self.data, self.data_folder + 'crawled_data.json')
                     print("Revisões encontradas:")
                     print(self.data_size)
-                else:
-                    print('Não foi possível extrair revisões.')
-                    return
+
 
             # nesse ponto, não pode continuar se os dados não foram carregados ainda
             elif self.data == None:
                 print('Nenhum dado disponivel ...')
+                self.clean_up()
                 return
             
             # --- Filtro de Qualidade de Revisao ---
             if(self.filter_quality_mlp):
                 os.chdir('TopXMLP')
+                #impede que sejam enviados warnings na response
+                warnings.filterwarnings('ignore')
                 #print("Inicializando TopX-MLP e filtrando por qualidade")
                 self.data = run_mlp_filter((self.data, self.main_key), self.data_size, grade='good', metric=1) 
                 os.chdir(self.script_dir)
