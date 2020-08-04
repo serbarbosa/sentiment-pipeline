@@ -39,7 +39,7 @@ class Sentiment_pipeline():
     def __init__(self, search = '', normalize = True,classify_aspects = False,
                 filter_quality_fuzzy=False, filter_quality_mlp=True, filter_subjectivity=True, crawl_reviews=True, main_key='revisao',
                 summarize='opizere'):
-       
+
         #atribuindo controle para quais operacoes serao realizadas
         self.crawl_reviews = crawl_reviews
         self.normalize = normalize
@@ -59,7 +59,7 @@ class Sentiment_pipeline():
         self.data_folder = os.path.join('processed_data', self.user_name)
         self.data_filename = 'data.json'
 
-            
+
 
 
     def create_data_dir(self):
@@ -71,37 +71,38 @@ class Sentiment_pipeline():
 
         #recuperando nome dos diretorios sendo usados atualmente
         dirs = os.listdir('.')
+        dirs.remove(".gitkeep")
         #calculando numero do usuario dessa execucao, baseado no arquivo de maior numero
         user_name = 'user_0'
         if len(dirs) > 0:
             user_name = 'user_' + str(int(max(dirs)[len('user_'):]) + 1)
-        
+
         #criando diretorio de dados pro usuario
         os.makedirs(user_name)
-        
+
         #se for resgatar revisoes da web
         if self.crawl_reviews:
             #entao copia crawler exclusivo para o usuario
             src = os.path.join(called_dir, self.script_dir, 'review_crawler')
             dest = os.path.join(user_name, "review_crawler")
             destination = shutil.copytree(src, dest)
-        
+
         #retornando ao diretorio da interface
         os.chdir(called_dir)
-        
+
         return user_name
-        
-    
+
+
     def set_script_dir(self, path):
         self.script_dir = path
 
     def clean_up(self):
         '''Reinicia o diretorio padrao, deletando todos os arquivos presentes nele.'''
         '''Versao web funciona um pouco diferente. Deve-se remover sempre os dados processados na ultima execucao e deixa-los removidos'''
-        
+
         shutil.rmtree(self.data_folder)
         #os.makedirs(self.data_folder)  ---versao desktop apenas
-        
+
 
     def set_data_folder(self, folder : str):
         '''Define a pasta destino para os dados.'''
@@ -110,7 +111,7 @@ class Sentiment_pipeline():
     def set_data_filename(self, filename : str):
         '''Define o nome de arquivo que será escrito.'''
         self.data_filename = filename
-    
+
     def set_data(self, data, separator="\n"):
         '''Recebe revisoes como entrada e as trata utilizando o separador informado'''
         self.data = []
@@ -129,11 +130,11 @@ class Sentiment_pipeline():
 
         filename = self.data_folder + self.data_filename
         if(os.path.getsize(filename) == 0): return False
-        
+
         with open(self.data_folder + self.data_filename, 'r', encoding='utf-8') as f:
             self.data = json.load(f)
         self.data_size = len(self.data)
-        
+
         return True
 
     def load_data_from_file(self, filepath : str) -> bool:
@@ -142,11 +143,11 @@ class Sentiment_pipeline():
             Return : True ou False indicando se conseguiu ler os dados
         '''
         if(os.path.getsize(filepath) == 0): return False
-       
+
         with open(filepath, 'r', encoding='utf-8') as f:
             self.data = json.load(f)
         self.data_size = len(self.data)
-        
+
         return True
 
     def write_data(self, free_data=False):
@@ -155,13 +156,13 @@ class Sentiment_pipeline():
             json.dump(self.data, f, indent=4, ensure_ascii=False)
         if(free_data):
             self.data = None
-    
+
     def write_results(self, data : List[Dict], filepath : str):
         '''Salva o dado informado no diretorio informado como arquivo .json.'''
         #TODO tratar tipo de dado incorreto
         with open(filepath, 'w', encoding='utf-8') as f:
             json.dump(data, f, indent=4, ensure_ascii=False)
-    
+
     def load_results(self, filepath : str) -> List[Dict]:
         'Carrega e retorna os dados do arquivo .json informado.'''
         #TODO tratar falha na leitura
@@ -169,7 +170,7 @@ class Sentiment_pipeline():
         with open(filepath, 'r') as f:
             data = json.load(f)
         return data
-    
+
     def normalize_data(self):
         '''Normaliza os dados com enelvo.'''
 
@@ -177,26 +178,26 @@ class Sentiment_pipeline():
         norm = normaliser.Normaliser()
         for i in range(self.data_size):
             self.data[i][self.main_key] = norm.normalise(self.data[i][self.main_key])
-        
+
     def normalize_and_filter(self):
         '''Normaliza os dados com enelvo e em seguida realiza a filtragem por subjetividade.'''
 
         #print("Inicializando normalizador ...")
         norm = normaliser.Normaliser()
-        
+
         #print("Inicializando filtro de subjetividade ...")
         sbj_filter = Subjectivity_filter('filtro_subjetividade')
-        
+
         for i in range(self.data_size):
             #if i % 100 == 0:
                 #print('filtrando: ' + str(i*100//self.data_size) + '%')
             self.data[i][self.main_key] = norm.normalise(self.data[i][self.main_key])
             self.data[i][self.main_key] = sbj_filter.run_filter(self.data[i][self.main_key])
-        
+
         #print('filtrando: 100%')
-    
+
     def run(self, save_partial_results = False):
-       
+
         called_dir = os.getcwd()
         os.chdir(self.script_dir)
         try:
@@ -217,14 +218,14 @@ class Sentiment_pipeline():
                 else:
                     print('Não foi possível extrair revisões.')
                     return
-                
+
                 #cont = 0
                 #while not self.load_data_from_file(os.path.join(self.data_folder, 'review_crawler/reviews.json')) and cont < 3:
-                #    cont +=1 
+                #    cont +=1
                 #    os.chdir(os.path.join(self.script_dir, self.data_folder, "review_crawler"))
                 #    run_crawler(self.search)
                 #    os.chdir(self.script_dir)
-                #    
+                #
                 #if cont >=3:
                 #    print('Não foi possível extrair revisões.')
                 #    self.clean_up()
@@ -242,16 +243,16 @@ class Sentiment_pipeline():
             elif self.data == None:
                 print('Nenhum dado disponivel ...')
                 return
-            
+
             # --- Filtro de Qualidade de Revisao ---
             if(self.filter_quality_mlp):
                 os.chdir('TopXMLP')
                 #print("Inicializando TopX-MLP e filtrando por qualidade")
-                self.data = run_mlp_filter((self.data, self.main_key), self.data_size, grade='good', metric=1) 
+                self.data = run_mlp_filter((self.data, self.main_key), self.data_size, grade='good', metric=1)
                 os.chdir(self.script_dir)
                 if(save_partial_results):
                     self.write_results(self.data, self.data_folder + 'mlp_filtered_data.json')
-            
+
             # FILTRO FUZZY NAO DISPONIVEL PARA VERSAO WEB
             #elif(self.filter_quality_fuzzy):
                 #print("Inicializando TopX Fuzzy e filtrando por qualidade")
@@ -260,7 +261,7 @@ class Sentiment_pipeline():
                 #os.chdir(self.script_dir)
                 #if(save_partial_results):
                 #    self.write_results(self.data, self.data_folder + 'fuzzy_filtered_data.json')
-            
+
             # --- Normalizador ---
             if(not self.filter_subjectivity and self.normalize):
                 self.normalize_data()   #modifica os dados carregados
@@ -272,21 +273,21 @@ class Sentiment_pipeline():
                 self.normalize_and_filter() #modifica os dados carregados
                 if(save_partial_results):
                     self.write_results(self.data, self.data_folder + 'filtered_sbj_data.json')
-                
+
             # --- Identificador e Classificador de Aspectos ---
             if(self.classify_aspects):
-                
+
                 os.chdir('classificador_aspectos')
-                
+
                 #print("Inicializando classificador de aspectos")
                 asp_classifier = aspect_classifier.Aspect_classifier()
-                self.plotter_data = asp_classifier.run(self.data, self.main_key) 
-                 
+                self.plotter_data = asp_classifier.run(self.data, self.main_key)
+
                 os.chdir(self.script_dir)
-                
+
                 if(save_partial_results):
                     self.write_results(self.plotter_data, self.data_folder + 'aspect_data_plot.json')
-                
+
                 # --- Plotagem dos Aspectos ---
                 plotter = Aspect_plotter(self.plotter_data)
                 #-- versao web ira apenas inicializar o plotter jogando json pra stdout
@@ -295,19 +296,19 @@ class Sentiment_pipeline():
                 #plotter.plot_by_aspect(style='pie')
                 #plotter.plot_by_aspect(style='treemap')
                 #plotter.plot_general()
-           
+
 
             self.write_data()
             # --- Sumarizador de Opiniao ---
             if(self.summarize != 'False'):
                 os.chdir('opizer')
-                run_opizer(self.summarize, self.data, self.main_key, self.annot_key, 'id') 
+                run_opizer(self.summarize, self.data, self.main_key, self.annot_key, 'id')
                 os.chdir(self.script_dir)
 
-                
-            #escreve dados apos todos os processamentos solicitados 
+
+            #escreve dados apos todos os processamentos solicitados
             self.write_data()
-            
+
             #apos finalizar processamento, deleta os dados gerados
             self.clean_up()
 
@@ -318,7 +319,7 @@ class Sentiment_pipeline():
         os.chdir(called_dir)
 
 if __name__ == '__main__':
-   
+
 
     #p1 = 'brastemp ative'                               #200 +
     #p2 = 'Brastemp BWK11AB Superior 11 Kg Branco'       #600 +
@@ -327,13 +328,13 @@ if __name__ == '__main__':
     #p5 = 'Smartphone Samsung Galaxy J5 SM-J500M 16GB'   #1400 +
     #p6 = 'Smartphone Apple iPhone 7 32GB'               #70
     #p7 = 'Smartphone Motorola Moto G G7 Plus XT1965-2 64GB'
-    
+
 
     operation = sys.argv[1]
-    
+
     data = sys.argv[2]
     if operation == "pipeline":
-    
+
         sent = Sentiment_pipeline(
                 search=data,
                 crawl_reviews=True,
@@ -345,12 +346,12 @@ if __name__ == '__main__':
                 )
         #sent.load_data_from_file('review_crawler/reviews.json')
         #roda pipeline para versao web, portanto resultados intermediarios nao serao usados
-        sent.run(save_partial_results=False)    
+        sent.run(save_partial_results=False)
 
-    
+
     #realizando apenas normalizacao com enelvo
     elif operation == "normalization":
-        
+
         sent = Sentiment_pipeline(
                 crawl_reviews=False,
                 filter_subjectivity=False,
@@ -366,10 +367,10 @@ if __name__ == '__main__':
         print("\n")
         for value in sent.data:
             print(value["revisao"])
-    
+
     #realizando filtragem por qualidade
     elif operation == "qltFilter":
-        
+
         sent = Sentiment_pipeline(
                 crawl_reviews=False,
                 filter_subjectivity=False,
@@ -381,7 +382,7 @@ if __name__ == '__main__':
                 )
         sent.set_data(data, separator='\n')
         sent.run(save_partial_results=False)
-        
+
         #imprime o texto processado
         print("\n")
         #configurando saida para formato legível
@@ -398,7 +399,7 @@ if __name__ == '__main__':
 
     #realizando filtragem por subjetividade
     elif operation == "sbjFilter":
-        
+
         sent = Sentiment_pipeline(
                 crawl_reviews=False,
                 filter_subjectivity=True,
@@ -419,7 +420,7 @@ if __name__ == '__main__':
 
     #realizando extracao e classificacao de aspectos
     elif operation == "aspect":
-        
+
         sent = Sentiment_pipeline(
                 crawl_reviews=False,
                 filter_subjectivity=False,
@@ -440,7 +441,7 @@ if __name__ == '__main__':
 
     #realizando sumarizacao
     elif operation == "opizer":
-        
+
         sent = Sentiment_pipeline(
                 crawl_reviews=False,
                 filter_subjectivity=False,
@@ -457,7 +458,7 @@ if __name__ == '__main__':
         #print(sent.data)
         #for value in sent.data:
         #    print(value["revisao"])
-    
+
 
 
 
