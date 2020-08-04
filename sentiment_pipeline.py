@@ -217,6 +217,26 @@ class Sentiment_pipeline():
                 else:
                     print('Não foi possível extrair revisões.')
                     return
+                
+                #cont = 0
+                #while not self.load_data_from_file(os.path.join(self.data_folder, 'review_crawler/reviews.json')) and cont < 3:
+                #    cont +=1 
+                #    os.chdir(os.path.join(self.script_dir, self.data_folder, "review_crawler"))
+                #    run_crawler(self.search)
+                #    os.chdir(self.script_dir)
+                #    
+                #if cont >=3:
+                #    print('Não foi possível extrair revisões.')
+                #    self.clean_up()
+                #    return
+                #else:
+                #    if save_partial_results:
+                #        self.write_results(self.data, self.data_folder + 'crawled_data.json')
+                #    print("Revisões encontradas:")
+                #    print(self.data_size)
+
+
+
 
             # nesse ponto, não pode continuar se os dados não foram carregados ainda
             elif self.data == None:
