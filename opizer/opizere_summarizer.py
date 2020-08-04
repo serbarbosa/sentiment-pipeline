@@ -55,7 +55,7 @@ class Opizere_Summarizer(object):
         top_aspects = sorted(self.__data.items(), key=lambda x:x[1]['frequency'], reverse=True)
 
         if number_aspects > len(top_aspects): number_aspects =  len(top_aspects)
-        text = ""
+        text = "\n"
 
         for (aspect, data) in top_aspects[:number_aspects]:
             text += "Aspecto: %s \n" % aspect
@@ -66,7 +66,7 @@ class Opizere_Summarizer(object):
  
             for i in range(items):
                 #text += "  - %.4f %s\n" % (positive_sentences[i][1], self.__sentences[positive_sentences[i][0]])
-                text += "          - %s\n" % self.__sentences[positive_sentences[i][0]]
+                text += "          \t- %s\n" % self.__sentences[positive_sentences[i][0]]
 
             neg_size = len(self.__data[aspect]['-'])
             text += "          Sentenças Negativas: %s\n" % neg_size
@@ -75,8 +75,8 @@ class Opizere_Summarizer(object):
 
             for i in range(items):
                 #text += "  - %.4f %s\n" % (negative_sentences[i][1], self.__sentences[negative_sentences[i][0]])
-                text += "          - %s\n" % self.__sentences[negative_sentences[i][0]]
-    
+                text += "          \t- %s\n" % self.__sentences[negative_sentences[i][0]]
+            text += "\n"
         return text
 
     def __get_sentence_ranking(self, aspect, polarity, alpha=0.5):

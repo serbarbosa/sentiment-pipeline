@@ -1,6 +1,7 @@
-import pygal
-from pygal.style import Style
-from pygal import Config
+#import pygal
+#from pygal.style import Style
+#from pygal import Config
+import json
 
 class Aspect_plotter() :
 
@@ -17,17 +18,22 @@ class Aspect_plotter() :
         for cell in self.json_data:
 
             #processa o aspecto somente se a polaridade foi classificada
-            if cell['polaridade'] != '' :
+            if cell["polaridade"] != '' :
                 #insere cada novo aspecto com contagem 0
-                if cell['aspecto'] not in self.plotter_data:
-                    self.plotter_data[cell['aspecto']] = [0,0]
+                if cell["aspecto"] not in self.plotter_data:
+                    self.plotter_data[cell["aspecto"]] = [0,0]
 
                 #cada aspecto armazena contagem de positivos e de negativos : [pos, neg]
-                if cell['polaridade'] == '+' :
-                    self.plotter_data[cell['aspecto']][0] += 1
-                else:
-                    self.plotter_data[cell['aspecto']][1] -= 1
+                if cell["polaridade"] == '+' :
+                    self.plotter_data[cell["aspecto"]][0] += 1
+                elif cell["polaridade"] == '-':
+                    self.plotter_data[cell["aspecto"]][1] -= 1
+        
+        self.plotter_data = sorted(self.plotter_data.items(), key = lambda kv: kv[1][0]+abs(kv[1][1]), reverse = True)
+        self.plotter_data = json.dumps(self.plotter_data)
+        print(self.plotter_data)
     
+    """
     def plot_by_aspect(self, style='pie'):
 
         #ordenando itens por relevancia
@@ -45,8 +51,11 @@ class Aspect_plotter() :
             for item in sorted_data[:max_length]:
                 gauge.add(item[0], [{'value' : item[1][0], 'max_value' : item[1][0] + abs(item[1][1])}])
 
-            gauge.render_in_browser()
-        
+            #gauge.render_in_browser()
+            #result_chart = gauge.render_data_uri()
+            result_chart = gauge.render()
+            #result_chart = gauge.render_to_file('processed_data/gauge.svg')
+
         # --- Bar ----
         elif(style == 'bars'):
             config = Config()
@@ -74,7 +83,9 @@ class Aspect_plotter() :
                 bar_plotter.add(sorted_data[i][0] + " -", [None for j in range(i)] + [sorted_data[i][1][1]]
                                     + [None for k in range(max_length - i -1)])
             ''' 
-            bar_plotter.render_in_browser()
+            #bar_plotter.render_in_browser()
+            #bar_plotter.render_to_file('processed_data/bar.svg')
+            result_chart = bar_plotter.render()
         
         # --- Treemap ----
         elif(style == 'treemap'):
@@ -88,7 +99,9 @@ class Aspect_plotter() :
                 treemap_plotter.add(item[0], [{'value':item[1][0], 'label' : '+', 'label_color':'green'}, {'value':abs(item[1][1]),'label' : '-', 'label_color':'red'}]) 
                 i += 1
                 if i is max_length: break
-            treemap_plotter.render_in_browser()
+            #treemap_plotter.render_in_browser()
+            #treemap_plotter.render_to_file('processed_data/treemap.svg')
+            result_chart = treemap_plotter.render()
             
 
     def plot_general(self):
@@ -112,6 +125,8 @@ class Aspect_plotter() :
         pie_plotter.add('negativo('+"%.1f"%perc[1]+'%)', values[1])
         pie_plotter.add('positivo('+ "%.1f"%perc[0]+'%)', values[0])
         
-        pie_plotter.render_in_browser()
+        #pie_plotter.render_in_browser()
+        #pie_plotter.render_to_file('processed_data/pie.svg')
+        result_chart = pie_plotter.render()
 
-
+    """

@@ -14,7 +14,9 @@ import codecs
 import os
 import re
 
-nlpnet.set_data_dir(os.getcwd()+"/opizer/resource/nlpnet_data/")
+file_path = __file__[:-(len(__name__+".py"))]
+nlpnet.set_data_dir(file_path + "resource/nlpnet_data/")
+
 
 class Ganesan_Summarizer(object):
     '''
