@@ -60,15 +60,12 @@ class Sentiment_pipeline():
         self.data_filename = 'data.json'
 
 
-
-
     def create_data_dir(self):
         '''Cria um diretorio unico para cada execucao ---exclusivo da versao web'''
 
         #acessando diretorio do script
         called_dir = os.getcwd()
         os.chdir(os.path.join(self.script_dir, "processed_data"))
-
         #recuperando nome dos diretorios sendo usados atualmente
         dirs = os.listdir('.')
         dirs.remove(".gitkeep")
@@ -102,7 +99,6 @@ class Sentiment_pipeline():
 
         shutil.rmtree(self.data_folder)
         #os.makedirs(self.data_folder)  ---versao desktop apenas
-
 
     def set_data_folder(self, folder : str):
         '''Define a pasta destino para os dados.'''
@@ -206,9 +202,13 @@ class Sentiment_pipeline():
                 #print("Resgatando revisões para '" + self.search + "' ...")
                 #os.chdir(self.script_dir + "/" + 'review_crawler')
                 #na versao web, cada usuario precisa ter seu proprio crawler
-                os.chdir(os.path.join(self.script_dir, self.data_folder, "review_crawler"))
+                
+                
+                #os.chdir(os.path.join(self.script_dir, self.data_folder, "review_crawler"))
+                prev_dir = os.getcwd()
+                os.chdir(os.path.join(self.data_folder, "review_crawler"))
                 run_crawler(self.search)
-                os.chdir(self.script_dir)
+                os.chdir(prev_dir)
                 #copiando arquivo da saida do crawler para o diretorio padrao do script
                 if(self.load_data_from_file(os.path.join(self.data_folder, 'review_crawler/reviews.json'))):
                     if(save_partial_results):
@@ -218,7 +218,6 @@ class Sentiment_pipeline():
                 else:
                     print('Não foi possível extrair revisões.')
                     return
-
                 #cont = 0
                 #while not self.load_data_from_file(os.path.join(self.data_folder, 'review_crawler/reviews.json')) and cont < 3:
                 #    cont +=1
@@ -246,10 +245,12 @@ class Sentiment_pipeline():
 
             # --- Filtro de Qualidade de Revisao ---
             if(self.filter_quality_mlp):
+                prev_dir = os.getcwd()
                 os.chdir('TopXMLP')
                 #print("Inicializando TopX-MLP e filtrando por qualidade")
                 self.data = run_mlp_filter((self.data, self.main_key), self.data_size, grade='good', metric=1)
-                os.chdir(self.script_dir)
+                #os.chdir(self.script_dir)
+                os.chdir(prev_dir)
                 if(save_partial_results):
                     self.write_results(self.data, self.data_folder + 'mlp_filtered_data.json')
 
@@ -276,14 +277,15 @@ class Sentiment_pipeline():
 
             # --- Identificador e Classificador de Aspectos ---
             if(self.classify_aspects):
-
+                prev_dir = os.getcwd()
                 os.chdir('classificador_aspectos')
 
                 #print("Inicializando classificador de aspectos")
                 asp_classifier = aspect_classifier.Aspect_classifier()
                 self.plotter_data = asp_classifier.run(self.data, self.main_key)
 
-                os.chdir(self.script_dir)
+                #os.chdir(self.script_dir)
+                os.chdir(prev_dir)
 
                 if(save_partial_results):
                     self.write_results(self.plotter_data, self.data_folder + 'aspect_data_plot.json')
@@ -301,9 +303,11 @@ class Sentiment_pipeline():
             self.write_data()
             # --- Sumarizador de Opiniao ---
             if(self.summarize != 'False'):
+                prev_dir = os.getcwd()
                 os.chdir('opizer')
                 run_opizer(self.summarize, self.data, self.main_key, self.annot_key, 'id')
-                os.chdir(self.script_dir)
+                #os.chdir(self.script_dir)
+                os.chdir(prev_dir)
 
 
             #escreve dados apos todos os processamentos solicitados
@@ -312,10 +316,9 @@ class Sentiment_pipeline():
             #apos finalizar processamento, deleta os dados gerados
             self.clean_up()
 
-        except:
+        except Exception as e:
             #se algo der errado, eliminar rastros dos diretorios criados
             self.clean_up()
-
         os.chdir(called_dir)
 
 if __name__ == '__main__':
@@ -334,7 +337,7 @@ if __name__ == '__main__':
 
     data = sys.argv[2]
     if operation == "pipeline":
-
+        
         sent = Sentiment_pipeline(
                 search=data,
                 crawl_reviews=True,
